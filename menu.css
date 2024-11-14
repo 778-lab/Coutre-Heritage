@@ -1,0 +1,17 @@
+
+
+
+.entrar{
+    width: 290px;
+    height:490px;
+    background-color: rgb(128, 121, 116);
+    position: static;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    .paracadastrar{
+        background-color: rgb(238, 232, 231);
+        width: 490px;
+        height: 490px;
+      border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
