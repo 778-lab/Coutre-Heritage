@@ -1,15 +1,50 @@
-<html lang="PT-BR">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="menu.css">
-    <link rel="manifest" href="menu.java">
-    
-    <title>Coutre</title>
-
-
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4167bd8b77.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="entrar">
+        <img src="logo.png" alt="logo" class="logo">
+        <h1>Bem vindo <br> de volta</h1><br>
+        <p>Acesse sua conta <br> agora mesmo</p><br>
+        <button class="botao">ENTRAR</button><br><br>
+        <h4>Esqueci minha senha</h4>
+    </div>
+
+    <div class="paracadastrar">
+        <h1 class="cadastro">Crie sua conta</h1><br>
+        <p>Preencha seus dados</p><br>
+        <form idaction="#" method="post">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="Usuario"><br><br>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email"><br><br>
+            <label for="password">
+                <input type="password" id="password" name="senha" placeholder="Senha">
+                <br><br><br>
+            </label>
+            <input type="submit" value="CADASTRA" class="cadastroo" onclick="logar(); return false;"><br><br>
+            OU<br><br>
+            <div  class="logotipo">
+
+                <a class="fa-solid fa-g"></a>
+                <i class="fa-brands fa-apple"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+        </form>
+    </div>
+
 </body>
+
 </html>
