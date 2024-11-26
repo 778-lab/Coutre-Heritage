@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+}
+
+.logo-container { /*logo da loja*/
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 15px;
+}
+.logo-text { /*logo da loja*/
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000; 
+    margin-left: 50px;
+    margin-right: 1050px;
+    line-height: 70px;
+    
+}
+.logo-large {
+    font-size: 72px; /* Tamanho grande */
+    font-weight: bold;
+}
+.logo-small {
+    font-size: 30px; /* Tamanho menor da fonte */
+    margin-top: -10px; /*espaçamento*/
+    margin-left: 80px;
+}
+
+.img{ /*imagem da mao*/
+max-width: 550px;
+border-radius: 10px;
+border-color: rgb(255, 0, 0);
+padding: 0;
+position: fixed;
+
+}
+
+.icon{ /*icone de voltar*/
+margin-left: 500px;
+cursor: pointer;
+z-index: 10px;
+position: absolute; 
+top: 0; 
+left: 0; 
+line-height: 150px;
+font-family: Cinzel;
+font-size: 20px;
+}
+.icon >i{
+margin-left: 600px;
+
+}
+
+.Bvoltar{ /*botao de voltar*/
+    color: darkblue;
+}
+
+.person1{ /*menu perfil*/
+    margin-left: 1400px;
+    position: absolute;
+    left: 70px;
+    top: 55px;
+    color: black;
+}
+
+.circle{ /*cor do meu perfil*/
+    color: #000000;
+}
+.carrin{ /*carrinho*/
+    margin-left: 1400px;
+    position: absolute;
+    left: 35px;
+    top: 55px;
+color: black;
+}
+.cart2{ /*cor do carrinho*/
+    color: black;
+}
+
+.Rup{ /*imagem roupa 1 */
+margin-left: 500px;
+max-width: 300px;
+height: auto;
+font-size: 30px;
+padding: 30px;
+}
+.Rup:hover{
+    transform: scale(1.10);
+}
+
+.Roupa1 {
+    width: 50%; /* Ajuste a largura para 50% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 300px; /* Define um tamanho máximo para a largura */
+    border-radius: 10px;
+  }
+  
+  .Rup2{ /*imagem roupa 2*/
+margin-left: 500px;
+max-width: 300px;
+height: auto;
+font-size: 30px;
+padding: 30px;
+  }
+  .Rup2:hover{
+    transform: scale(1.15);
+}
+  
+.Roupa2{
+    width: 50%; 
+    height: auto; 
+    max-width: 300px; 
+    border-radius: 10px;
+}
+
+.Rup3{ /*imagem roupa 3*/  
+margin-left: 850px;
+max-width: 300px;
+height: auto;
+font-size: 30px;
+padding: 30px;
+}
+.Rup3:hover{
+    transform: scale(1.09);
+}
+.Roupa3{
+width: 48%; 
+height: auto; 
+max-width: 300px; 
+position: relative;
+top: -221px;
+border-radius: 10px;
+}
+
+.tn4{ /*imagem tenis 4*/
+margin-left: 850px;
+max-width: 300px;
+height: auto;
+font-size: 30px;
+padding: 30px;
+}
+.tn4:hover{
+    transform: scale(1.05);
+}
+.tenis4{
+width: 48%; 
+height: auto; 
+max-width: 300px; 
+position: relative;
+top: -650px;
+border-radius: 10px;
+}
+
+.ml5{ /*imagem mala 5*/
+    margin-left: 1191px;
+    max-width: 300px;
+    height: auto;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.mala5{
+width: 55%; 
+height: auto; 
+max-width: 300px; 
+position: relative;
+top: -870px;
+border-radius: 10px;
+}
+.ml5:hover{
+    transform: scale(1.05);
+}
+.bg6{ /*imagem bag 6*/
+    margin-left: 1191px;
+    max-width: 300px;
+    height: auto;
+    font-size: 30px;
+    padding: 30px;
+}
+.bag6:hover{
+    transform: scale(1.10);
+}
+.bag6{
+width: 57%; 
+height: auto; 
+max-width: 300px; 
+position: relative;
+top: -880px;
+border-radius: 10px;
+}
+
+.SLOGAN{
+margin-left: 600px;
+max-width: 700px;
+height: auto;
+font-size: 20px;
+padding: 30px;
+width: 70%;
+position: relative;
+top: -1500px;
+font-family: Cinzel;
+color: rgb(19, 103, 44);
+}
+

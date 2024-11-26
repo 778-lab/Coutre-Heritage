@@ -1,0 +1,311 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+}
+
+.slogan_pg2{
+    font-size: 24px;
+    margin: 1.25% 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 24px; 
+    color: #000000; 
+    text-transform: uppercase; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; left: 0; 
+    width: 100%; 
+    background-color: #d3d3d3; 
+    padding: 1.22% 0;
+    position: fixed;
+}
+.button {
+    background-color: #444444;
+    color: #fff;
+    padding: 0.52% 1.04%;
+    text-decoration: none;
+    border-radius: 0.26%;
+    padding: 0.52% o;
+position: fixed;
+bottom: 2.08%; left: 0.78%; 
+}
+.footer {
+    text-align: center;
+    padding: 0.52%;
+    background-color: #d3d3d3;
+}
+.footer .social-icons {
+    margin-top: 0.52%;
+}
+.footer .social-icons a {
+    margin: 0 0.26%;
+    text-decoration: none;
+    color: #333;
+}
+
+#divlogin{
+    cursor: pointer;
+}
+
+.footer{    /*linha divisoria da marca */
+
+    background-color: #d3d3d3;
+    height: 15px;
+    padding: 0.052%;
+    
+    }
+
+.icons{ /*redes sociais*/
+    cursor: pointer;
+    position: fixed;
+     bottom: 0; left: 0; 
+     width: 100%; 
+     background-color: #d3d3d3; 
+     text-align: center; 
+     padding: 0.26% 0; }
+
+
+
+
+
+
+
+.logo-container {
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 0.78%;
+}
+.logo-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000; 
+    margin-left: 1.34%;
+}
+.logo-large {
+    font-size: 72px; /* Tamanho grande */
+    font-weight: bold;
+}
+.logo-small {
+    font-size: 24px; /* Tamanho menor da fonte */
+    margin-top: -0.52%; /*espaçamento*/
+    margin-left: 2.34%;
+}
+
+    .login{
+cursor: pointer;
+margin-left: 85.71%;
+height:7px;
+top: 50px;
+padding: 10px;
+line-height: 60px;
+}
+
+.person >i{
+font-size: 40px;
+}
+   
+   
+
+.buscar{
+    position: absolute; 
+    left: 110px; 
+    top: 70px; /*altera a altura da barra de pesquisa */
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    
+   }
+
+   #txtbuscar{
+cursor: pointer;
+float: right;
+background-color: transparent;
+padding-left: 8px;
+font-style: italic;
+font-size: 15px;
+border: none;
+height: 30px;
+width: 500px;
+top: 200px;
+color: rgb(0, 0, 0);
+}
+
+
+
+.menulateral{
+width: 85px;
+height: 79%;
+background-color: #000000;
+padding: 35px 0 35px 0%;
+box-shadow: 3px 0 0 #f710ff;overflow: hidden;
+transition: .2s;
+position: absolute;
+top: 0px;
+position: fixed;
+}
+
+.menulateral:hover{
+    width: 15.63%;
+}
+
+.expandir{
+width: 100%;
+padding-left: 17px;
+}
+.expandir > i{
+color: #f710ff;
+font-size: 35px;
+cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+
+ul li.item-menu{
+transition: 1s;
+}
+
+ul li.item-menu:hover{
+background:#f710ff;
+transform: scale(1.17);
+}
+
+
+ul li.item-menu a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 20px 4%;
+display: flex;
+margin-bottom: 20px;
+line-height: 40px; /*alinha o texto*/
+    }
+
+    ul li.item-menu a .txt-link{
+margin-left: 25px;
+}
+
+ul li.item-menu a .icon > i{
+font-size: 30px;
+    }
+
+ .Marca a.button1{ /*balenciaga*/
+    font-size: 24px; 
+    font-weight: bold;
+    color: #fff; 
+    background-color: #818181; 
+    padding: 5px 40px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    line-height: 300px;
+    margin-right: 850px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Cinzel;
+    }
+
+    
+    .Marca a.button2{ /*Louis Vitton*/
+    font-size: 24px; 
+    font-weight: bold;
+    color: #fff; 
+    background-color: #818181; 
+    padding: 5px 40px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    margin-right: 500px;
+    margin-left: 578px;
+    border-radius: 10px;
+    position: relative; 
+    top: -165px;
+    cursor: pointer;
+    font-family: Cinzel;
+    }
+
+    .Marca a.button3{ /*Nike*/
+    font-size: 24px; 
+    font-weight: bold;
+    color: #fff; 
+    background-color: #818181; 
+    padding: 5px 40px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    margin-right: 1100px;
+    margin-left: 1170px;
+    border-radius: 10px;
+    position: relative;
+    top: -195px;
+    cursor: pointer;
+    font-family: Cinzel;
+    }
+
+.image{ /*tenis balenciaga*/
+position: absolute;
+left: 10px;
+top: 50px;
+margin-left: -160px;
+margin-right:700px;
+position: relative; 
+top: -340px;
+cursor: pointer;
+    }
+
+.image2{ /*tenis Louis Vitton*/
+    font-size: 24px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    margin-left: 510px;
+    margin-right:700px;
+    position: relative; 
+    top: -880px;
+    cursor: pointer;
+}
+
+.image3{ /*tenis Nike */ 
+    font-size: 24px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    margin-left: 480px;
+    margin-right:200px;
+    position: relative; 
+    top: -481px;
+    cursor: pointer;
+    border-radius: 15px #000000;   
+} 
+.icon-tenis { /*tenis icone */
+    font-size: 50px;
+    color: #ffffff;  
+    text-shadow: 1px 1px 2px rgba(34, 0, 255, 0.2);
+ }
+
+ .icon-camisa { /*icon camisa*/
+    font-size: 50px; 
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+ }
+
+ .active{ /*Vlibras*/
+    width: 90%;
+    float: right;
+    border-radius: 70px;
+    border: 4px solid rgb(39, 252, 46);
+} 
+
+.intuito{
+    margin-right: 500px;
+    margin-left: 550px;
+    border-radius: 10px;
+    position: relative; 
+    top: -350px;
+
+    font-family: Cinzel;
+
+}
