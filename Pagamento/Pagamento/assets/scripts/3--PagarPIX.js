@@ -21,8 +21,8 @@ function copiarCodigo() {
     var msg = document.getElementById("copiado-msg");
     msg.style.display = "block";
 
-    // Esconde a mensagem após 3 segundos
+    // Esconde a mensagem após 2 segundos
     setTimeout(function() {
         msg.style.display = "none";
-    }, 3000);
+    }, 2000);
 }
