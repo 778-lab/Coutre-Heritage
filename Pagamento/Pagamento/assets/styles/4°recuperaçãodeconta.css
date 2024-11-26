@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 350px;
+         padding: 0;
+        display: flex;
+        text-align: center;
+     background-color: rgb(212, 175, 135, 155);
+     justify-content: center;
+     height: 100vh;
+     align-items: center; 
+     border-radius: 40px;
+   }
+ 
+.entrar{
+    position: flex;
+    margin-top: 200px;
+    margin-bottom: 50%;
+    background-color: rgb(243, 238, 236);
+    width: 100vh;
+    right: 100vh;
+    border-radius: 20px;
+    box-shadow: 0.0.1rem 0.5rem;
+}
+
+   
+  
+.paracadastrar{
+    background-color: rgb(130, 74, 65);
+    width: 100vh;
+    height: 100vh;
+  border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+}
+h1{
+    
+    align-content: center;
+    align-items: center;
+    margin-top: 49px;
+    font-family: 'Courier New', Courier,;
+    margin-bottom: 90px;
+}
+
+
+
+
+.logo{
+width: 290px;
+margin-top: -60px;
+margin-right: 100px;
+padding: -30px;
+margin-left: 100px;
+
+    
+    
+   
+}
+
+
+
+.logofacebook{
+    margin-top: 90px;
+    gap: 35px;
+    font-size: 25px;
+}
