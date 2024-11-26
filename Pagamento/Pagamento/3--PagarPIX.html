@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coutre Heritage</title>
+    <link rel="stylesheet" href="3--PagarPIX.css">
+    <script src="3--PagarPIX.js"></script>
+</head>
+<body>
+    <!-- Header com logo -->
+    <header>
+        <img src="fotos/logoempresa.png" alt="Coutre Heritage" class="logo">
+        <div class="header-bar"></div>
+    </header>
+
+    <!-- Containers alinhados -->
+    <div class="container-geral">
+        <!-- Container Pagamento -->
+        <div class="container-pagamento">
+            <!-- Container com QR Code à esquerda -->
+            <div class="left-container">
+                <img src="fotos/qrcode.png" alt="QR Code" class="imagem-qrcode">
+            </div>
+
+            <!-- Container à direita com mini-container do Pix -->
+            <div class="right-container">
+                <div class="container-pedido-title-bar">
+                    <span>Pagamento: Pix</span>
+                </div>
+                <p>Pedido: <strong>#435TGU</strong></p>
+
+                <!-- Mini container com a imagem Pix e texto -->
+                <div class="mini-container">
+                    <div class="pix-info">
+                        <div class="icone-pix">
+                            <img src="fotos/pix.png" alt="Pix">
+                        </div>
+                        <div class="texto-pix">
+                            <strong>Pix</strong><br>
+                            <strong>Total do Pedido</strong>
+                            <strong> R$11.100,00</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Texto explicativo e código Pix -->
+                <div class="bottom-container">
+                    <p>Use o QRCode ou código copia e cola abaixo para pagar utilizando o Pix.</p>
+                    <p id="codigo-pix" class="codigo-pix" onclick="copiarCodigo()"> 
+                        00020126330014br.gov.bcb.pix01111335366962052040000530398654040.805802BR5919NGDDD
+                    </p>
+
+                    <!-- Mensagem de confirmação -->
+                    <div id="copiado-msg" class="copiado-msg" style="display: none;">
+                        Texto copiado!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
