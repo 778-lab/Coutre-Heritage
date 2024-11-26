@@ -36,23 +36,23 @@ header {
     flex-direction: column;
     justify-content: center; /* Centraliza o conteúdo verticalmente */
     align-items: center; /* Centraliza o conteúdo horizontalmente */
-    height: 12vh;
-    margin-top: 10%; /* Ajuste a porcentagem conforme necessário */
+    min-height: 55vh; /* Garante que o container ocupe toda a altura da tela */
+    padding-top: 20px; /* Cria um pequeno espaço entre o header e o container */
+    position: relative; /* Importante para posicionar o botão em relação ao container */
 }
 
 /* Container Central */
 .container-central {
-    width: 60%;
-    max-width: 100%;
+    width: 80%; /* Ajusta a largura para uma margem mais razoável */
+    max-width: 50%; /* Define um limite máximo de largura */
     background-color: #F5F4EF;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #282829;
     text-align: center;
+    color: #797777;
     padding: 40px 20px;
-    margin: 0 auto;
-    position: relative; /* Importante para o botão ser posicionado em relação ao container */
+    margin-bottom: 20px; /* Garante que o botão não se sobreponha ao container */
 }
-
 
 /* Imagem */
 .imagem-container {
@@ -62,8 +62,7 @@ header {
 }
 
 .imagem-container img {
-    width: 250px;
-    height: 250px;
+    width: 20%;
     object-fit: contain;
 }
 
@@ -75,9 +74,7 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
-    position: absolute; /* Faz o botão se mover independentemente */
-    bottom: 35%; /* Ajusta o valor conforme necessário */
-    right: 20%; /* Ajusta o valor conforme necessário */
+    position: absolute; /* Posiciona o botão fora do fluxo normal */
+    bottom: -25px; /* Ajusta a posição do botão para ficar abaixo do container */
+    right: 25%; /* Coloca o botão no canto inferior direito */
 }
-
-
