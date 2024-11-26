@@ -1,4 +1,4 @@
-* {
+* { 
     text-decoration: none;
     box-sizing: border-box; /* Adicionando box-sizing para evitar problemas com padding/margins */
 }
@@ -70,6 +70,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap; /* Permite que o conteúdo se reorganize em telas menores */
 }
 
 /* Mini container do produto */
@@ -79,15 +80,18 @@ header {
     background-color: #D9D9D9;
     border-radius: 9px;
     padding: 10px;
-    width: 30%;
+    width: 100%; /* Ajusta o tamanho para telas menores */
+    max-width: 45%; /* Limita a largura máxima */
     color: #6B7796;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
 }
 
 /* Estilo da imagem do produto */
 .produto-imagem img {
     width: 150px;
     height: auto;
-    margin-right: 20px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    object-fit: contain; /* A imagem se ajusta sem deformar */
 }
 
 /* Informações do produto */
@@ -95,11 +99,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 100%; /* Evita que o texto ultrapasse os limites */
 }
+
 .produto-info p {
     margin: 5px 0;
     font-size: 14px;
     color: #333;
+    word-wrap: break-word; /* Garante que o texto quebre quando necessário */
 }
 
 /* Pagamento */
@@ -149,4 +156,3 @@ header {
 .icone-pagamento img {
     width: 50px;
 }
-
