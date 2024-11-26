@@ -45,6 +45,7 @@ header {
     display: flex;
     align-items: center; /* Centraliza o ícone e o texto verticalmente */
     background-color: #000;
+    background: linear-gradient(to right, black, #535353);
     border-radius: 9px;
     color: #fff;
     padding: 10px;
@@ -104,6 +105,12 @@ header {
 /* Pagamento */
 .conteudo-pagamento {
     margin-top: 20px;
+    text-align: center;
+}
+
+.container-opcoes-pagamento {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .opcoes-pagamento {
