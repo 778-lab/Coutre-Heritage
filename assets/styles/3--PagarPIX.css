@@ -133,6 +133,7 @@ header {
     border-radius: 5px;
     font-size: 14px;
     text-align: center;
+    word-wrap: break-word; /* Garante que o texto quebre quando necessário */
 }
 
 /* Texto explicativo */
