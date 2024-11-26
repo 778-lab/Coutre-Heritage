@@ -104,8 +104,13 @@ header {
 /* Pagamento */
 .conteudo-pagamento {
     margin-top: 20px;
+}
+
+.container-opcoes-pagamento {
+    margin-top: 20px;
     text-align: center;
 }
+
 .opcoes-pagamento {
     display: flex;
     justify-content: center;
