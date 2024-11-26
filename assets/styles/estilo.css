@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 2%;
+    box-shadow: 0 0.1rem 0.5rem rgb(156, 153, 153);
+    width: 100%;
+    background: #C5C3C3;
+    transition: all 0.5s;
+    position: fixed;
+}
+.menulateral{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color:white;
+    list-style: none;
+    display: FLEX;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+  nav li{
+    padding:5%;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  a{
+    color: black;
+    padding: 2%;
+    margin-top:5%;
+    height: 200%;
+  }
+
+.logo{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 50%;
+    padding-top: 2;
+    text-align: center;
+    display: flex;
+    margin-left: 190%;
+    align-items: center;
+}
+
+.divlogo{
+    position: absolute;
+    width: 328px;
+    height: 193px;
+    left: 16px;
+    top: -10px;
+    flex: none;
+    order: 8;
+    flex-grow: 0;
+    z-index: 8;
+    height: 200%;
+}
+
+.icons{
+    font-size: 149%;
+    position: flex;
+    margin-left: 89%;
+}
+
+.menu{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    height: 375%;
+    width: 18%;
+    max-height: 0%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    position: absolute;
+    right: 25%;
+    left: 82%;
+}
+
+.menudrop{
+    background: #fbfbfb;
+    padding: 4%;
+    margin: 2%;
+    border-radius: 2%;
+   
+}
+
+
+.menu.abrirmenu{
+    max-height: 420% ;
+    position: absolute;
+    right: 25%;
+    left: 82%;
+    border-radius: 5%;
+}
+.infousuario{
+    align-items: center;
+    display: flex;
+    font-size: 80%;
+    padding-right: 0vh;
+    color: #525552;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nomeusuario{
+    font-size: 150%;
+    padding: 1vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.linha{
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin: 15px 0 10px;
+}
+
+.infomenu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 2%; 
+}
+
+.infomenu .bx{
+    font-size: 2%;
+}
+
+.bx-md{
+    color: black;
+    transition: transform 0.5s;
+    background-color: #c3bebe;
+    border-radius: 50%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.userlogo .bx-md{
+    transition: transform 0.5s;
+    background-color: #c3bebe;
+    border-radius: 50%;
+    padding: 8px;
+    position: flex;
+}
+
+.traco{
+    font-size:145% ;
+    color: #525552;
+    transition: transform 0.5s;
+}
+
+.traco:hover{
+    transform: translateX(5px);
+}
+
+.bx-md:hover{
+    transform: translateX(5px);
+}
+
+.infomenu p{
+    width: 100%;
+    color: #525552;
+    padding: 4%;
+    font-size: 80%;
+    transition: transform 0.5s;
+    font-family: "Montserrat", sans-serif;
+    font-size: 95%;
+}
+
+.infomenu p:hover{
+    transform: translateX(5px);
+    font-weight: 600;
+}
+
+.menuhamb .bx{
+    background-color: #C5C3C3;
+    font-size: 200%; 
+    color: black;
+}
+
+
+
+
