@@ -88,7 +88,7 @@ header {
 
 /* Estilo da imagem do produto */
 .produto-imagem img {
-    width: 150px;
+    width: 75%;
     height: auto;
     max-width: 100%; /* Garante que a imagem não ultrapasse o container */
     object-fit: contain; /* A imagem se ajusta sem deformar */
