@@ -328,51 +328,6 @@ form button:hover{
  margin-left: -1450%;
 }
 
-.back-video{
-    position: flex;
-   
-    bottom: 0;
-    z-index: -1;
-}
-
-@media(min-aspect-ratio: 16/9){
-    .back-video{
-        width: 570%;
-        height: 1%;
-        margin-top: 4%;
-        margin-left: -55%;
-    }
-}
-
-
-.legenda{
-    display: inline-block;
-    color: rgb(255, 248, 248);
-    margin-top: 295%;
-    margin-bottom: 20%;
-    margin-right: 250%;
-    margin-left: 330%;
-    left: 25%;
-    white-space: nowrap
-}
-
-.legenda a{
-    color: #fffbfb;
-    margin-top: 295%;
-    margin-bottom: 20%;
-    margin-right: 250%;
-    margin-left: 390%;
-    left: 25%;
-}
-
-.legenda p{
-    margin-top: 2%;
-    margin-bottom: 20%;
-    margin-right: 25%;
-    margin-left: 26%;
-    left: 25%;
-    font-size: 110%;
-}
 
 nav .meucarrinho{
     position: fixed;
