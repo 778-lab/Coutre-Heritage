@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: block;
 }
 
 .slogan_pg2{
-    font-size: 24px;
+    font-size: 24px; 
     margin: 1.25% 0;
     text-align: center;
     font-family: 'Times New Roman', Times, serif; 
@@ -19,9 +19,9 @@ body {
     text-align: center; 
     position: fixed; 
     bottom: 0; left: 0; 
-    width: 100%; 
+    width: 100vw; 
     background-color: #d3d3d3; 
-    padding: 1.22% 0;
+    padding: 1.50% 0;
     position: fixed;
 }
 .button {
@@ -64,7 +64,7 @@ bottom: 2.08%; left: 0.78%;
     cursor: pointer;
     position: fixed;
      bottom: 0; left: 0; 
-     width: 100%; 
+     width: 100vw; 
      background-color: #d3d3d3; 
      text-align: center; 
      padding: 0.26% 0; }
@@ -97,11 +97,11 @@ bottom: 2.08%; left: 0.78%;
 
     .login{
 cursor: pointer;
-margin-left: 85.71%;
-height:7px;
-top: 50px;
+margin-left: 85.71vw;
+height:0.875vh;
+top: 6.25vh;
 padding: 10px;
-line-height: 60px;
+line-height: 7.5vh;
 }
 
 .person >i{
@@ -112,8 +112,8 @@ font-size: 40px;
 
 .buscar{
     position: absolute; 
-    left: 110px; 
-    top: 70px; /*altera a altura da barra de pesquisa */
+    left: 7.73vw; 
+    top: 9.75vh; /*altera a altura da barra de pesquisa */
     background-color: #d3d3d3;
     border-radius: 5px;
     
@@ -127,72 +127,15 @@ padding-left: 8px;
 font-style: italic;
 font-size: 15px;
 border: none;
-height: 30px;
-width: 500px;
-top: 200px;
+height: 3.75vh;
+width:26.04vw;
+top: 25vh;
 color: rgb(0, 0, 0);
 }
 
 
 
-.menulateral{
-width: 95px;
-height: 79%;
-background-color: #000000;
-padding: 35px 0 35px 0%;
-box-shadow: 3px 0 0 #f710ff;overflow: hidden;
-transition: .2s;
-position: absolute;
-top: 0px;
-position: fixed;
-}
 
-.menulateral:hover{
-    width: 15.63%;
-}
-
-.expandir{
-width: 100%;
-padding-left: 17px;
-}
-.expandir > i{
-color: #f710ff;
-font-size: 35px;
-cursor: pointer;
-}
-ul{
-    height: 100%;
-    list-style-type: none;
-
-}
-
-ul li.item-menu{
-transition: 1s;
-}
-
-ul li.item-menu:hover{
-background:#f710ff;
-transform: scale(1.17);
-}
-
-
-ul li.item-menu a{
-color: white;
-text-decoration: none;
-font-size: 20px;
-padding: 20px 4%;
-display: flex;
-margin-bottom: 20px;
-line-height: 40px; /*alinha o texto*/
-    }
-
-    ul li.item-menu a .txt-link{
-margin-left: 25px;
-}
-
-ul li.item-menu a .icon > i{
-font-size: 30px;
-    }
 
  .Marca a.button1{ /* butão balenciaga*/
     font-size: 24px; 
@@ -202,11 +145,11 @@ font-size: 30px;
     padding: 5px 40px; 
     text-decoration: none; 
     border-radius: 5px;
-    line-height: 300px;
-    margin-right: 850px;
+    line-height: 37.5vh;
+    margin-right: 53.27vw;
     border-radius: 10px;
     position: relative; 
-    top: 370px;
+    top: 46.25vh;
     cursor: pointer;
     font-family: Cinzel;
     }
@@ -220,11 +163,11 @@ font-size: 30px;
     padding: 5px 40px; 
     text-decoration: none; 
     border-radius: 5px;
-    margin-right: 500px;
-    margin-left: 578px;
+    margin-right: 29.4vw;
+    margin-left: 30.1vw;
     border-radius: 10px;
     position: relative; 
-    top: 200px;
+    top: 25.5vh;
     cursor: pointer;
     font-family: Cinzel;
     }
@@ -237,11 +180,11 @@ font-size: 30px;
     padding: 5px 40px; 
     text-decoration: none; 
     border-radius: 5px;
-    margin-right: 1100px;
-    margin-left: 1210px;
+    margin-right: 60.29vw;
+    margin-left: 73.2vw;
     border-radius: 10px;
     position: relative;
-    top: 165px;
+    top: 21.650vh;
     cursor: pointer;
     font-family: Cinzel;
     }
@@ -254,11 +197,11 @@ font-size: 30px;
     padding: 5px 40px; 
     text-decoration: none; 
     border-radius: 5px;
-    margin-right: 1100px;
-    margin-left: 230px;
+    margin-right: 65.29vw;
+    margin-left: 11.98vw;
     border-radius: 10px;
     position: relative;
-    top: 525px;
+    top: 65.25vh;
     cursor: pointer;
     font-family: Cinzel;
     }
@@ -270,11 +213,11 @@ font-size: 30px;
         padding: 5px 40px; 
         text-decoration: none; 
         border-radius: 5px;
-        margin-right: 1100px;
-        margin-left: 695px;
+        margin-right: 57.29vw;
+        margin-left: 43.7vw;
         border-radius: 10px;
         position: relative;
-        top: 500px;
+        top: 60.9vh;
         cursor: pointer;
         font-family: Cinzel;
     }
@@ -287,11 +230,11 @@ font-size: 30px;
         padding: 5px 40px; 
         text-decoration: none; 
         border-radius: 5px;
-        margin-right: 1100px;
-        margin-left: 1210px;
+        margin-right: 57.29vw;
+        margin-left: 74.02vw;
         border-radius: 10px;
         position: relative;
-        top: 470px;
+        top: 56.75vh;
         cursor: pointer;
         font-family: Cinzel;
 
@@ -301,36 +244,36 @@ font-size: 30px;
 
 .image{ /*tenis balenciaga*/
 position: absolute;
-left: 10px;
-top: 50px;
-margin-left: -160px;
-margin-right:700px;
+left: 0.52vw;
+top: 6.25vh;
+margin-left: -14.33vw;
+margin-right:38.46vw;
 position: relative; 
-top: -220px;
+top: -33.5vh;
 cursor: pointer;
     }
 
 .image2{ /*tenis Louis Vitton*/
     font-size: 24px;
     position: absolute;
-    left: 10px;
-    top: 50px;
-    margin-left: 510px;
-    margin-right:700px;
+    left: 0.52vw;
+    top: 6.25vh;
+    margin-left: 30.56vw;
+    margin-right:36.46vw;
     position: relative; 
-    top: -600px;
+    top: -85vh;
     cursor: pointer;
 }
 
 .image3{ /*tenis Nike */ 
     font-size: 24px;
     position: absolute;
-    left: 10px;
-    top: 50px;
-    margin-left: 480px;
-    margin-right:200px;
+    left: 0.52vw;
+    top: 6.25vh;
+    margin-left: 30.56vw;
+    margin-right:10.42vw;
     position: relative; 
-    top: -481px;
+    top: -64.875vh;
     cursor: pointer;
     border-radius: 15px #000000;   
 } 
@@ -346,19 +289,12 @@ cursor: pointer;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
  }
 
- .active{ /*Vlibras*/
-    width: 90%;
-    float: right;
-    border-radius: 70px;
-    border: 4px solid rgb(39, 252, 46);
-} 
-
 .intuito{
-    margin-right: 500px;
-    margin-left: 550px;
+    margin-right: 26.04vw;
+    margin-left: 28.65vw;
     border-radius: 10px;
     position: relative; 
-    top: -350px;
+    top: -43.75vh;
     font-family: Cinzel;
 
 }
@@ -366,12 +302,12 @@ cursor: pointer;
 .image4{ /*cinto Louis Vuitton*/
     font-size: 24px;
     position: absolute;
-    left: 10px;
-    top: 50px;
-    margin-left: 50px;
-    margin-right:900px;
+    left: 0.52vw;
+    top: 6.25vh;
+    margin-left: 2.6vw;
+    margin-right:56.88vw;
     position: relative; 
-    top: -1120px;
+    top: -160vh;
     cursor: pointer;
 }
 
@@ -379,22 +315,81 @@ cursor: pointer;
     
     font-size: 10%;
     position: absolute;
-    left: 10px;
-    top: 50px;
-    margin-left: 300px;
-    margin-right:190px;
+    left: 0.52vw;
+    top: 6.25vh;
+    margin-left: 20.63vw;
+    margin-right:18.9vw;
     position: relative; 
-    top: -1480px;
+    top: -209vh;
     cursor: pointer;
 }
-.image6{
+.image6{ /*bolsa balanciaga*/
     font-size: 10%;
     position: absolute;
-    left: 10px;
-    top: 50px;
-    margin-left: 1100px;
-    margin-right:120px;
+    left: 0.52vw;
+    top: 6.25vh;
+    margin-left: 69.29vw;
+    margin-right: 6.25vw;
     position: relative; 
-    top: -1850px;
-    cursor: pointer;
+    top: -259.25vh;
+    cursor: pointer; 
 }
+
+.menulateral{
+    width: 5.85vw;
+    height: 76.2vh;
+    background-color: #000000;
+    padding: 35px 0 35px 0%;
+    box-shadow: 3px 0 0 #f710ff;overflow: hidden;
+    transition: .2s;
+    position: absolute;
+    top: 0px;
+    position: fixed;
+    }
+    
+    .menulateral:hover{
+        width: 17.63vw;
+    }
+    
+    .expandir{
+    width: 100vw;
+    padding-left: 0.89vw;
+    }
+    .expandir > i{
+    color: #f710ff;
+    font-size: 35px;
+    cursor: pointer;
+    }
+    ul{
+        height: 100vh;
+        list-style-type: none;
+    
+    }
+    
+    ul li.item-menu{
+    transition: 1s;
+    }
+    
+    ul li.item-menu:hover{
+    background:#f710ff;
+    transform: scale(1.17);
+    }
+    
+    
+    ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1.4vw 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 5vh; /alinha o texto/
+        }
+    
+        ul li.item-menu a .txt-link{
+    margin-left: 1.3vw;
+    }
+    
+    ul li.item-menu a .icon > i{
+    font-size: 30px;
+        }

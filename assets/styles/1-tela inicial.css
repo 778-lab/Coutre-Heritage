@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: block;
     position: fixed;
 }
@@ -20,11 +20,12 @@ body {
     text-align: center; 
     position: fixed; 
     bottom: 0; left: 0; 
-    width: 100%; 
-    background-color: #d3d3d3; 
-    padding: 18px 0;
+    width: 100vw; 
+    background-color: #bdbdbd; 
+    padding: 2.90vh 0;
     position: fixed;
 }
+
 .button {
     background-color: #444444;
     color: #fff;
@@ -33,7 +34,7 @@ body {
     border-radius: 5px;
     padding: 10px o;
 position: fixed;
-bottom: 40px; left: 15px; 
+bottom: 40px; left: 1.875vh; 
 }
 .footer {
     text-align: center;
@@ -56,7 +57,7 @@ bottom: 40px; left: 15px;
 .footer{    /*linha divisoria da marca */
 
     background-color: #d3d3d3;
-    height: 15px;
+    height: 1.875vh;
     padding: 1px;
     padding: 0px;
     }
@@ -65,16 +66,10 @@ bottom: 40px; left: 15px;
     cursor: pointer;
     position: fixed;
      bottom: 0; left: 0; 
-     width: 100%; 
-     background-color: #d3d3d3; 
+     width: 100vw; 
+     background-color: #bdbdbd; 
      text-align: center; 
      padding: 5px 0; }
-
-
-
-
-
-
 
 .logo-container {
     text-align: center;
@@ -99,7 +94,7 @@ bottom: 40px; left: 15px;
     .login{
 cursor: pointer;
 margin-left: 1300px;
-height:7px;
+height:0.875vh;
 top: 50px;
 padding: 10px;
 line-height: 60px;
@@ -126,18 +121,18 @@ padding-left: 8px;
 font-style: italic;
 font-size: 15px;
 border: none;
-height: 30px;
-width: 500px;
-top: 200px;
+height: 3.75vh;
+width: 26.04vw;
+top: 25vh;
 color: rgb(255, 255, 255);
 }
 
 
 
 .menulateral{
-width: 85px;
-height: 79%;
-background-color: #909090;
+width: 5.70vw;
+height: 78.5vh;
+background-color: #bdbdbd;
 padding: 35px 0 35px 0%;
 box-shadow: 3px 0 0 #2a2a2a;overflow: hidden;
 transition: .2s;
@@ -147,12 +142,12 @@ position: fixed;
 }
 
 .menulateral:hover{
-    width: 300px;
+    width: 18.63vw;
 }
 
 .expandir{
-width: 100%;
-padding-left: 17px;
+width: 100vw;
+padding-left: 1.4vw;
 }
 .expandir > i{
 color: rgb(0, 0, 0);
@@ -160,7 +155,7 @@ font-size: 35px;
 cursor: pointer;
 }
 ul{
-    height: 100%;
+    height: 100vh;
     list-style-type: none;
 
 }
@@ -176,13 +171,13 @@ transform: scale(1.20);
 
 
 ul li.item-menu a{
-color: white;
+color: rgb(67, 67, 67);
 text-decoration: none;
 font-size: 20px;
-padding: 20px 4%;
+padding: 25px 4%;
 display: flex;
 margin-bottom: 20px;
-line-height: 40px; /*alinha o texto*/
+line-height: 5vh; /*alinha o texto*/
     }
 
     ul li.item-menu a .txt-link{
@@ -195,12 +190,12 @@ font-size: 30px;
 
     .carousel {
         position: relative;
-        width: 90%;
+        width: 90vw;
         max-height: 500px;                   
         margin: auto;
         overflow: hidden;
         line-height: 80px;
-        max-width: 1100px;
+        max-width: 70.29vw;
         margin-left: 240px;
         border-radius: 10px;
     }
@@ -211,16 +206,16 @@ font-size: 30px;
     }
     
     .slides img {
-        width: 100%;
+        width: 100vw;
         flex-shrink: 0;
     }
     .slides .img1{
-width: 100%;
+width: 100vw;
 border-radius: #000000;
     }
 .img{
-width: 100%;
-height: 100%;
+width: 100vw;
+height: 100vh;
 object-fit: cover;
 }
     
@@ -239,7 +234,7 @@ object-fit: cover;
 .search{ /*lupa de buscar */
     position: absolute; 
     left: 200px; 
-    top: 92px; 
+    top: 12.5vh; 
     border-radius: 5px;
     margin-left: 80px;
 }
@@ -247,4 +242,7 @@ object-fit: cover;
 .bi bi-search{
     color: #000000;
 }
+
+
+
 
