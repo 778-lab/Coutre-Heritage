@@ -1,0 +1,245 @@
+body {
+    background-color: white;
+}
+
+#divtopo {
+    position: fixed;
+    background-color: white;
+    z-index: 100;  
+}
+
+#divlogo {
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    z-index: 100;
+}
+
+#divlogo img {
+    width: 70%;
+    height: auto;
+}
+
+#divbusca {
+    background-color: rgba(232, 232, 232, 0.59);
+    border-radius: 15px;
+    width: 180%;
+    height: 100%;
+    position: relative;
+    left: 90%;
+    margin-top: 15%;
+}
+
+#divbusca img {
+    width: 6%;
+    height: 6%;
+}
+
+#txtbusca {
+    float: right;
+    background-color: transparent;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    width: 92%;  
+    margin-top: -6%;
+    outline: none;
+}
+
+#divcanto {
+    position: fixed;
+    top: 6%;
+    right: 0%;
+}
+
+#divcanto2 {
+    position: fixed;
+    right: 3%;
+    top: 5%;
+}
+
+#divcanto img, #divcanto2 img {
+    width: 50%;
+    height: 50%;
+    margin-right: 5px;
+}
+
+#divsapato {
+    position: fixed;
+    right: 11%;
+    top: 50%;
+}
+
+#divsapato img {
+    width: 45%;
+    height: 45%;
+    margin-right: 5px;
+}
+
+#divcompra {
+    position: absolute;
+    left: 60%;
+    top: 78%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divcompra button {
+    background-color: rgb(151, 151, 151);
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#divcompra button:hover {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.05);
+}
+
+#divtamanho {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divtamanho button {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #000000 -4.11%, #666666 95.89%);
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#divtamanho button:hover {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.05);
+}
+
+#divtamanho button img {
+    width: 15px;
+    height: auto;
+}
+
+#divcarro {
+    position: absolute;
+    left: 70%;
+    top: 89%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divcarro button {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #000000 -4.11%, #666666 95.89%);
+    width: 165px;
+    height: 30px;
+    font-size: 11px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#divcarro button:hover {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.05);
+}
+
+#divcarro button img {
+    width: 15px;
+    height: auto;
+}
+
+#produto {
+    font-family: Arial, sans-serif;
+    margin: 2%;
+    width: 30%;
+    left: 58%;
+    top: 25%;
+    position: absolute;
+    align-items: flex-start;
+}
+
+#nome-produto {
+    font-size: 130%;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5%;
+    transform: none;
+    text-align: left;
+}
+
+#preco-produto {
+    display: flex;
+    flex-direction: column;
+}
+
+#preco-original {
+    font-size: 130%;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2%;
+}
+
+#preco-parcelado {
+    font-size: 100%;
+    color: #111111;
+}
+
+#divdescricao {
+    position: absolute;
+    left: 8%;
+    top: 95%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divdescricao button {
+    background-color: rgb(151, 151, 151);
+    width: 260px;
+    height: 50px;
+    font-size: 13px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#divdescricao button:hover {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.05);
+}
+
+#divdescricao button img {
+    width: 15px;
+    height: auto;
+}
