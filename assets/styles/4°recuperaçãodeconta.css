@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* div de toda a tela do site*/
 body{
     margin-top: 350px;
          padding: 0;
@@ -15,7 +15,7 @@ body{
      align-items: center; 
      border-radius: 40px;
    }
- 
+ /*Uma div dentro de outra div */
 .entrar{
     position: flex;
     margin-top: 200px;
@@ -29,15 +29,7 @@ body{
 
    
   
-.paracadastrar{
-    background-color: rgb(130, 74, 65);
-    width: 100vh;
-    height: 100vh;
-  border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-
-
-}
+/* formata titulo*/
 h1{
     
     align-content: center;
@@ -48,7 +40,7 @@ h1{
 }
 
 
-
+/* alinhar logo*/
 
 .logo{
 width: 290px;
@@ -64,8 +56,3 @@ margin-left: 100px;
 
 
 
-.logofacebook{
-    margin-top: 90px;
-    gap: 35px;
-    font-size: 25px;
-}

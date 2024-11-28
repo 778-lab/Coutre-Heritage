@@ -8,8 +8,8 @@
     <script src="https://kit.fontawesome.com/4167bd8b77.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head>
-</head>
 <body>
+    <!-- Div com a classe 'entrar' para a área de login -->
     <div class="entrar">
         <img src="assets/images/logodaspaginas.png" alt="logo" class="logo">
         <h1>Que bom  <br>ter ver novamente!</h1><br>
@@ -18,44 +18,39 @@
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-x-twitter"></i>
             <i class="fa-brands fa-instagram"></i>
-    </div>
+        </div>
     </div>
 
-
+    <!-- Div com a classe 'paracadastrar' para o formulário de login -->
     <div class="paracadastrar">
         <h1 class="cadastro">Entre com</h1><br><br>
 
         <form idaction="#" method="post">
-    
             <input type="email" id="email" name="email" placeholder="Email"><br><br>
-            <label  for="password">     
-            
-            <input  type="password"  id="password" name="senha" placeholder="Senha" >
-           <br><br><br>
-      
+            <label for="password">     
+                <input type="password" id="password" name="senha" placeholder="Senha"><br><br><br>
+            </label>
 
-            
             <input type="submit" value="ENTRAR" class="cadastroo" onclick="logar(); return false;"><br><br>
             <br>OU 
-           <div class="logotipo">
-            <a class="fa-solid fa-g"></a>
-            <a class="fa-brands fa-apple"></i>
-            <a class="fa-brands fa-facebook-f"></a>
-        </div> 
+            
+            <!-- Div com a classe 'logotipo' para ícones de redes sociais ou outras opções de login -->
+            <div class="logotipo">
+                <a class="fa-solid fa-g"></a>
+                <a class="fa-brands fa-apple"></a>
+                <a class="fa-brands fa-facebook-f"></a>
+            </div>
         </form>
     </div>
-    <div>
-       
 
+    <div>
     </div>
 
     <script>
         function logar() {
-           
             var login = document.getElementById('username').value;
             var senha = document.getElementById('password').value;
 
-           
             if (login === "admin" && senha === "admin") {
                 alert("Login realizado com sucesso!");
             } else {
@@ -65,4 +60,3 @@
     </script>
 </body>
 </html>
-

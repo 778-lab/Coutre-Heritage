@@ -1,9 +1,11 @@
+/* Aplica margin e padding 0 a todos os elementos e define o box-sizing como border-box */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo para o body da página */
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@ body {
     align-items: center;
 }
 
+/* Estilo para a div com a classe "entrar" */
 .entrar {
     width: 290px;
     height: 490px;
@@ -23,9 +26,9 @@ body {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     box-shadow: 0.0.1rem 0.5rem;
-
 }
 
+/* Estilo para a div com a classe "paracadastrar" */
 .paracadastrar {
     background-color: rgb(238, 232, 231);
     width: 490px;
@@ -33,22 +36,19 @@ body {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     box-shadow: 0.0.1rem 0.5rem;
-
 }
 
+/* Estilo para todos os elementos h1 */
 h1 {
     font-family: "Roboto Serif", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "GRAD" 0;
-   
- 
+    font-variation-settings: "wdth" 100, "GRAD" 0;
     text-align: center;
 }
 
+/* Estilo para a classe "botao" (usado em botões) */
 .botao {
     background-color: rgb(59, 58, 56);
     color: white;
@@ -58,27 +58,25 @@ h1 {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Efeito de hover no botão */
 .botao:hover {
     background-color: rgb(226, 110, 43);
     color: white;
 }
 
-h4 {
-    margin-left: 90px;
-    margin-top: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
+/* Estilo para a classe "logo" */
 .logo {
     width: 290px;
     margin-top: -30px;
     margin-right: 100px;
 }
 
+/* Estilo para a classe "cadastro" */
 .cadastro {
     margin-top: 90px;
 }
 
+/* Estilo para os campos de entrada (input) */
 input {
     background-color: rgb(192, 185, 179);
     border-radius: 10px;
@@ -86,6 +84,7 @@ input {
     width: 65%;
 }
 
+/* Estilo para o botão de envio com a classe "cadastroo" */
 .cadastroo {
     background-color: rgb(111, 109, 106);
     padding: 20px;
@@ -95,6 +94,7 @@ input {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Estilo para a classe "logotipo" */
 .logotipo {
     display: flex;
     gap: 35px;
@@ -103,12 +103,14 @@ input {
     margin-left: 150px;
 }
 
+/* Estilo para a classe "logofacebook" (para ícones de redes sociais) */
 .logofacebook {
     margin-top: 90px;
     gap: 35px;
     font-size: 25px;
 }
 
+/* Estilo para links (a) */
 a {
     background-color: rgb(255, 255, 255);
     border-radius: 90px;
@@ -118,10 +120,12 @@ a {
     cursor: pointer;
 }
 
+/* Efeito de hover nos links */
 a:hover {
     transform: scale(1.1);
 }
 
+/* Estilo para ícones (i) */
 i {
     background-color: rgb(131, 124, 124);
     border-radius: 90px;
@@ -131,6 +135,7 @@ i {
     cursor: pointer;
 }
 
+/* Efeito de hover nos ícones */
 i:hover {
     transform: scale(1.1);
 }

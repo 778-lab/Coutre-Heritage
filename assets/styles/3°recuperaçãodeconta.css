@@ -1,44 +1,43 @@
-*{
+/* Aplica margin e padding 0 a todos os elementos e define o box-sizing como border-box */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-   margin: 0;
-   padding: 0;
-   display: flex;
-   text-align: center;
-background-color: rgb(212, 175, 135, 155);
-justify-content: center;
-height: 100vh;
-align-items: center;
-   
-   }
-   .entrar{
-width: 290px;
-height:490px;
-background-color: rgb(128, 121, 116);
-position: static;
-border-top-left-radius: 30px;
-border-bottom-left-radius: 30px;
+/* Estilo para o body da página */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    background-color: rgb(212, 175, 135, 155);
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
 
+/* Estilo para a div com a classe "entrar" */
+.entrar {
+    width: 290px;
+    height: 490px;
+    background-color: rgb(128, 121, 116);
+    position: static;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
 
-
-   }
-  
-.paracadastrar{
+/* Estilo para a div com a classe "paracadastrar" */
+.paracadastrar {
     background-color: rgb(238, 232, 231);
     width: 490px;
     height: 490px;
-  border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-
-
-
 }
-h1{
-    
+
+/* Estilo para todos os elementos h1 */
+h1 {
     align-content: center;
     align-items: center;
     margin-top: 49px;
@@ -46,80 +45,78 @@ h1{
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "GRAD" 0;
-   
- 
+    font-variation-settings: "wdth" 100, "GRAD" 0;
 }
 
-
-.botao{
-   background: transparent;
+/* Estilo para a classe "botao" (usado em botões) */
+.botao {
+    background: transparent;
     color: white;
-   background-color: rgb(59, 58, 56);
-   border-radius: 29px;
-   padding: 20px 55px;
-   align-items: center;
-   cursor: pointer;
-   transition: background-color o.3s, color o.3s blue;
+    background-color: rgb(59, 58, 56);
+    border-radius: 29px;
+    padding: 20px 55px;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s blue;
 }
-.botao:hover{
+
+/* Efeito de hover no botão */
+.botao:hover {
     background-color: rgb(226, 110, 43);
     color: white;
 }
-h4{
-    margin-left: 90px;
-    margin-top: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+/* Estilo para a classe "logo" */
+.logo {
+    width: 290px;
+    margin-top: -30px;
+    margin-right: 100px;
+    padding: -30px;
 }
 
-.logo{
-width: 290px;
-margin-top: -30px;
-margin-right: 100px;
-padding: -30px;
-    
-    
-   
-}
-.cadastro{
+/* Estilo para a classe "cadastro" */
+.cadastro {
     margin-top: 120px;
     margin-bottom: 20px;
 }
 
-
-input{
+/* Estilo para os campos de entrada (input) */
+input {
     background-color: rgb(192, 185, 179);
     border-radius: 10px;
     padding: 9px;
     padding-left: px;
-   width: 65%;
-
+    width: 65%;
 }
-.cadastroo{
+
+/* Estilo para o botão de envio com a classe "cadastroo" */
+.cadastroo {
     background-color: transparent;
     background-color: rgb(111, 109, 106);
     padding: 20px 20px;
     border-radius: 29px;
     width: 175px;
-   cursor: pointer;
-   transition: background-color o.3s, color o.3s rgb(222, 222, 237);
-
-
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s rgb(222, 222, 237);
 }
-.logotipo{
+
+/* Estilo para a classe "logotipo" */
+.logotipo {
     display: flex;
     gap: 35px;
-   margin-top: 49px;
-   font-size: 25px;
+    margin-top: 49px;
+    font-size: 25px;
     margin-left: 193px;
 }
-.logofacebook{
+
+/* Estilo para a classe "logofacebook" (para ícones de redes sociais) */
+.logofacebook {
     margin-top: 90px;
     gap: 35px;
     font-size: 25px;
 }
+
+/* Estilo para links (a) */
 a {
     background-color: rgb(114, 106, 106);
     border-radius: 90px;
@@ -129,10 +126,12 @@ a {
     cursor: pointer;
 }
 
+/* Efeito de hover nos links */
 a:hover {
     transform: scale(1.1);
 }
 
+/* Estilo para links com a classe "a" */
 .a {
     background-color: rgb(131, 124, 124);
     border-radius: 90px;
@@ -142,6 +141,7 @@ a:hover {
     cursor: pointer;
 }
 
-a:hover {
+/* Efeito de hover nos links com a classe "a" */
+.a:hover {
     transform: scale(1.1);
 }

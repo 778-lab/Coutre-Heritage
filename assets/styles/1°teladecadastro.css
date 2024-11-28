@@ -83,8 +83,8 @@ h1{
 }
 /*animação do botão entrar*/
 .botao:hover{
-    background-color: rgb(122, 115, 111);
-    color: white;
+    background-color: rgb(57, 53, 50);
+    color:white;
 }
 /*Altera todos caracteres que usam H4*/
 h4{
@@ -129,7 +129,7 @@ input{
 }
 /*Animação do botão cadastro*/
 .cadastroo:hover{
-    background-color: rgb(122, 115, 111);
+    background-color: rgb(57, 53, 50);
     color: white;
 }
 /*Alteração dos icones de redes sociais*/
@@ -177,7 +177,13 @@ i{
   h4{
     text-decoration: none;
   }
-  a{
+  /*Alteração da frase de "esqueceu a senha"*/
+ .esquecisenha{
     text-decoration: none;
-    color: black;
-  }
+   color: black;
+   font-family: ;
+    border-radius: 9px;
+    padding: 9px;
+    cursor: pointer;
+    
+ }
