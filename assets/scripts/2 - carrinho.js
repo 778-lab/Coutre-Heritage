@@ -32,4 +32,4 @@ function mostreSidebar(){
     meucarrinho.style.display = 'none'
 }
 
-lucide.createIcons();
+lucide.createIcons()

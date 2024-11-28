@@ -363,8 +363,19 @@ nav .cart{
 }
 
 .contcart{
-    margin-top: 20%;
-    font-size: 20%;
+    margin-top: 2%;
+    font-size: 19%;
+}
+
+a{
+    margin-top: 25%;
+    margin-left: 60%;
+}
+p{
+    white-space: nowrap;
+    margin-left: 60%;
+    color: #525552;
+
 }
 
 h1{
@@ -375,4 +386,42 @@ h1{
 
 .dadoscompra .cart-compra{
     font-size: 120%;
+}
+
+.vertical {
+    border-left: 2% solid #525552;
+    height: 120%;
+    position:absolute;
+    left: 50%;
+    margin-top: -6%;
+}
+
+.horizontal{
+margin-left: 50%;
+color: red;
+width: 54.5%;
+}
+
+.icones{
+
+}
+
+.selecionar{
+    padding: 6em;;
+    margin-left: 58%;
+    
+}
+
+.selbutao{
+  display: flex;
+  width: 25%;
+  padding: 0.75rem;
+  border-radius: .375rem;
+  border: 1px solid black;  
+  justify-content: space-between;
+  background-color: white;
+}
+
+.qntd label{
+    font-size: 500%;
 }
