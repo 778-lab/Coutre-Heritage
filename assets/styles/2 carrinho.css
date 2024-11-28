@@ -347,3 +347,32 @@ nav .meucarrinho{
     display: none;
     cursor: pointer;
 }
+
+nav .cart{
+    position: fixed;
+    top: 0;
+    left: 0.5%;
+    right: 5%;
+    height: 100%;
+    margin-top: 6%;
+    width: 50%;
+    padding: 2%;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #fffff5 100%);
+}
+
+.contcart{
+    margin-top: 20%;
+    font-size: 20%;
+}
+
+h1{
+    white-space: nowrap;
+    margin-top: -4%;
+    margin-left: 5%;
+}
+
+.dadoscompra .cart-compra{
+    font-size: 120%;
+}
