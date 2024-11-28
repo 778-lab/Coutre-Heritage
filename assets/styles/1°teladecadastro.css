@@ -120,17 +120,19 @@ input{
 .cadastroo{
     background-color: transparent;
     background-color: rgb(143, 134, 121);
-    padding: 20px 20px;
-    border-radius: 29px;
-    width: 175px;
-   cursor: pointer;
-   transition: background-color o.3s, color o.3s rgb(222, 222, 237);
-
+    border-radius: 90px;
+    padding: 20px 30px ;
+    
+    border: 1px solid #50463a;
+    transition:transform 0.3s;
+   
+text-decoration: none;
+color: black;
 }
 /*Animação do botão cadastro*/
 .cadastroo:hover{
-    background-color: rgb(57, 53, 50);
-    color: white;
+  transform: scale(1.1);
+  background-color: rgb(226, 233, 239);
 }
 /*Alteração dos icones de redes sociais*/
 .logotipo{
