@@ -50,7 +50,7 @@ body{
 .icons{
     font-size: 120%;
     position: flex;
-    margin-left: 85%;
+    margin-left: 75%;
 }
 
 .bx-md{
@@ -392,3 +392,4 @@ nav .meucarrinho{
     display: none;
     cursor: pointer;
 }
+
