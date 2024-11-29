@@ -22,7 +22,7 @@ body {
     bottom: 0; left: 0; 
     width: 100vw; 
     background-color: #bdbdbd; 
-    padding: 2.90vh 0;
+    padding: 3.90vh 0;
     position: fixed;
 }
 
@@ -95,9 +95,9 @@ bottom: 40px; left: 1.875vh;
 cursor: pointer;
 margin-left: 1300px;
 height:0.875vh;
-top: 50px;
-padding: 10px;
-line-height: 60px;
+top: 0.93vh;
+padding: 0.93vh;
+line-height: 12vw;
 }
 
 .person >i{
@@ -131,7 +131,7 @@ color: rgb(255, 255, 255);
 
 .menulateral{
 width: 5.70vw;
-height: 78.5vh;
+height: 76.5vh;
 background-color: #bdbdbd;
 padding: 35px 0 35px 0%;
 box-shadow: 3px 0 0 #2a2a2a;overflow: hidden;
@@ -146,7 +146,7 @@ position: fixed;
 }
 
 .expandir{
-width: 100vw;
+width:100vw;
 padding-left: 1.4vw;
 }
 .expandir > i{
@@ -171,7 +171,7 @@ transform: scale(1.20);
 
 
 ul li.item-menu a{
-color: rgb(67, 67, 67);
+color: rgb(0, 0, 0);/*cor das icones*/
 text-decoration: none;
 font-size: 20px;
 padding: 25px 4%;

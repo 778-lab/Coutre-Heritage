@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: block;
     position: fixed;
 }
@@ -17,9 +17,9 @@ body {
 .logo-text { /*logo da loja*/
     font-family: 'Times New Roman', Times, serif;
     color: #000000; 
-    margin-left: 50px;
-    margin-right: 1050px;
-    line-height: 70px;
+    margin-left: -9.90vw;
+    margin-right: 54.69vw;
+    line-height: 9vh;
     
 }
 .logo-large {
@@ -28,12 +28,12 @@ body {
 }
 .logo-small {
     font-size: 30px; /* Tamanho menor da fonte */
-    margin-top: -10px; /*espaçamento*/
-    margin-left: 80px;
+    margin-top: -0.52vh; /*espaçamento*/
+    margin-left: -7.81vw;
 }
 
 .img{ /*imagem da mao*/
-max-width: 550px;
+max-width:28.65vw;
 border-radius: 10px;
 border-color: rgb(255, 0, 0);
 padding: 0;
@@ -42,18 +42,18 @@ position: fixed;
 }
 
 .icon{ /*icone de voltar*/
-margin-left: 500px;
+margin-left: 28.04vw;
 cursor: pointer;
 z-index: 10px;
 position: absolute; 
 top: 0; 
 left: 0; 
-line-height: 150px;
+line-height: 20.89vh;
 font-family: Cinzel;
 font-size: 20px;
 }
 .icon >i{
-margin-left: 600px;
+margin-left: 31.25vw;
 
 }
 
@@ -62,10 +62,10 @@ margin-left: 600px;
 }
 
 .person1{ /*menu perfil*/
-    margin-left: 1400px;
+    margin-left: 90.92vw;
     position: absolute;
-    left: 70px;
-    top: 55px;
+    left: 4.20vw;
+    top: 7.09vh;
     color: black;
 }
 
@@ -73,22 +73,22 @@ margin-left: 600px;
     color: #000000;
 }
 .carrin{ /*carrinho*/
-    margin-left: 1400px;
+    margin-left: 90.92vw;
     position: absolute;
-    left: 35px;
-    top: 55px;
-color: black;
+    left: 1.82vw;
+    top: 7.09vh;
+    color: black;
 }
 .cart2{ /*cor do carrinho*/
     color: black;
 }
 
 .Rup{ /*imagem roupa 1 */
-margin-left: 500px;
-max-width: 300px;
+margin-left: 32.9vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
 }
 .Rup:hover{
     transform: scale(1.10);
@@ -97,16 +97,16 @@ padding: 30px;
 .Roupa1 {
     width: 50%; /* Ajuste a largura para 50% do contêiner */
     height: auto; /* Mantém a proporção da imagem */
-    max-width: 300px; /* Define um tamanho máximo para a largura */
+    max-width:19.63vw; /* Define um tamanho máximo para a largura */
     border-radius: 10px;
   }
   
   .Rup2{ /*imagem roupa 2*/
-margin-left: 500px;
-max-width: 300px;
+margin-left: 32.9vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
   }
   .Rup2:hover{
     transform: scale(1.15);
@@ -115,16 +115,16 @@ padding: 30px;
 .Roupa2{
     width: 50%; 
     height: auto; 
-    max-width: 300px; 
+    max-width: 19.63vw; 
     border-radius: 10px;
 }
 
 .Rup3{ /*imagem roupa 3*/  
-margin-left: 850px;
-max-width: 300px;
+margin-left: 55.60vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
 }
 .Rup3:hover{
     transform: scale(1.09);
@@ -132,18 +132,18 @@ padding: 30px;
 .Roupa3{
 width: 48%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -221px;
+top: -27.46vh;
 border-radius: 10px;
 }
 
 .tn4{ /*imagem tenis 4*/
-margin-left: 850px;
-max-width: 300px;
+margin-left: 55.60vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
 }
 .tn4:hover{
     transform: scale(1.05);
@@ -151,37 +151,37 @@ padding: 30px;
 .tenis4{
 width: 48%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -650px;
+top: -85.19vh;
 border-radius: 10px;
 }
 
 .ml5{ /*imagem mala 5*/
-    margin-left: 1191px;
-    max-width: 300px;
+    margin-left: 76.03vw;
+    max-width: 30.63vw;
     height: auto;
     font-size: 30px;
-    padding: 30px;
+    padding: 1.90vw;
 }
 
 .mala5{
 width: 55%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -870px;
+top: -113.56vh;
 border-radius: 10px;
 }
 .ml5:hover{
     transform: scale(1.05);
 }
 .bg6{ /*imagem bag 6*/
-    margin-left: 1191px;
-    max-width: 300px;
+    margin-left:77.03vw;
+    max-width: 19.63vw;
     height: auto;
     font-size: 30px;
-    padding: 30px;
+    padding: 1.56vw;
 }
 .bag6:hover{
     transform: scale(1.10);
@@ -189,22 +189,21 @@ border-radius: 10px;
 .bag6{
 width: 57%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -880px;
+top: -119.48vh;
 border-radius: 10px;
 }
 
 .SLOGAN{
-margin-left: 600px;
-max-width: 700px;
+margin-left: 35.25vw;
+max-width: 60.46vw;
 height: auto;
 font-size: 20px;
-padding: 30px;
+padding: 1.56vw;
 width: 70%;
 position: relative;
-top: -1500px;
+top: -196.89vh;
 font-family: Cinzel;
 color: rgb(19, 103, 44);
 }
-

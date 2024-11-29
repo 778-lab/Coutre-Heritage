@@ -6,7 +6,9 @@ body {
     width: 100vw;
     height: 100vh;
     display: block;
+    overflow: auto;
 }
+
 
 .slogan_pg2{
     font-size: 24px; 
@@ -20,9 +22,10 @@ body {
     position: fixed; 
     bottom: 0; left: 0; 
     width: 100vw; 
-    background-color: #d3d3d3; 
+    background-color: #bdbdbd; 
     padding: 1.50% 0;
     position: fixed;
+    z-index: 9999;
 }
 .button {
     background-color: #444444;
@@ -65,16 +68,12 @@ bottom: 2.08%; left: 0.78%;
     position: fixed;
      bottom: 0; left: 0; 
      width: 100vw; 
-     background-color: #d3d3d3; 
+     background-color: #bdbdbd; 
      text-align: center; 
-     padding: 0.26% 0; }
-
-
-
-
-
-
-
+     padding: 0.26% 0;
+    z-index: 9999;
+    }
+    
 .logo-container {
     text-align: center;
     background-color: #ffffff; 
@@ -98,10 +97,10 @@ bottom: 2.08%; left: 0.78%;
     .login{
 cursor: pointer;
 margin-left: 85.71vw;
-height:0.875vh;
-top: 6.25vh;
+height:1.875vh;
+top: 7.25vh;
 padding: 10px;
-line-height: 7.5vh;
+line-height: 20.5vh;
 }
 
 .person >i{
@@ -338,7 +337,7 @@ cursor: pointer;
 .menulateral{
     width: 5.85vw;
     height: 76.2vh;
-    background-color: #000000;
+    background-color: #bdbdbd;
     padding: 35px 0 35px 0%;
     box-shadow: 3px 0 0 #f710ff;overflow: hidden;
     transition: .2s;
@@ -377,19 +376,19 @@ cursor: pointer;
     
     
     ul li.item-menu a{
-    color: white;
+    color: rgb(0, 0, 0); /*cor dos icones*/
     text-decoration: none;
     font-size: 20px;
     padding: 1.4vw 4%;
     display: flex;
     margin-bottom: 20px;
     line-height: 5vh; /alinha o texto/
-        }
-    
+    }
+
         ul li.item-menu a .txt-link{
     margin-left: 1.3vw;
     }
     
     ul li.item-menu a .icon > i{
     font-size: 30px;
-        }
+    }

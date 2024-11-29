@@ -17,9 +17,9 @@ body {
 .logo-text { /*logo da loja*/
     font-family: 'Times New Roman', Times, serif;
     color: #000000; 
-    margin-left: 50px;
-    margin-right: 1050px;
-    line-height: 70px;
+    margin-left: -9.90vw;
+    margin-right: 54.69vw;
+    line-height: 9vh;
     
 }
 .logo-large {
@@ -28,12 +28,12 @@ body {
 }
 .logo-small {
     font-size: 30px; /* Tamanho menor da fonte */
-    margin-top: -10px; /*espaçamento*/
-    margin-left: 80px;
+    margin-top: -0.52vh; /*espaçamento*/
+    margin-left: -7.81vw;
 }
 
 .img{ /*imagem da mao*/
-max-width: 550px;
+max-width: 28.65vw;
 border-radius: 10px;
 border-color: rgb(255, 0, 0);
 padding: 0;
@@ -42,18 +42,18 @@ position: fixed;
 }
 
 .icon{ /*icone de voltar*/
-margin-left: 500px;
+margin-left: 28.04vw;
 cursor: pointer;
 z-index: 10px;
 position: absolute; 
 top: 0; 
 left: 0; 
-line-height: 150px;
+line-height: 20.89vh;
 font-family: Cinzel;
 font-size: 20px;
 }
 .icon >i{
-margin-left: 600px;
+margin-left: 31.25vw;
 
 }
 
@@ -62,10 +62,10 @@ margin-left: 600px;
 }
 
 .person1{ /*menu perfil*/
-    margin-left: 1400px;
+    margin-left: 90.92vw;
     position: absolute;
-    left: 70px;
-    top: 50px;
+    left: 4.20vw;
+    top: 7.09vh;
     color: black;
 }
 
@@ -73,22 +73,22 @@ margin-left: 600px;
     color: #000000;
 }
 .carrin{ /*carrinho*/
-    margin-left: 1400px;
+    margin-left: 90.92vw;
     position: absolute;
-    left: 35px;
-    top: 50px;
-color: black;
+    left: 1.82vw;
+    top: 7.09vh;
+    color: black;;
 }
 .cart2{ /*cor do carrinho*/
     color: black;
 }
 
 .RJ{ /*imagem relogio 1 */
-margin-left: 500px;
-max-width: 300px;
+margin-left: 32.9vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
 }
 .RJ:hover{
     transform: scale(1.10);
@@ -97,34 +97,34 @@ padding: 30px;
 .R1 {
     width: 50%; /* Ajuste a largura para 50% do contêiner */
     height: auto; /* Mantém a proporção da imagem */
-    max-width: 300px; /* Define um tamanho máximo para a largura */
+    max-width: 19.63vw; /* Define um tamanho máximo para a largura */
     border-radius: 10px;
   }
   
   .RJ2{ /*omagem relogio 2*/
-margin-left: 500px;
-max-width: 300px;
+margin-left: 32.9vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
   }
   .RJ2:hover{
     transform: scale(1.10);
 }
   
 .R2{
-    width: 50%; 
+    width: 49%; 
     height: auto; 
-    max-width: 300px; 
+    max-width: 19.63vw; 
     border-radius: 10px;
 }
 
 .RJ3{ /*omagem relogio 3*/
-margin-left: 850px;
-max-width: 300px;
+margin-left: 55.90vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
 }
 .R3:hover{
     transform: scale(1.05);
@@ -132,80 +132,80 @@ padding: 30px;
 .R3{
 width: 48%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -240px;
+top: -30.50vh;
 border-radius: 10px;
 }
 
 .RJ4{ /*omagem relogio 4*/
-margin-left: 850px;
-max-width: 300px;
+margin-left: 55.90vw;
+max-width: 19.63vw;
 height: auto;
 font-size: 30px;
-padding: 30px;
+padding: 1.56vw;
 }
 .RJ4:hover{
     transform: scale(1.05);
 }
 .R4{
-width: 48%; 
+width: 47%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -720px;
+top: -92.20vh;
 border-radius: 10px;
 }
 
 .RJ5{ /*omagem relogio 5*/
-    margin-left: 1191px;
-    max-width: 300px;
+    margin-left: 77.5vw;
+    max-width: 19.63vw;
     height: auto;
     font-size: 30px;
-    padding: 30px;
+    padding: 1.56vw;
 }
 
 .R5{
-width: 55%; 
+width: 48%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -959px;
+top: -122.80vh;
 border-radius: 10px;
 }
 .RJ5:hover{
     transform: scale(1.02);
 }
 .RJ6{ /*omagem relogio 6*/
-    margin-left: 1191px;
-    max-width: 300px;
+    margin-left: 77.3vw;
+    max-width: 19.63vw;
     height: auto;
     font-size: 30px;
-    padding: 30px;
+    padding: 1.56vw;
 }
 .RJ6:hover{
     transform: scale(1.02);
 }
 .R6{
-width: 57%; 
+width: 51%; 
 height: auto; 
-max-width: 300px; 
+max-width: 19.63vw; 
 position: relative;
-top: -970px;
+top: -122.81vh;
 border-radius: 10px;
 }
 
 .SLOGAN{
-margin-left: 600px;
-max-width: 700px;
-height: auto;
-font-size: 20px;
-padding: 30px;
-width: 70%;
-position: relative;
-top: -1635px;
-font-family: Cinzel;
-color: rgb(20, 10, 82);
+    margin-left: 35.25vw;
+    max-width: 60.46vw;
+    height: auto;
+    font-size: 20px;
+    padding: 1.56vw;
+    width: 70%;
+    position: relative;
+    top: -204.90vh;
+    font-family: Cinzel;
+    color: rgb(43, 5, 125);
 }
 
 .active{
