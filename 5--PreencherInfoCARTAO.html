@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coutre Heritage</title>
+    <link rel="stylesheet" href="assets/styles/2--PreencherInfoPIX.css">
+    <link rel="stylesheet" href="assets/styles/1--MetodosPagamento.css">
+    <link rel="stylesheet" href="assets/styles/5--PreencherInfoCARTAO.css">
+    <script src="assets/scripts/1--MetodosPagamento.js"></script>
+    <script src="assets/scripts/2--PreencherInfoPIX.js"></script>
+    <script src="assets/scripts/5--PreencherInfoCARTAO.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/images/logoempresa.png" alt="Coutre Heritage" class="logo">
+        <div class="header-bar"></div>
+    </header>
+
+    <div class="container-pedido">
+        <div class="container-pedido-title-bar">
+            <div class="icone-pedido">
+                <img src="assets/images/iconecarrinho.png" alt="Carrinho" class="icone-imagem">
+            </div>
+            <span>Pedido</span>
+            <div class="clear"></div>
+        </div>
+        <div class="conteudo-pedido">
+            <div class="detalhes-conteudo-pedido">
+                <p>Código do pedido: <strong>20190022</strong></p>
+                <p>Total do pedido: <strong>R$11.100,00</strong></p>
+                <p>Marca: <a href="#" onclick="redirecionarBalenciaga()">Balenciaga</a></p>
+                <p>Categoria: 
+                    <a href="#" onclick="redirecionarModa()">Moda</a> >
+                    <a href="#" onclick="redirecionarCalcados()">Calçados</a>
+                </p>
+            </div>
+
+            <div class="mini-container">
+                <div class="produto-imagem">
+                    <img src="assets/images/tenisbalenciaga.png" alt="Tênis Balenciaga">
+                </div>
+                <div class="produto-info">
+                    <strong>Balenciaga Tênis cano baixo Track</strong>
+                    <br><strong>1x R$11.100,00</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-pagamento">
+        <div class="container-pedido-title-bar">
+            <div class="icone-cartao">
+                <img src="assets/images/iconecartao.png" alt="Cartão" class="icone-imagem">
+            </div>
+            <span>Pagamento: Cartão</span>
+        </div>
+
+        <div class="conteudo-preencher-cartao">
+            <div class="radio-options">
+                <div class="radio-option">
+                    <input type="radio" name="cartao" value="MasterCard 1" onclick="toggleCartaoForm(false)">  
+                    <label>
+                        MasterCard 1
+                    </label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="cartao" value="Adicionar novo Cartao" onclick="toggleCartaoForm(true)"> 
+                    <label>
+                        Adicionar novo cartão
+                    </label>
+                </div>
+            </div>
+
+            <div id="cartao-form" class="adicionar-cartao-container collapsed">
+                <p><strong>Dados do cartão de crédito:</strong></p>
+                <label>Nome impresso</label>
+                <input type="text" placeholder="Nome impresso">
+
+                <p>Número, Expiração e CVV</p>
+                <div class="linha-horizontal">
+                    <input type="text" placeholder="Número do cartão">
+                    <input type="text" placeholder="MM/AA">
+                    <input type="text" placeholder="CVV">
+                </div>
+                <div class="divider"></div>
+
+                <p><strong>Dados do usuário</strong></p>
+                <div class="usuario-dados">
+                    <div>
+                        <label>Nome completo</label>
+                        <input type="text" placeholder="Digite seu nome completo">
+                    </div>
+                    <div>
+                        <label>CPF</label>
+                        <input type="text" placeholder="###.###.###-##">
+                    </div>
+                    <div>
+                        <label>Data de nascimento</label>
+                        <input type="text" placeholder="##/##/####">
+                    </div>
+                    <div>
+                        <label>E-mail</label>
+                        <input type="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div>
+                        <label>Telefone</label>
+                        <input type="text" placeholder="(##) ####-####">
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+                <p><strong>Número de parcelas desejadas</strong></p>
+                <select>
+                    <option>1x de R$11.100,00 (Total de R$11.100,00)</option>
+                    <option>2x de R$5.550,00 (Total de R$11.100,00)</option>
+                    <option>3x de R$3.700,00 (Total de R$11.100,00)</option>
+                    <option>4x de R$2.775,00 (Total de R$11.100,00)</option>
+                    <option>5x de R$2.220,00 (Total de R$11.100,00)</option>
+                    <option>6x de R$1.850,00 (Total de R$11.100,00)</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="botao-azul-pagamento-concluido">
+        <a href="4--PagamentoConcluido.html">
+            <button class="btn-pagar"><strong>Realizar o pagamento</strong></button>
+        </a>
+    </div> 
+
+</body>
+</html>
