@@ -42,6 +42,12 @@ header {
     padding: 10px;
 }
 
+.choose-payment-again{
+    margin-top: 2%;
+    gap: 2em;
+    padding: 1px;
+}
+
 /* Container de pagamento */
 .container-pagamento {
     background-color: #F5F4EF;
@@ -65,7 +71,6 @@ header {
 /* Alinhamento dos radio buttons e texto */
 .radio-options {
     display: flex;
-    gap: 20px;
     flex-direction: column;
     
 }
@@ -82,8 +87,6 @@ header {
         white-space: nowrap;
     }
 }
-
-
 
 /* Campos de formulário */
 input:not([type="radio"]), select {
