@@ -3,17 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/styles/2 carrinho.css">
+    <title>Coutre-Heritage</title>
+    <link rel="stylesheet" href="assets/styles/3 carrinho.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
+</head>
 <body>
+    <header>
+        <div class="divlogo">
+            <img class="logo" src="assets/images/1 carrinho.svg" alt="coutre-heritage">
+                <div class="menulateral">
+                    <div class="menuu">
+                        <i class='bx bx-menu menu-icone'></i>
+                    </div>
+                </div>
+        </div>
+        <div class="icons">
+            <i class="bx bx-heart"></i>
+            <i class='bx bx-cart-alt' onclick=mostreSidebar()></i>
+            <i  class='bx bx-user menu-button' onclick=showSidebar()></i>
+        </div>
     
+        <div class="nomeee">
+            <span class="nomee">Menu</span>
+        </div>
+    </header>
+    
+    
+    
+   
     <nav>
         <div class="meucarrinho">
             <div class="carrinho">
@@ -37,7 +59,7 @@
                 </ul>
             </div>
         </div>
-            
+
             <div class="menudireito">
                 <div class="direito">
                     <i class="bx bx-x menu-button" onclick=hideSidebar()></i>
@@ -61,13 +83,11 @@
                             </div>
                             <button type="submit">Entrar</button>    
                         </form>
-        
-                   </div>
+                    </div>
     
                 </div>
             </div>
         
-          
 
         <div class="menulateral">
             <div class="menuu">
@@ -106,9 +126,7 @@
                 </ul>
             </div>
         </div>
-        <div class="finalizar">
 
-        </div>
         <div class="cart">
             <div class="dadoscompra">
                 <i class="bx bx-cart cart-compra"></i>
@@ -124,65 +142,40 @@
                 <a  href="#"><p>Cor: Preto </p></a>
                 <a  href="#"><p>Material: Couro </p></a>
             </div>
-            
-            <div class="select-menu">
-                <div class="select-btn">
-                    <span class="sBtn-text">Select your option</span>
-                    <i class="bx bx-chevron-down"></i>
-                </div>
-        
-                <ul class="options">
-                    <li class="option">
-                        <i class="bx bxl-github" style="color: #171515;"></i>
-                        <span class="option-text">Github</span>
-                    </li>
-                    <li class="option">
-                        <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
-                        <span class="option-text">Instagram</span>
-                    </li>
-                    <li class="option">
-                        <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                        <span class="option-text">Linkedin</span>
-                    </li>
-                    <li class="option">
-                        <i class="bx bxl-facebook-circle" style="color: #4267B2;"></i>
-                        <span class="option-text">Facebook</span>
-                    </li>
-                    <li class="option">
-                        <i class="bx bxl-twitter" style="color: #1DA1F2;"></i>
-                        <span class="option-text">Twitter</span>
-                    </li>
-                </ul>
-            </div>
-        
         </div>
-     </div>
-
     </nav>
-    
 
-    <div class="divlogo">
-        <img class="logo" src="assets/images/1 carrinho.svg" alt="coutre-heritage">
-            <div class="menulateral">
-                <div class="menuu">
-                    <i class='bx bx-menu menu-icone'></i>
-                </div>
-            </div>
-    </div>
-         
-    <div class="nomeee">
-         <span class="nomee">Menu</span>
-    </div>
+    
    
-    
-    <div class="icons">
-        <i class="bx bx-heart"></i>
-        <i class='bx bx-cart-alt' onclick=mostreSidebar()></i>
-        <i  class='bx bx-user menu-button' onclick=showSidebar()></i>
-        <i class='bx bx-search menu-pesquisa'></i>
-    </div>
-    
-<script src="assets/scripts/2 - carrinho.js"></script>
+    <div class="select-menu">
+        <div class="select-btn">
+            <span class="sBtn-text">Select your option</span>
+            <i class="bx bx-chevron-down"></i>
+        </div>
 
+        <ul class="options">
+            <li class="option">
+                <span class="option-text">Github</span>
+            </li>
+            <li class="option">
+                <span class="option-text">Instagram</span>
+            </li>
+            <li class="option">
+                <span class="option-text">Linkedin</span>
+            </li>
+            <li class="option">
+                <span class="option-text">Facebook</span>
+            </li>
+            <li class="option">
+                <span class="option-text">Twitter</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="assets/scripts/3 carrinho.js"></script>
+        
+             
+    
+    </html>
 </body>
 </html>

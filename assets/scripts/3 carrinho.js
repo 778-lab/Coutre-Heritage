@@ -1,3 +1,19 @@
+const optionMenu = document.querySelector(".select-menu"),
+       selectBtn = optionMenu.querySelector(".select-btn"),
+       options = optionMenu.querySelectorAll(".option"),
+       sBtn_text = optionMenu.querySelector(".sBtn-text");
+
+selectBtn.addEventListener("click", () => optionMenu.classList.toggle("active"));       
+
+options.forEach(option =>{
+    option.addEventListener("click", ()=>{
+        let selectedOption = option.querySelector(".option-text").innerText;
+        sBtn_text.innerText = selectedOption;
+
+        optionMenu.classList.remove("active");
+    })
+})
+
 const navBar = document.querySelector("nav"),
         menubutoes = document.querySelectorAll(".menu-icone"),
         overlay = document.querySelector(".overlay");
@@ -32,19 +48,4 @@ function mostreSidebar(){
     meucarrinho.style.display = 'none'
 }
 
-
-const optionMenu = document.querySelector("nav"), 
-       selectBtn = optionMenu.querySelector(".select-btn"),
-       options = optionMenu.querySelectorAll(".option"),
-       sBtn_text = optionMenu.querySelector(".sBtn-text");
-
-selectBtn.addEventListener("click", () => optionMenu.classList.toggle("active"));       
-
-options.forEach(option =>{
-    option.addEventListener("click", ()=>{
-        let selectedOption = option.querySelector(".option-text").innerText;
-        sBtn_text.innerText = selectedOption;
-
-        optionMenu.classList.remove("active");
-    })
-})
+lucide.createIcons();
