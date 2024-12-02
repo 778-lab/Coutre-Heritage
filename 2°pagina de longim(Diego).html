@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/2°página longa(Diego).css.css">
+    <script src="assets/scripts/2teladelongim.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4167bd8b77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -25,14 +28,16 @@
     <div class="paracadastrar">
         <h1 class="cadastro">Entre com</h1><br><br>
 
-        <form idaction="#" method="post">
-            <input type="email" id="email" name="email" placeholder="Email"><br><br>
-            <label for="password">     
-                <input type="password" id="password" name="senha" placeholder="Senha"><br><br><br>
-            </label>
+        <!-- Formulário de login com a função de validação -->
+        <form id="action">
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            <input type="password" id="password" name="senha" placeholder="Senha" required><br><br><br>
 
-            <a class="cadastroo" href="http://127.0.0.1:5500/1-tela%20inicial.html">ENTRAR</a><br><br><h6>Ou entre com</h6>
-            
+            <!-- Botão de login com a validação acionada pelo evento onclick -->
+            <button type="button" class="cadastroo" onclick="validarFormulario()">ENTRAR</button><br><br>
+
+            <h6>Ou entre com</h6>
+
             <!-- Div com a classe 'logotipo' para ícones de redes sociais ou outras opções de login -->
             <div class="logotipo">
                 <a class="fa-solid fa-g"></a>
@@ -41,21 +46,5 @@
             </div>
         </form>
     </div>
-
-    <div>
-    </div>
-
-    <script>
-        function logar() {
-            var login = document.getElementById('username').value;
-            var senha = document.getElementById('password').value;
-
-            if (login === "admin" && senha === "admin") {
-                alert("Login realizado com sucesso!");
-            } else {
-                alert("Usuário ou senha incorretos!");
-            }
-        }
-    </script>
 </body>
 </html>

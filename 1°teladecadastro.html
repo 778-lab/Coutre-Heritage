@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Cadastro</title>
+
     <!-- Link para o arquivo de estilo CSS -->
     <link rel="stylesheet" href="assets/styles/1°teladecadastro.css">
     
@@ -13,8 +13,8 @@
     <script src="https://kit.fontawesome.com/4167bd8b77.js" crossorigin="anonymous"></script>
     
     <!-- Link para o arquivo JavaScript -->
-    <script src="index.js"></script>
-    
+    <script src="assets/scripts/1 teladecadastro.js" defer></script>
+
     <!-- Conexão com o Google Fonts para importar a fonte Roboto Serif -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,50 +22,40 @@
 </head>
 
 <body>
-    <!-- div do fundo -->
     <div class="fundo"></div>
-    
+
     <div class="inicio">
-        <!-- Lado esquerdo da tela, com a área de login -->
         <div class="entrar">
-            <img src="assets/images/logodaspaginas.png" alt="logo" class="logo"> <!-- Logo da aplicação -->
+            <img src="assets/images/logodaspaginas.png" alt="logo" class="logo">
             <h1>Bem-vindo <br> de volta</h1><br>
             <p>Acesse sua conta <br> agora mesmo</p><br><br>
-            <!-- Link para acessar a página de login -->
             <a href="http://127.0.0.1:5500/2%C2%B0pagina%20de%20longim(Diego).html" type="button" class="botao">ENTRAR</a><br><br><br>
-            <!-- Link para recuperação de senha -->
             <h4><a class="esquecisenha" href="http://127.0.0.1:5500/3%C2%B0recupera%C3%A7aodeconta.html.html" type="text">Esqueci minha senha</a></h4>
         </div>
 
-        <!-- Lado direito da tela, com a área de cadastro -->
         <div class="paracadastrar">
             <h1 class="cadastro">Crie sua conta</h1><br>
             <p>Preencha seus dados</p><br>
-            
+
             <!-- Formulário de cadastro -->
-            <form id="action" method="post">
-                <label for="username"></label>
-                <input type="text" id="username" name="username" placeholder="Usuário"><br><br>
-
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Email"><br><br>
-
-                <label for="password">
-                    <input type="password" id="password" name="senha" placeholder="Senha"><br><br><br>
-                </label>
+           <!-- Removendo o método de envio do formulário -->
+            <form id="action">
+                <input type="text" id="username" name="username" placeholder="Usuário" required><br><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+                <input type="password" id="password" name="senha" placeholder="Senha" required><br><br><br>
                 
-                <!-- Botão de submissão do formulário -->
-                <div> <a  class="cadastroo" href="http://127.0.0.1:5500/1-tela%20inicial.html">CADASTRAR</a><br><BR></BR>
-                    OU<br><br></div>
-               
-                
-                <!-- Ícones das redes sociais -->
+                <!-- Botão de cadastro -->
+                <button type="button" class="cadastroo" onclick="validarFormulario()">CADASTRAR</button><br><br><br>
+
                 <div class="logotipo">
-                    <i class="fa-solid fa-g"></i> <!-- Ícone do Google -->
-                    <i class="fa-brands fa-apple"></i> <!-- Ícone da Apple -->
-                    <i class="fa-brands fa-facebook-f"></i> <!-- Ícone do Facebook -->
+                    <i class="fa-solid fa-g"></i>
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
                 </div>
             </form>
+
+            
+           
         </div>
     </div>
 </body>
