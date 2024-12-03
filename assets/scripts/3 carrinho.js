@@ -48,4 +48,33 @@ function mostreSidebar(){
     meucarrinho.style.display = 'none'
 }
 
-lucide.createIcons();
+
+function showFreightOptions() {
+    const destinationCep = document.getElementById("destinationCep").value;
+    const shippingOptionsDiv = document.getElementById("shippingOptions");
+    const resultDiv = document.getElementById("result");
+
+    // Verifica se o CEP de destino foi preenchido
+    if (!destinationCep) {
+        resultDiv.innerHTML = "<p>Por favor, insira o CEP de destino.</p>";
+        return;
+    }
+
+    // Exibe as opções de frete
+    shippingOptionsDiv.style.display = "block";
+    resultDiv.innerHTML = "<p>Consultando as opções de frete para o CEP de destino: " + destinationCep + "...</p>";
+}
+
+function selectOnlyOne(checkbox) {
+    const checkboxes = document.querySelectorAll('input[name="freightType"]');
+
+    // Se o checkbox foi marcado, desmarque os outros
+    checkboxes.forEach(function (item) {
+        if (item !== checkbox) {
+            item.checked = false;
+        }
+    });
+
+    updateTotal();
+}
+
