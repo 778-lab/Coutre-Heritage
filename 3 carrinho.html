@@ -41,23 +41,25 @@
         </div>
 
         <ul class="options">
-            <li class="option">
+            <li class="option" data-price="11.100,00">
                 <span class="option-text">01</span>
             </li>
-            <li class="option">
+            <li class="option" data-price="22.200,00">
                 <span class="option-text">02</span>
             </li>
-            <li class="option">
+            <li class="option" data-price="33.300,00">
                 <span class="option-text">03</span>
             </li>
-            <li class="option">
+            <li class="option" data-price="44.400,00">
                 <span class="option-text">04</span>
             </li>
-            <li class="option">
+            <li class="option" data-price="55.500.000">
                 <span class="option-text">05</span>
             </li>
         </ul>
+            
     </div>
+    
 
     <nav>
         <div class="meucarrinho">
@@ -152,20 +154,22 @@
 
         <div class="cart">
             <div class="dadoscompra">
-               
-                <div class="tenisa">
-                    <a  href="#"><p>Balenciaga Tênis Cano Baixo Track </p></a>
+                <div class="nomet">
+                    <a  href="#"><p class="tenisa">Balenciaga Tênis Cano Baixo Track  </p></a>
+                    <p class="cod"> ID:0248569 </p>
+
                 </div>
-                <hr class="vertical">
-                <hr class="horizontal">
-                <a  href="#"><p>Cor: Preto </p></a>
-                <a  href="#"><p>Material: Couro </p></a>
-                <div class="back">
+                    <hr class="vertical">
+                    <hr class="horizontal">
+                    <a  href="#"><p class="cor">Cor  <p class="cor2">Preto</p>  </p></a>
+                    <a  href="#"><p class="Material">Material  <p class="material2">Couro</p></p></a>
+                    <a href="#"><p class="Tamanho"> Tamanho  <p class="tamanho2">37</p></p></a>
                     <img class="tenisb" src="assets/images/tenisbalenciaga.png" alt="">
-                </div>
+                    <div class="back">
+                        <p></p>
+                    </div>
             </div>
             <div class="compras">
-                <i class="bx bx-cart cart-compra"></i>
                 <span class="iconecart"><h1>Meu Carrinho</h1></span>
                 <div class="continuar">              
                     <a href="#"><p>Continuar Comprando</p></a>
@@ -173,6 +177,9 @@
             </div>
         </div>
     </nav>
+        <div id="unitPrice">
+            <p>Preço Unitário: R$ <span id="currentPrice">11.100,00</span></p>
+        </div>
         <div class="container">
         <form id="freightForm">
             <label for="destinationCep">Calcule o Frete</label>
@@ -192,13 +199,12 @@
             </div>
             <div>
                 <input type="checkbox" id="overnight" name="freightType" value="overnight" onclick="selectOnlyOne(this)">
-                <label for="overnight">Urgente (R$ 150,00)</label>
+                <label for="overnight">Premium (R$ 150,00)</label>
             </div>
 
-            <div id="result"></div>
+            
         </div>
     </div>
-
     
     <script src="assets/scripts/3 carrinho.js"></script>      
                 
