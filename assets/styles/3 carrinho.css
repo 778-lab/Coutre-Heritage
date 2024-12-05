@@ -561,7 +561,7 @@ p {
     position: fixed;
     height: 100%;
     width: 25%;
-    margin-top: -23.9%;
+    margin-top: -25.3%;
     margin-left: -1.5%;
     z-index: -1;
     background: hsla(0, 0%, 100%, 1);
@@ -624,7 +624,7 @@ margin-top: 2.4%;
 .container {
     position: fixed;
     height: 100%;
-    margin-top: -29.5%;
+    margin-top: -29.8%;
     width: 52%;
     padding: 2%;
     z-index: -1;
@@ -705,10 +705,48 @@ h3 {
     text-align: center;
 }
 
-#unitPrice {
- margin-left: -75%;
+
+
+#unitPrice #finaliza{
+    background-color: #100f0f;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4em;
+    cursor: pointer;
+    height: 1%;
+    margin-top: -2.8%;
+    margin-left: 54%;
+    width: 25%;
+    padding: 0.5%;
+    align-items: center;
 }
 
-#currentprice{
-    color: red;
+#unitPrice #finaliza:hover{
+    background-color: white;
+    border-color: rgb(153, 152, 152);
+    color: black; 
+}
+
+
+#unitPrice #span {
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;  /* Ajuste conforme necessário */
+}
+.currentPrice1 {
+    position: absolute;
+    white-space: nowrap;
+    top: 58%; 
+}
+
+.currententrega1 {
+    position: absolute;
+    white-space: nowrap;
+    top: 54%; 
+}
+
+.currenttotal {
+    position: absolute;
+    white-space: nowrap;
+    top: 62%; 
 }
