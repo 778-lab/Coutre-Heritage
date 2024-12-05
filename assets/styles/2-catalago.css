@@ -339,7 +339,7 @@ cursor: pointer;
     height: 76.2vh;
     background-color: #bdbdbd;
     padding: 35px 0 35px 0%;
-    box-shadow: 3px 0 0 #f710ff;overflow: hidden;
+    box-shadow: 3px 0 0 #000000;overflow: hidden;
     transition: .2s;
     position: absolute;
     top: 0px;
