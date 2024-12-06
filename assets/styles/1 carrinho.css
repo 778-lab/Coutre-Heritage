@@ -101,8 +101,11 @@ nav .menuu{
 
 .divlogo .menu-icone{
     color: #525552;
-    margin-top: 10.7%;
+    margin-right: 2%;
+    margin-top: 9.7%;
+    font-size: 165%
 }
+
 
 .menulateral .nomee{
     font-size: 130%;
