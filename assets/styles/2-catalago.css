@@ -3,141 +3,210 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    width: 100vw;
-    height: 100vh;
-    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     overflow: auto;
 }
 
-
-.slogan_pg2{
-    font-size: 24px; 
+.slogan_pg2 {
+    font-size: 1.5rem;
     margin: 1.25% 0;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 24px; 
-    color: #000000; 
-    text-transform: uppercase; 
-    text-align: center; 
-    position: fixed; 
-    bottom: 0; left: 0; 
-    width: 100vw; 
-    background-color: #bdbdbd; 
-    padding: 1.50% 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    text-transform: uppercase;
     position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bdbdbd;
+    padding: 1.5%;
     z-index: 9999;
 }
+
 .button {
-    background-color: #444444;
+    background-color: #444;
     color: #fff;
-    padding: 0.52% 1.04%;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    border-radius: 0.26%;
-    padding: 0.52% o;
-position: fixed;
-bottom: 2.08%; left: 0.78%; 
+    border-radius: 0.25rem;
+    position: fixed;
+    bottom: 2%;
+    left: 1%;
 }
+
 .footer {
     text-align: center;
-    padding: 0.52%;
+    padding: 1rem;
     background-color: #d3d3d3;
 }
+
 .footer .social-icons {
-    margin-top: 0.52%;
+    margin-top: 0.5rem;
 }
+
 .footer .social-icons a {
-    margin: 0 0.26%;
+    margin: 0 0.5rem;
     text-decoration: none;
     color: #333;
 }
 
-#divlogin{
+#divlogin {
     cursor: pointer;
 }
 
-.footer{    /*linha divisoria da marca */
-
-    background-color: #d3d3d3;
-    height: 15px;
-    padding: 0.052%;
-    
-    }
-
-.icons{ /*redes sociais*/
+.icons {
     cursor: pointer;
     position: fixed;
-     bottom: 0; left: 0; 
-     width: 100vw; 
-     background-color: #bdbdbd; 
-     text-align: center; 
-     padding: 0.26% 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bdbdbd;
+    text-align: center;
+    padding: 0.5rem 0;
     z-index: 9999;
-    }
-    
+}
+
 .logo-container {
     text-align: center;
-    background-color: #ffffff; 
-    padding: 0.78%;
+    background-color: #fff;
+    padding: 1rem;
 }
+
 .logo-text {
     font-family: 'Times New Roman', Times, serif;
-    color: #000000; 
-    margin-left: 1.34%;
+    color: #000;
 }
+
 .logo-large {
-    font-size: 72px; /* Tamanho grande */
+    font-size: 4.5rem;
     font-weight: bold;
 }
+
 .logo-small {
-    font-size: 24px; /* Tamanho menor da fonte */
-    margin-top: -0.52%; /*espaçamento*/
-    margin-left: 2.34%;
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
 }
 
-    .login{
-cursor: pointer;
-margin-left: 85.71vw;
-height:1.875vh;
-top: 7.25vh;
-padding: 10px;
-line-height: 20.5vh;
+.login {
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    padding: 0.5rem;
 }
 
-.person >i{
-font-size: 40px;
+.person > i {
+    font-size: 2rem;
 }
-   
-   
 
-.buscar{
-    position: absolute; 
-    left: 7.73vw; 
-    top: 9.75vh; /*altera a altura da barra de pesquisa */
+.buscar {
+    position: absolute;
+    left: 8%;
+    top: 10%;
     background-color: #d3d3d3;
     border-radius: 5px;
-    
-   }
+    padding: 0.5rem;
+}
 
-   #txtbuscar{
-cursor: pointer;
-float: right;
-background-color: transparent;
-padding-left: 8px;
-font-style: italic;
-font-size: 15px;
-border: none;
-height: 3.75vh;
-width:26.04vw;
-top: 25vh;
-color: rgb(0, 0, 0);
+#txtbuscar {
+    cursor: pointer;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    font-style: italic;
+    font-size: 1rem;
+    border: none;
+    width: 80%;
+    color: #000;
+}
+
+.Marca .button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #818181;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin: 1rem;
+    font-family: Cinzel;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.menulateral {
+    width: 6%;
+    height: 75.50vh;
+    background-color: #bdbdbd;
+    padding: 3rem 0;
+    box-shadow: 3px 0 0 #000;
+    overflow: hidden;
+    transition: width 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menulateral:hover {
+    width: 20%;
+}
+
+.expandir {
+    width: 100%;
+    padding-left: 0rem;
+}
+
+.expandir > i {
+    color: #000000;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li.item-menu {
+    transition: transform 0.3s;
+}
+
+ul li.item-menu:hover {
+    background: #f710ff;
+    transform: scale(1.1);
+}
+
+ul li.item-menu a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 3rem;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 2.5rem;
 }
 
 
-
-
-
- .Marca a.button1{ /* butão balenciaga*/
-    font-size: 24px; 
+.Marca a.button1{ /* butão balenciaga*/
+    font-size: 18px; 
     font-weight: bold;
     color: #fff; 
     background-color: #818181; 
@@ -155,7 +224,7 @@ color: rgb(0, 0, 0);
 
     
     .Marca a.button2{ /* butão Louis Vitton*/
-    font-size: 24px; 
+    font-size: 18px; 
     font-weight: bold;
     color: #fff; 
     background-color: #818181; 
@@ -172,7 +241,7 @@ color: rgb(0, 0, 0);
     }
 
     .Marca a.button3{ /* butão Nike*/
-    font-size: 24px; 
+    font-size: 18px; 
     font-weight: bold;
     color: #fff; 
     background-color: #818181; 
@@ -189,7 +258,7 @@ color: rgb(0, 0, 0);
     }
 
     .Marca a.button4{ /*butao do cinto Lw*/
-    font-size: 24px; 
+    font-size: 18px; 
     font-weight: bold;
     color: #fff; 
     background-color: #818181; 
@@ -205,7 +274,7 @@ color: rgb(0, 0, 0);
     font-family: Cinzel;
     }
     .Marca a.button5{ /*butão do tenis cinza*/
-        font-size: 24px; 
+        font-size: 18px; 
         font-weight: bold;
         color: #fff; 
         background-color: #818181; 
@@ -222,7 +291,7 @@ color: rgb(0, 0, 0);
     }
 
     .Marca a.button6{ /*butão bolsa */
-        font-size: 24px; 
+        font-size: 18px; 
         font-weight: bold;
         color: #fff; 
         background-color: #818181; 
@@ -241,18 +310,18 @@ color: rgb(0, 0, 0);
 
 
 
-.image{ /*tenis balenciaga*/
+.image{ /tenis balenciaga/
 position: absolute;
 left: 0.52vw;
 top: 6.25vh;
-margin-left: -14.33vw;
+margin-left: 10.33vw;
 margin-right:38.46vw;
 position: relative; 
 top: -33.5vh;
 cursor: pointer;
     }
 
-.image2{ /*tenis Louis Vitton*/
+.image2{ /tenis Louis Vitton/
     font-size: 24px;
     position: absolute;
     left: 0.52vw;
@@ -282,7 +351,7 @@ cursor: pointer;
     text-shadow: 1px 1px 2px rgba(34, 0, 255, 0.2);
  }
 
- .icon-camisa { /*icon camisa*/
+ .icon-camisa { /icon camisa/
     font-size: 50px; 
     color: #ffffff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
@@ -298,7 +367,7 @@ cursor: pointer;
 
 }
 
-.image4{ /*cinto Louis Vuitton*/
+.image4{ /cinto Louis Vuitton/
     font-size: 24px;
     position: absolute;
     left: 0.52vw;
@@ -310,7 +379,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.image5{ /*tenis cinza balanciaga*/
+.image5{ /tenis cinza balanciaga/
     
     font-size: 10%;
     position: absolute;
@@ -322,7 +391,7 @@ cursor: pointer;
     top: -209vh;
     cursor: pointer;
 }
-.image6{ /*bolsa balanciaga*/
+.image6{ /bolsa balanciaga/
     font-size: 10%;
     position: absolute;
     left: 0.52vw;
@@ -331,64 +400,5 @@ cursor: pointer;
     margin-right: 6.25vw;
     position: relative; 
     top: -259.25vh;
-    cursor: pointer; 
-}
-
-.menulateral{
-    width: 5.85vw;
-    height: 76.2vh;
-    background-color: #bdbdbd;
-    padding: 35px 0 35px 0%;
-    box-shadow: 3px 0 0 #000000;overflow: hidden;
-    transition: .2s;
-    position: absolute;
-    top: 0px;
-    position: fixed;
-    }
-    
-    .menulateral:hover{
-        width: 17.63vw;
-    }
-    
-    .expandir{
-    width: 100vw;
-    padding-left: 0.89vw;
-    }
-    .expandir > i{
-    color: #f710ff;
-    font-size: 35px;
     cursor: pointer;
-    }
-    ul{
-        height: 100vh;
-        list-style-type: none;
-    
-    }
-    
-    ul li.item-menu{
-    transition: 1s;
-    }
-    
-    ul li.item-menu:hover{
-    background:#f710ff;
-    transform: scale(1.17);
-    }
-    
-    
-    ul li.item-menu a{
-    color: rgb(0, 0, 0); /*cor dos icones*/
-    text-decoration: none;
-    font-size: 20px;
-    padding: 1.4vw 4%;
-    display: flex;
-    margin-bottom: 20px;
-    line-height: 5vh; /alinha o texto/
-    }
-
-        ul li.item-menu a .txt-link{
-    margin-left: 1.3vw;
-    }
-    
-    ul li.item-menu a .icon > i{
-    font-size: 30px;
-    }
+}
