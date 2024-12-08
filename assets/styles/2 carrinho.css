@@ -224,12 +224,14 @@ nav.open .menulateral{
 .iconeslogin .nomeslogin{
     margin-left: 12%;
     white-space: nowrap;
+    position: relative;
     margin-top: 14%;
-    font-size: 105%;
+    font-size: 95%;
     padding: 2%;
     color: #525552;
     
 }
+
 .nomesloginn{
     margin-left: 12%;
     white-space: nowrap;
