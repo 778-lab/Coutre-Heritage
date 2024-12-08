@@ -1,9 +1,7 @@
 * { 
     text-decoration: none;
-    box-sizing: border-box; 
 }
 
-/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +9,6 @@ body {
     background-color: #C5C3C3;
 }
 
-/* Header */
 header {
     text-align: center;
     padding-top: 1%;
@@ -30,31 +27,28 @@ header {
     background-color: black;
 }
 
-/* Container Principal */
 .main-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza o conteúdo verticalmente */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
-    min-height: 55vh; /* Garante que o container ocupe toda a altura da tela */
-    padding-top: 20px; /* Cria um pequeno espaço entre o header e o container */
-    position: relative; /* Importante para posicionar o botão em relação ao container */
+    justify-content: center; 
+    align-items: center;
+    min-height: 55vh; 
+    padding-top: 20px;
+    position: relative; 
 }
 
-/* Container Central */
 .container-central {
-    width: 80%; /* Ajusta a largura para uma margem mais razoável */
-    max-width: 50%; /* Define um limite máximo de largura */
+    width: 80%; 
+    max-width: 50%; 
     background-color: #F5F4EF;
     border-radius: 10px;
     box-shadow: 0 4px 6px #282829;
     text-align: center;
     color: #797777;
     padding: 40px 20px;
-    margin-bottom: 20px; /* Garante que o botão não se sobreponha ao container */
+    margin-bottom: 20px; 
 }
 
-/* Imagem */
 .imagem-container {
     display: flex;
     justify-content: center;
@@ -66,7 +60,6 @@ header {
     object-fit: contain;
 }
 
-/* Botão azul */
 .botao-navegar {
     background-color: #5C77BF;
     color: #fff;
@@ -74,7 +67,7 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
-    position: absolute; /* Posiciona o botão fora do fluxo normal */
-    bottom: -25px; /* Ajusta a posição do botão para ficar abaixo do container */
-    right: 25%; /* Coloca o botão no canto inferior direito */
+    position: absolute; 
+    bottom: -25px; 
+    right: 25%; 
 }
