@@ -10,46 +10,44 @@
     <script src="assets/scripts/2--PreencherInfoPIX.js"></script>
 </head>
 <body>
+    
     <!-- Header com logo -->
     <header>
         <img src="assets/images/logoempresa.png" alt="Coutre Heritage" class="logo">
         <div class="header-bar"></div>
     </header>
 
-    <!-- Container Pedido -->
-    <div class="container-pedido">
-        <div class="container-pedido-title-bar">
-            <div class="icone-pedido">
-                <img src="assets/images/iconecarrinho.png" alt="Carrinho" class="icone-imagem">
+        <!-- Container Pedido -->
+        <div class="container-pedido">
+            <div class="container-pedido-title-bar">
+                <div class="icone-pedido">
+                    <img src="assets/images/iconecarrinho.png" alt="Carrinho" class="icone-imagem">
+                </div>
+                <span>Pedido</span>
             </div>
-            <span>Pedido</span>
-            <div class="clear"></div>
-        </div>
-        <div class="conteudo-pedido">
-            <div class="detalhes-conteudo-pedido">
-                <p>Código do pedido: <strong>20190022</strong></p> 
-                <p>Total do pedido: <strong>R$11.100,00</strong></p>
-                <p>Marca: <a href="#" onclick="redirecionarBalenciaga()">Balenciaga</a></p>
-                <p>Categoria: 
-                    <a href="#" onclick="redirecionarModa()">Moda</a> >
-                    <a href="#" onclick="redirecionarCalcados()">Calçados</a>
-                </p>
-            </div>
+            <div class="conteudo-pedido">
+                <div class="detalhes-conteudo-pagamento">
+                    <p>Código do pedido: <strong>20190022</strong></p> 
+                    <p>Total do pedido: <strong>R$11.100,00</strong></p>
+                    <p>Marca: <a href="#" onclick="redirecionarBalenciaga()">Balenciaga</a></p>
+                    <p>Categoria: 
+                        <a href="1-tela inicial.html">Moda</a> >
+                        <a href="2-catalago.html">Calçados</a>
+                    </p>
+                </div>
 
-            <!-- Mini container -->
-            <div class="mini-container">
-                <!-- Imagem do produto -->
-                <div class="produto-imagem">
-                    <img src="assets/images/tenisbalenciaga.png" alt="Tênis Balenciaga">
-                </div>
-                <!-- Informações do produto -->
-                <div class="produto-info">
-                    <strong>Balenciaga Tênis cano baixo Track</strong>
-                    <br><strong>1x R$11.100,00</strong>
+                <!-- Mini container -->
+                <div class="mini-container">
+                    <div class="produto-imagem">
+                        <img src="assets/images/tenisbalenciaga.png" alt="Tênis Balenciaga">
+                    </div>
+                    <div class="produto-info">
+                        <strong>Balenciaga Tênis cano baixo Track</strong>
+                        <br><strong>1x R$11.100,00</strong>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- Container Pagamento -->
     <div class="container-pagamento">
@@ -58,7 +56,6 @@
                 <img src="assets/images/iconecartao.png" alt="Cartao" class="icone-imagem">
             </div>
             <span>Pagamento: Pix</span>
-            <div class="clear"></div>
         </div>
         <div class="conteudo-preencher-pix">
             <p>Valor do pedido <strong>R$11.100,00</strong></p>
@@ -68,18 +65,15 @@
             </div>
             
             <div class="informacoesusuario">
-                <!-- Campo para nome completo (apenas letras) -->
                 <input id="nome" type="text" placeholder="Digite seu nome completo" 
                        pattern="[A-Za-zÀ-ÿ\s]+" title="Digite apenas letras e espaços" oninput="validarNome(event)">
-                
-                <!-- Campo para CPF (apenas números) -->
                 <input id="cpf" type="text" placeholder="###.###.###-##" 
                        maxlength="14" oninput="validarCPF(event)" title="Digite o CPF no formato ###.###.###-## (apenas números)">
             </div>
             
             <div class="gerarQRCode-button">
                 <a href="3--PagarPIX.html">
-                    <button onclick="gerarQRCode()">
+                    <button>
                         <strong>Gerar QR Code copia e cola</strong>
                     </button>
                 </a>

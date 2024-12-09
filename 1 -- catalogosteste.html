@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coutre-Heritage</title>
-    <link rel="stylesheet" href="assets/styles/3 carrinho.css">
+    <link rel="stylesheet" href="assets/styles/1 -- catalogosteste.css ">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -33,34 +33,6 @@
             <span class="nomee">Menu</span>
         </div>
     </header>
-    
-    <div class="select-menu">
-        <div class="select-btn">
-            <span class="sBtn-text">Selecione a quantidade</span>
-            <i class="bx bx-chevron-down"></i>
-        </div>
-
-        <ul class="options">
-            <li class="option" data-price="11.100,00">
-                <span class="option-text">01</span>
-            </li>
-            <li class="option" data-price="22.200,00">
-                <span class="option-text">02</span>
-            </li>
-            <li class="option" data-price="33.300,00">
-                <span class="option-text">03</span>
-            </li>
-            <li class="option" data-price="44.400,00">
-                <span class="option-text">04</span>
-            </li>
-            <li class="option" data-price="55.500.000">
-                <span class="option-text">05</span>
-            </li>
-        </ul>
-            
-    </div>
-    
-    
 
     <nav>
         <div class="meucarrinho">
@@ -107,17 +79,16 @@
                                 <input class="red" type="password" name="password" id="password-input" placeholder="Password">
                                 <p class="recuperar">Esqueceu sua senha?</p>
                             </div>
-                            <button type="submit">Entrar</button>    
+                            <button type="submit" >Entrar</button>    
                         </form>
                     </div>
-    
                 </div>
             </div>
         
 
         <div class="menulateral">
             <div class="menuu">
-                <i class='bx bx-menu bx-sm menu-icone'></i>
+                <i class='bx bx-menu menu-icone' style="margin-top: -6%;"></i>
                 <span class="nomemenu">Menu</span>
             </div>
 
@@ -153,81 +124,46 @@
             </div>
         </div>
 
-        <div class="cart">
-            <div class="dadoscompra">
-                <div class="nomet">
-                    <a  href="#"><p class="tenisa">Balenciaga Tênis Cano Baixo Track  </p></a>
-                    <p class="cod"> ID:0248569 </p>
-
-                </div>
-                    <hr class="vertical">
-                    <hr class="horizontal">
-                    <ul class="infos">
-                        <li class="info" >
-                            <p class="info">Cor  Preto</p>  </p>
-                            <p class="info">Material  Couro</p>
-                            <p class="info"> Tamanho  37</p>
-                            <p class="info">ID da marca: 542436W2FSC</p></p>
-                            <p class="info"> Solado: borracha 100%</p>
-                            <p class="info">Exterior: Tecido 100%, Poliuretano 100%</p></p>
-                            <p class="info">Forro:Tecido 100% </p></p>
-                           
-                        </li>
-                    </ul>
-                   
-                    <img class="tenisb" src="assets/images/tenisbalenciaga.png" alt="">
-                    <div class="back">
-                        <img src="assets/images/balenciaga-seeklogo.png" alt="">
-                        <p></p>
-                    </div>
-            </div>
-            <div class="remover">
-                <hr class="rmv">
-                <i class='bx bxs-x-square remover-icon'></i>
-                <a class="rem" href="1 Carrinho.html"><p>Remover</p></a>
-            </div>
-            <div class="compras">
-                <span class="iconecart"><h1>Meu Carrinho</h1></span>
-                <div class="continuar">              
-                    <a href="1 Carrinho.html"><p>Continuar Comprando</p></a>
-                </div>
-            </div>
-            <i class='bx bxs-shopping-bag-alt iconecar'></i>
-        </div>
     </nav>
-        <div id="unitPrice">
-            <p class="currentPrice1">Preço Unitário: R$ <span id="currentPrice">11.100,00</span></p>
-            <p class="currententrega1">Entrega: <span id="deliveryPrice">R$ 0,00</span></p>
-            <p class="currenttotal">Valor Total: R$ <span id="current">11.100,00</span></p>
-           <a href="1--MetodosPagamento.html"><button id="finaliza" type="submit">Finalizar Compra</button></a>     
+    
+    <div class="product-card">
+        <div class="logo-cart">
+          <img src="assets/images/balenciaga-seeklogo.png" alt="logo">
+          <i class='bx bx-shopping-bag'></i>
         </div>
-        <div class="container">
-        <form id="freightForm">
-            <label for="destinationCep">Calcule o Frete</label>
-            <input type="text" id="destinationCep" name="destinationCep" placeholder="Ex: 20000-000" required>
-            <button class="button1" type="button" onclick="showFreightOptions()">Consultar</button>
-        </form>
-
-        <div id="shippingOptions" style="display:none;">
-            <h3>Escolha o tipo de frete:</h3>
-            <div>
-                <input type="checkbox" id="economic" name="freightType" value="economic" onclick="selectOnlyOne(this)">
-                <label for="economic">Econômico (R$ 50,00)</label>
+        <div class="main">
+            <img src="assets/images/bolsa balenciaga.png" alt="">
+            <i class='bx bx-shopping-bag'></i>
+            <img src="assets/images/gucci-4.svg" alt="">
+        </div>
+        <div class="main-images">
+          <img id="blue" class="blue active" src="assets/images/tenisbalenciaga.png" alt="blue">
+          <img src="assets/images/balecianga branco.jpg" alt="">
+        </div>  
+        <div class="shoe-details">
+          <span class="shoe_name">
+            Balenciaga  Tênis Cano Baixo Track</span>
+          <p>Detalhes do Pedido
+            <br>
+            Exterior: Poliuretano 100%, Tecido 100%
+            <br>
+            Solado: borracha 100%
+            <br>
+            Forro: Tecido 100%</p>
+        </div>
+        <div class="color-price">
+          <div class="color-option">
+            <span class="color">Cor:</span>
+            <div class="circles">
+              <span class="circle blue active"  id="blue"></span>
             </div>
-            <div>
-                <input type="checkbox" id="express" name="freightType" value="express" onclick="selectOnlyOne(this)">
-                <label for="express">Expresso (R$ 100,00)</label>
-            </div>
-            <div>
-                <input type="checkbox" id="overnight" name="freightType" value="overnight" onclick="selectOnlyOne(this)">
-                <label for="overnight">Premium (R$ 150,00)</label>
-            </div>
-
-            
+          </div>
+          <div class="price">
+            <span class="price_num">R$ 11.509</span>
+          </div>
         </div>
     </div>
-    
-    <script src="assets/scripts/3 carrinho.js"></script>      
+    <script src="assets/scripts/2 - carrinho.js"></script>      
                 
 </body>
 </html>

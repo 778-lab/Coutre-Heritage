@@ -25,7 +25,7 @@ header{
     background-color: white;
     transition: all 0.5s;
     position: fixed;
-    z-index: 1;
+    z-index: 6;
 }
 
 
@@ -102,17 +102,20 @@ nav .menuu{
 .divlogo .menu-icone{
     color: #525552;
     margin-right: 2%;
-    margin-top: 6.3%;
+    margin-top: 9.7%;
     font-size: 165%
 }
 
 
-header .nomee{
+
+.menulateral .nomee{
     font-size: 130%;
     font-weight: 200%;
-    margin-top: -6%;
+    margin-top: 1%;
     color: #525552;
-    margin-left: -2670%;
+    position:fixed;
+    margin-bottom: 100%;
+    margin-left: 1%;
 }
     
 
@@ -131,7 +134,7 @@ header .nomee{
 .menuu .nomemenu{
     font-size: 110%;
     font-weight: 200%;
-    margin-top: -5%;
+    margin-top: -3%;
     color: #525552;
     margin-left: 1%;
 }
@@ -203,6 +206,56 @@ nav.open .menulateral{
     margin-left: -2%;
 
 }
+.iconeslogin{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 2%;
+    border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 8;
+    transition: transform 0.5s;
+}
+.iconeslogin:hover{
+    transform: translateX(5px);
+}
+
+.iconeslogin .nomeslogin{
+    margin-left: 12%;
+    white-space: nowrap;
+    margin-top: 14%;
+    font-size: 105%;
+    padding: 2%;
+    color: #525552;
+    
+}
+.nomesloginn{
+    margin-left: 12%;
+    white-space: nowrap;
+    margin-top: -30%;
+    font-size: 150%;
+    padding: 12%;
+    color: #525552;
+}
+
+.login hr{
+    width: 150%;
+}
+
+.iconelogon{
+    font-size: 205%;
+    color: #525552;
+    margin-top: 16%;
+    padding: 8%;
+    margin-left: -2%;
+}
+.iconelogonn{
+    font-size: 200%;
+    color: #525552;
+    margin-top: -30%;
+    margin-left: -1%;
+}
 
 .overlay {
     position: fixed;
@@ -226,9 +279,9 @@ nav.open .menulateral{
 nav .menudireito{
     position: fixed;
     top: 0;
-    left: 63%;
+    left: 75%;
     height: 100%;
-    width: 39%;
+    width: 25%;
     padding: 2%;
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
@@ -250,90 +303,14 @@ nav.openn .menudireito{
     padding: 8%;
 }
 
-.red input{
-color: red;
-}
-
-form input{
-    box-sizing: border-box;
-    width: 200%;
-    height: 25%;
-    padding: 1rem;
-    font: inherit;
-    border-radius: 0.5rem;
-    background-color: white;
-    transition: 150ms ease;
-    position: flex;
-    align-items: center;
-    margin-left: -19%;
-    border-color: black;
-    margin-top: 10%;
-}
-
-form span{
-    margin-left: -18.55%;
-}   
-
-.senhaa{
-    margin-left: -10%;
-    color:rgb(0, 0, 0);
-    font-size: 100%;
-    margin-top: 4%;
-}
 
 .icone-abrir{
     margin-left: 90%;
     font-size: 150%;
 }
 
-form button{
-    margin-top: 15%;
-    border-radius: 4rem;
-    padding: .85em 4em;
-    background-color: black;
-    font-weight: 600;
-    color: white;
-    cursor: pointer;
-    transition: 150ms ease;
-    width: 90%;
-    margin-left: -19%;
-    text-transform: uppercase;
-    border-color: black;
-    width: 200%;
-    height: 25%;
-}
-
-form button:hover{
-    background-color: white;
-    border-color: rgb(153, 152, 152);
-    color: black;
-}
-
-.campologin h1{
-    margin-top: -5%;
-    margin-left: -11.8%;
-}
-.campologin p{
-    margin-top: 6%;
-    margin-left: -11.8%;
-}
-
-
-.recuperar {
-    margin-top: 5%;
-    margin-left: 5%;
-    position: flex;
-    height: 10%;
-}
-
-
-.menu-button{
-    display: flex;
-    cursor: pointer;
-}
-
 .menudireito .menu-button{
-    margin-left: 3000%;
+    margin-left: 2000%;
     cursor: pointer;
 }
 
@@ -380,7 +357,7 @@ nav .meucarrinho{
     padding: 2%;
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
-    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #fffff5 100%);
+    background-color: white;
     z-index: 10;
     display: none;
 }
@@ -456,26 +433,246 @@ nav .meucarrinho{
     color: #333;
 }
 
-.back-video{
-    position: flex;
-    bottom: 0;
+
+.produto .imagens{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    width: 57%;
     z-index: -1;
-    height: 100vh;
-    z-index: 199999999;
+    position: fixed;
+    border-radius: 0.2em;
 }
 
-@media(min-aspect-ratio: 16/9){
-    .back-video{
-        width: 500.8%;
-        height: auto;
-        margin-left: -6%;
-    }
+.produto .logoproduto   {
+    width: 55%;
+    margin-top: 2%;
 }
 
-@media(max-aspect-ratio: 16/9){
-    .back-video{
-        width: 500.8%;
-        height: auto;
-        margin-left: -6%;
-    }
+ .logoproduto .idd{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10%;
+    height: 25%;
+    z-index: 9999999999;
+}
+
+.produto .logoproduto img{
+    height: 6%;
+    width: 5%;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.produto .imagens{
+    position: relative;
+    height: 210px;
+}
+.produto .imagens img{
+    position: absolute;
+    height: 55%;
+    width: 80%;
+    transform: rotate(18deg);
+    left: 10%;
+    top: 30%;
+    z-index: -1;
+}
+
+
+
+  .produto .tenisdetalhes .tenisnome{
+    font-size: 120%;
+    font-weight: 500;
+    color: #161616;
+  }
+
+  .produto .tenisdetalhes p{
+    font-size: 100%;
+    margin-top: 5%;
+    font-weight: 400;
+    color: #333;
+    text-align: justify;
+  }
+
+  .produto .perso .cor{
+    display: flex;
+    align-items: center;
+  }
+  .perso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .perso .cor .cortxt{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-right: 8px;
+  }
+  .cor .circulo{
+    display: flex;
+  }
+  .cor  .circulo .circuloborda{
+    height: 18px;
+    width: 18px;
+    background: #030303;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .cor  .circulo .circuloborda{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0b0b0b;
+  }
+
+  .perso .preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .perso .preco .precovalor{
+    font-size: 150%;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: -160%;
+    color: #707070;
+  }
+  
+  .produto .button{
+    position: relative;
+    height: 9%;
+    width: 48%;
+    border-radius: 2em;
+    margin-top: 10%;
+    margin-left:-1%;
+  }
+  .produto  .button .buttonome{
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    background-color: rgb(13, 13, 13);
+    border-color: black;
+    color: white;
+    transition: all 0.4s ease;
+    border-radius: 25PX;
+    
+  }
+  .produto  .button:hover .buttonome{
+    left: 0;
+  }
+  .produto  .button button{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .forms{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    padding: 2%;
+    margin-top: -7%;
+    z-index: 8;
+    background-color: rgb(255, 255, 255);
+  }
+.forms h1{
+    font-size: 150%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forms .form{
+    margin-top: 4%;
+}
+
+.form .conteudo{
+    width: 100%;
+    margin-top: 2%;
+}
+.conteudo label{
+    color: black;
+}
+
+.form :where(.conteudo input,  .estadosel){
+    position: relative;
+    display: flex;
+    height: 6vh;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 0.3%;
+    border-radius: 0.5em;   
+    z-index: 9; 
+}
+ 
+.form .coluna{
+    display: flex;
+    column-gap: 2%;
+}
+
+.form :where(.opcoesgenero, .tipos){
+    display: flex;
+    align-items: center;
+    column-gap: 3%;
+    z-index: 9;
+    flex-wrap: wrap;
+}
+.form .tipos{
+    column-gap: 2%;
+}
+.form :where(.tipos input, .tipos label){
+    cursor: pointer;
+}
+
+.form .genero{
+    margin-top: 3%;
+}
+
+.genero h2{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.estadosel select{
+    height: 120%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #525552;
+    font-size: 1rem;
+}
+
+.coluna-end{
+  display: flex;
+  column-gap: 2%;  
+}
+
+.form button{
+    height: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 1em;
+    font-size: 100%;
+}
+
+.form button:hover{
+    transition: 0.1s;
+    background-color: white;
+    color: black;
 }
