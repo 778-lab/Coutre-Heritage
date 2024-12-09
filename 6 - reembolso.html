@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coutre-Heritage</title>
+    <link rel="stylesheet" href="assets/styles/6 -reembolso.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>  
+    
+    <header>
+        <div class="divlogo">
+            <img class="logo" src="assets/images/1 carrinho.svg" alt="coutre-heritage">
+                <div class="menulateral">
+                    <div class="menuu">
+                        <i class='bx bx-menu menu-icone'></i>
+                        <span class="nomee">Menu</span>
+                    </div>
+                </div>
+        </div>
+        <div class="icons">
+            <i class="bx bx-heart"></i>
+            <i class='bx bx-cart-alt' onclick=mostreSidebar()></i>
+            <i  class='bx bx-user menu-button' onclick=showSidebar()></i>
+        </div>
+    </header>
+
+    <nav>
+        <div class="meucarrinho">
+            <div class="carrinho">
+                <i class="bx bx-x menu-button" onclick=escondaSidebar()></i>
+            </div>
+            <div class="produto">
+                <div class="logoproduto">
+                  <img class="idd" src="assets/images/balenciaga-seeklogo.png" alt="logo">
+                </div>
+                
+                <div class="imagens">
+                  <img src="assets/images/tenisbalenciaga.png" alt="blue">
+                
+                </div>
+                <div class="tenisdetalhes">
+                  <span class="tenisnome">Balenciaga  Tênis cano baixo Track</span>
+                  <p>Composição
+                    <br>
+                    Solado: borracha 100%
+                    <br>
+                    Exterior: Tecido 100%, Poliuretano 100%
+                    <br>
+                    Forro: Tecido 100%</p>
+                </div>
+                <div class="perso">
+                  <div class="cor">
+                    <span class="cortxt">Cor:</span>
+                    <div class="circulo">
+                      <span class="circuloborda"  ></span>
+                    </div>
+                  </div>
+                  <div class="preco">
+                    <span class="precovalor"> R$ 11.509
+                    </span>
+                    
+                  </div>
+                </div>
+                <div class="button">
+                 <div class="buttonome">
+                  <a href="3 carrinho.html"><button>Finalizar Compra</button></a>
+                 </div>
+                </div>
+            </div>        
+        </div>
+
+            <div class="menudireito">
+                <div class="direito">
+                    <i class="bx bx-x menu-button" onclick=hideSidebar()></i>
+                </div>
+                <div class="menucont">
+                    <ul class="logins">
+                        <li class="login">
+                            <a href="#" class="iconeslogin">
+                                <i class='bx bxs-user-circle iconelogonn'></i>
+                                 <span class="nomesloginn">Olá, Welison <br></span>  
+                            </a>
+                            <hr> 
+
+                            <a href="#" class="iconeslogin">
+                                <i class='bx bxs-user-detail  iconelogon'></i>
+                                <span class="nomeslogin">Minha Conta</span>
+                            </a>
+                            <a href="#" class="iconeslogin">
+                                <i class='bx bxs-shopping-bag iconelogon'></i>    
+                                <span class="nomeslogin">Meus Pedidos</span>
+                            </a>
+                            <a href="#" class="iconeslogin">
+                                <i class='bx bxs-send  iconelogon' ></i>
+                                <span class="nomeslogin">Trocas</span>
+                            </a>
+                            <a href="#" class="iconeslogin">
+                                <i class='bx bxs-heart-circle iconelogon'></i>
+                                <span class="nomeslogin">Meus Favoritos</span>
+                            </a>
+                            <a href="#" class="iconeslogin">
+                                <i class='bx bxs-log-out  iconelogon' ></i>
+                                <span class="nomeslogin ">Sair</span>
+                            </a>
+                           
+                        </li>
+                    </ul>   
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="menulateral">
+            <div class="menuu">
+                <i class='bx bx-menu menu-icone' style="margin-top: -6%;"></i>
+                <span class="nomemenu">Menu</span>
+            </div>
+
+            <div class="conteudodomenu">
+                <ul class="listas">
+                    <li class="lista">
+                        <a href="#" class="iconeslista">
+                            <i class='bx bx-bookmark iconebarra'></i>
+                            <span class="nomesdalista">Novidades</span>
+                        </a>
+                        <a href="#" class="iconeslista">
+                            <i class='bx bx-briefcase iconebarra'></i>    
+                            <span class="nomesdalista">Parceiros</span>
+                        </a>
+                        <a href="#" class="iconeslista">
+                            <i class='bx bx-closet iconebarra' ></i>
+                            <span class="nomesdalista">Roupas</span>
+                        </a>
+                        <a href="#" class="iconeslista">
+                            <i class='bx bx-walk iconebarra'></i>
+                            <span class="nomesdalista">Sapatos</span>
+                        </a>
+                        <a href="#" class="iconeslista">
+                            <i class='bx bxs-hourglass-top iconebarra' ></i>
+                            <span class="nomesdalista ">Relógios</span>
+                        </a>
+                        <a href="#" class="iconeslista">
+                            <i class='bx bxs-shopping-bags iconebarra'></i>
+                            <span class="nomesdalista">Bolsas</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="forms">
+            <h1>Preencha o formulário abaixo para iniciar o processo de reembolso.</h1>
+            <p>Solicitação de Reembolso: Se desejar solicitar um reembolso, você tem 7 dias a partir da data de compra para retornar um produto. Para ser elegível para um reembolso, o produto deve estar na mesma condição em que você o recebeu e na embalagem original.</p>
+            <br>
+
+            <form action="" class="form">
+                    <div class="conteudo">
+                        <label>Nome Completo</label>
+                        <input type="text" placeholder="Insira o seu nome">
+                    </div>
+                <div class="coluna">
+                   
+                        <div class="conteudo">
+                            <label>Email</label>
+                            <input type="text" placeholder="Insira o seu email">
+                        </div>
+                        <div class="conteudo">
+                            <label>CPF</label>
+                            <input type="text" placeholder="Insira o seu CPF">  
+                        </div>     
+                    
+                </div>
+                    
+                    <div class="coluna">
+                        <div class="conteudo">
+                            <label for="mensagem">  Motivo do  Reembolso:</label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Digite o motivo do reembolso..." rows="4"></textarea>
+                        </div>
+                        
+                    </div>
+                    <div class="coluna">
+                        <div class="conteudo">
+                            <label>Número do Peiddo</label>
+                            <input type="text" placeholder="Insira a sua cidade">
+                        </div>
+                        <div class="conteudo">
+                            <label>Data de Compra</label>
+                            <input type="date" placeholder="Insira a date de compra">
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="conteudo">
+                            <label>Endereço</label>
+                            <input type="text" placeholder="Insira o Endereço">
+                        </div>
+                            <div class="upload">    
+                                <label for="file" class="file-button">Selecionar Comprovante</label>
+                                <input type="file" id="file" name="file" accept="image/*,application/pdf" hidden>
+                                <span id="file-name" class="file-name">Nenhum arquivo selecionado</span>
+                            </div>
+                    </div>
+                    <button>Enviar Pedido</button>
+                </form>
+        </div>
+    <script src="assets/scripts/2 - carrinho.js"></script>      
+                
+</body>
+</html>

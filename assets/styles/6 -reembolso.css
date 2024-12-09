@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Livvic", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+body{
+    margin-top: 15%;
+    height: 26.27vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: -10%;
+    box-shadow: 0 0.1rem 0.5rem rgb(156, 153, 153);
+    width: 100%;
+    height: 12%;
+    top: 0.2%;
+    background-color: white;
+    transition: all 0.5s;
+    position: fixed;
+    z-index: 6;
+}
+
+
+.logo{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 50%;
+    width: 65%;
+    padding-top: 2;
+    text-align: center;
+    display: flex;
+    margin-left: 218%;
+    margin-top: 3%;
+}
+
+.divlogo{
+    position: absolute;
+    width: 20%;
+    height: 19%;
+    left: 16px;
+    top: -10px;
+    flex: none;
+    order: 8;
+    flex-grow: 0;
+    z-index: 1;
+    height: 200%;
+    cursor: pointer;
+}
+
+.icons{
+    font-size: 120%;
+    position: flex;
+    margin-left: 92%;
+    margin-top: 1%;
+    
+}
+
+.bx-md{
+    color: black;
+    transition: transform 0.5s;
+    background-color: #c3bebe;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.bx-md:hover{
+    transform: translateX(5px);
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 25%;
+}
+
+nav .menuu{
+    display: flex;
+    align-items: center;
+    margin:6%;
+}
+
+.divlogo .menulateral{
+    position: fixed;
+    margin-top: -6.3%;
+    height: 100%;
+    width: 15%;
+    padding: 2%;
+}
+
+.divlogo .menu-icone{
+    color: #525552;
+    margin-right: 2%;
+    margin-top: 9.7%;
+    font-size: 165%
+}
+
+
+
+.menulateral .nomee{
+    font-size: 130%;
+    font-weight: 200%;
+    margin-top: 1%;
+    color: #525552;
+    position:fixed;
+    margin-bottom: 100%;
+    margin-left: 1%;
+}
+    
+
+.menu-icone{
+    font-size: 130%;
+    cursor: pointer;
+    margin-right: 11%;
+    margin-left: 2%;
+    margin-top: -6%;
+    color: #525552;
+
+}
+
+
+
+.menuu .nomemenu{
+    font-size: 110%;
+    font-weight: 200%;
+    margin-top: -3%;
+    color: #525552;
+    margin-left: 1%;
+}
+
+ .nomee{
+    font-size: 110%;
+    margin-top: -0.1%;
+    color: #697069;
+    margin-left: -3200%;
+    margin-top: 3.5%;
+}
+
+nav .menulateral{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 18%;
+    padding: 2%;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    z-index: 10;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+nav.open .menulateral{
+  left: 0;
+}
+
+.menulateral .conteudodomenu{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8%;
+}
+
+.conteudodomenu .lista{
+    list-style: none;
+}
+
+.iconeslista{
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding: 2%;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 8;
+  transition: transform 0.5s;
+}
+
+.iconeslista:hover{
+    transform: translateX(5px);
+}
+
+.iconeslista .nomesdalista{
+    margin-left: 12%;
+    margin-top: 14%;
+    font-size: 105%;
+    color: #525552;
+}
+
+.iconebarra{
+    font-size: 130%;
+    color: #525552;
+    margin-top: 14%;
+    margin-left: -2%;
+
+}
+.iconeslogin{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 2%;
+    border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 8;
+    transition: transform 0.5s;
+}
+.iconeslogin:hover{
+    transform: translateX(5px);
+}
+
+.iconeslogin .nomeslogin{
+    margin-left: 12%;
+    white-space: nowrap;
+    margin-top: 14%;
+    font-size: 105%;
+    padding: 2%;
+    color: #525552;
+    
+}
+.nomesloginn{
+    margin-left: 12%;
+    white-space: nowrap;
+    margin-top: -30%;
+    font-size: 150%;
+    padding: 12%;
+    color: #525552;
+}
+
+.login hr{
+    width: 150%;
+}
+
+.iconelogon{
+    font-size: 205%;
+    color: #525552;
+    margin-top: 16%;
+    padding: 8%;
+    margin-left: -2%;
+}
+.iconelogonn{
+    font-size: 200%;
+    color: #525552;
+    margin-top: -30%;
+    margin-left: -1%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 200%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  nav.open ~ .overlay {
+    opacity: 0;
+    left: 260px;
+    pointer-events: auto;
+    display: block;
+  }
+
+
+nav .menudireito{
+    position: fixed;
+    top: 0;
+    left: 75%;
+    height: 100%;
+    width: 25%;
+    padding: 2%;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #fffff5 100%);
+    z-index: 10;
+    display: none;
+}
+
+nav.openn .menudireito{
+    left: 0;
+}
+
+
+.menudireito .menucont{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+
+.icone-abrir{
+    margin-left: 90%;
+    font-size: 150%;
+}
+
+.menudireito .menu-button{
+    margin-left: 2000%;
+    cursor: pointer;
+}
+
+.menu-pesquisa{
+ margin-left: -1450%;
+}
+
+
+.legenda{
+    display: inline-block;
+    color: rgb(255, 248, 248);
+    margin-top: 295%;
+    margin-bottom: 20%;
+    margin-right: 250%;
+    margin-left: 330%;
+    left: 25%;
+    white-space: nowrap
+}
+
+.legenda a{
+    color: #fffbfb;
+    margin-top: 295%;
+    margin-bottom: 20%;
+    margin-right: 250%;
+    margin-left: 390%;
+    left: 25%;
+}
+
+.legenda p{
+    margin-top: 2%;
+    margin-bottom: 20%;
+    margin-right: 25%;
+    margin-left: 26%;
+    left: 25%;
+    font-size: 110%;
+}
+
+nav .meucarrinho{
+    position: fixed;
+    top: 0;
+    left: 63%;
+    height: 100%;
+    width: 39%;
+    padding: 2%;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    background-color: white;
+    z-index: 10;
+    display: none;
+}
+
+.menu-button2{
+    display: none;
+    cursor: pointer;
+}
+
+.select-menu{
+    width: 15%;
+    margin-top: 35%;
+    top: 120%;
+    margin-left: 30%;
+    height: 25%;
+    z-index: 22222222222;
+}
+
+.select-menu .select-btn{
+    display: flex;
+    height: 9%;
+    background: #fff;
+    padding: 8%;
+    font-size: 89%;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 60%;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    z-index: 22222222;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    height: 18vh;
+    padding: 8%;
+    margin-top: 1%;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 4%;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option i{
+    font-size: 20%;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 88%;
+    color: #333;
+}
+
+
+.produto .imagens{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    width: 57%;
+    z-index: -1;
+    position: fixed;
+    border-radius: 0.2em;
+}
+
+.produto .logoproduto   {
+    width: 55%;
+    margin-top: 2%;
+}
+
+ .logoproduto .idd{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10%;
+    height: 25%;
+    z-index: 9999999999;
+}
+
+.produto .logoproduto img{
+    height: 6%;
+    width: 5%;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.produto .imagens{
+    position: relative;
+    height: 210px;
+}
+.produto .imagens img{
+    position: absolute;
+    height: 55%;
+    width: 80%;
+    transform: rotate(18deg);
+    left: 10%;
+    top: 30%;
+    z-index: -1;
+}
+
+
+
+  .produto .tenisdetalhes .tenisnome{
+    font-size: 120%;
+    font-weight: 500;
+    color: #161616;
+  }
+
+  .produto .tenisdetalhes p{
+    font-size: 100%;
+    margin-top: 5%;
+    font-weight: 400;
+    color: #333;
+    text-align: justify;
+  }
+
+  .produto .perso .cor{
+    display: flex;
+    align-items: center;
+  }
+  .perso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .perso .cor .cortxt{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-right: 8px;
+  }
+  .cor .circulo{
+    display: flex;
+  }
+  .cor  .circulo .circuloborda{
+    height: 18px;
+    width: 18px;
+    background: #030303;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .cor  .circulo .circuloborda{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0b0b0b;
+  }
+
+  .perso .preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .perso .preco .precovalor{
+    font-size: 150%;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: -160%;
+    color: #707070;
+  }
+  
+  .produto .button{
+    position: relative;
+    height: 9%;
+    width: 48%;
+    border-radius: 2em;
+    margin-top: 10%;
+    margin-left:-1%;
+  }
+  .produto  .button .buttonome{
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    background-color: rgb(13, 13, 13);
+    border-color: black;
+    color: white;
+    transition: all 0.4s ease;
+    border-radius: 25PX;
+    
+  }
+  .produto  .button:hover .buttonome{
+    left: 0;
+  }
+  .produto  .button button{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .forms{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    padding: 2%;
+    margin-top: -7%;
+    z-index: 8;
+    background-color: rgb(255, 255, 255);
+  }
+.forms h1{
+    font-size: 150%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forms .form{
+    margin-top: 4%;
+}
+
+.form .conteudo{
+    width: 100%;
+    margin-top: 2%;
+}
+.conteudo label{
+    color: black;
+}
+
+.form :where(.conteudo input,  .estadosel){
+    position: relative;
+    display: flex;
+    height: 6vh;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 0.3%;
+    border-radius: 0.5em;   
+    z-index: 9; 
+}
+ 
+.form .coluna{
+    display: flex;
+    column-gap: 2%;
+}
+
+.form :where(.opcoesgenero, .tipos){
+    display: flex;
+    align-items: center;
+    column-gap: 3%;
+    z-index: 9;
+    flex-wrap: wrap;
+}
+.form .tipos{
+    column-gap: 2%;
+}
+.form :where(.tipos input, .tipos label){
+    cursor: pointer;
+}
+
+.form .genero{
+    margin-top: 3%;
+}
+
+.genero h2{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.estadosel select{
+    height: 120%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #525552;
+    font-size: 1rem;
+}
+
+.coluna-end{
+  display: flex;
+  column-gap: 2%;  
+}
+
+.form button{
+    height: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 1em;
+    font-size: 100%;
+}
+
+.form button:hover{
+    transition: 0.1s;
+    background-color: white;
+    color: black;
+}
+
+legend {
+    padding: 0 10px;
+}
+
+#mensagem{
+    width: 100%;
+    height: 100%;
+}
+.forms p{
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 115%;
+    border-radius: 0.5em;
+    color: #525552;
+    box-shadow: 0 0.1rem 0.5rem rgb(156, 153, 153);
+}
+
+
+/* Wrapper para alinhar o botão e o nome do arquivo */
+.upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3.6%;
+}
+
+/* Botão de upload personalizado */
+.file-button {
+    padding: 3%;
+    background-color: #0d0d0d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.file-button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: solid 1px black;
+}
+
+/* Nome do arquivo selecionado */
+.file-name {
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Ajuste conforme necessário */
+}
+
+
+.coluna .upload{
+   border: 1px solid black;
+   width: 40%;
+   border-radius: 0.3em;
+}
