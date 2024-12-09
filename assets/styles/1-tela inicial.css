@@ -3,246 +3,216 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: block;
     position: fixed;
 }
 
 .slogan {
-    font-size: 24px;
-    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #000;
+    text-transform: uppercase;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 24px; 
-    color: #000000; 
-    text-transform: uppercase; 
-    text-align: center; 
-    position: fixed; 
-    bottom: 0; left: 0; 
-    width: 100vw; 
-    background-color: #bdbdbd; 
-    padding: 3.90vh 0;
     position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bdbdbd;
+    padding: 6vh 0;
 }
 
 .button {
-    background-color: #444444;
+    background-color: #444;
     color: #fff;
-    padding: 10px 20px;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 5px;
-    padding: 10px o;
-position: fixed;
-bottom: 40px; left: 1.875vh; 
+    position: fixed;
+    bottom: 5vh;
+    left: 2vw;
 }
+
 .footer {
     text-align: center;
-    padding: 10px;
+    padding: 0.5rem;
     background-color: #d3d3d3;
 }
+
 .footer .social-icons {
-    margin-top: 10px;
+    margin-top: 0.5rem;
 }
+
 .footer .social-icons a {
-    margin: 0 5px;
+    margin: 0 0.5rem;
     text-decoration: none;
     color: #333;
 }
 
-#divlogin{
+#divlogin {
     cursor: pointer;
 }
 
-.footer{    /*linha divisoria da marca */
-
-    background-color: #d3d3d3;
-    height: 1.875vh;
-    padding: 1px;
-    padding: 0px;
-    }
-
-.icons{ /*redes sociais*/
+.icons {
     cursor: pointer;
     position: fixed;
-     bottom: 0; left: 0; 
-     width: 100vw; 
-     background-color: #bdbdbd; 
-     text-align: center; 
-     padding: 5px 0; }
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bdbdbd;
+    text-align: center;
+    padding: 0.5rem 0;
+}
 
 .logo-container {
     text-align: center;
-    background-color: #ffffff; 
-    padding: 15px;
+    background-color: #fff;
+    padding: 1rem;
 }
+
 .logo-text {
     font-family: 'Times New Roman', Times, serif;
-    color: #000000; 
-    margin-left: 45px;
+    color: #000;
+    margin-left: 2rem;
 }
+
 .logo-large {
-    font-size: 72px; /* Tamanho grande */
+    font-size: 4.5rem;
     font-weight: bold;
 }
+
 .logo-small {
-    font-size: 24px; /* Tamanho menor da fonte */
-    margin-top: -10px; /*espaçamento*/
-    margin-left: 45px;
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+    margin-left: 2rem;
 }
 
-    .login{
-cursor: pointer;
-margin-left: 1300px;
-height:0.875vh;
-top: 0.93vh;
-padding: 0.93vh;
-line-height: 12vw;
+.login {
+    cursor: pointer;
+    position: fixed;
+    right: 2vw;
+    top: 9vh;
+    padding: 2vh;
+    line-height: 1.2rem;
 }
 
-.person >i{
-font-size: 40px;
+.person > i {
+    font-size: 2.5rem;
 }
-   
-   
 
-.buscar{
-    position: absolute; 
-    left: 200px; 
-    top: 70px; /*altera a altura da barra de pesquisa */
+.buscar {
+    position: absolute;
+    left: 15%;
+    top: 9vh;
     border-radius: 5px;
-    }
-
-   #txtbuscar{
-cursor: pointer;
-float: right;
-background-color: transparent;
-padding-left: 8px;
-font-style: italic;
-font-size: 15px;
-border: none;
-height: 3.75vh;
-width: 26.04vw;
-top: 25vh;
-color: rgb(255, 255, 255);
 }
 
-
-
-.menulateral{
-width: 5.70vw;
-height: 76.5vh;
-background-color: #bdbdbd;
-padding: 35px 0 35px 0%;
-box-shadow: 3px 0 0 #2a2a2a;overflow: hidden;
-transition: .2s;
-position: absolute;
-top: 0px;
-position: fixed;
+#txtbuscar {
+    cursor: pointer;
+    float: right;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    font-style: italic;
+    font-size: 1rem;
+    border: none;
+    height: 2.5rem;
+    width: 50%;
+    color: #fff;
 }
 
-.menulateral:hover{
-    width: 18.63vw;
+.menulateral {
+    width: 6%;
+    height: 71.50vh;
+    background-color: #bdbdbd;
+    padding: 3rem 0;
+    box-shadow: 3px 0 0 #000;
+    overflow: hidden;
+    transition: width 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.expandir{
-width:100vw;
-padding-left: 1.4vw;
+.menulateral:hover {
+    width: 20%;
 }
-.expandir > i{
-color: rgb(0, 0, 0);
-font-size: 35px;
-cursor: pointer;
+
+.expandir {
+    width: 90%;
+    padding-left: 0rem;
 }
-ul{
-    height: 100vh;
+
+.expandir > i {
+    color: #000000;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
     list-style-type: none;
-
+    padding: 0;
+    margin: 0;
 }
 
-ul li.item-menu{
-transition: 1s;
+ul li.item-menu {
+    transition: transform 0.3s;
 }
 
-ul li.item-menu:hover{
-background:#f710ff;
-transform: scale(1.20);
+ul li.item-menu:hover {
+    background: #f710ff;
+    transform: scale(1.1);
 }
 
-
-ul li.item-menu a{
-color: rgb(0, 0, 0);/*cor das icones*/
-text-decoration: none;
-font-size: 20px;
-padding: 25px 4%;
-display: flex;
-margin-bottom: 20px;
-line-height: 5vh; /*alinha o texto*/
-    }
-
-    ul li.item-menu a .txt-link{
-margin-left: 25px;
+ul li.item-menu a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
 }
 
-ul li.item-menu a .icon > i{
-font-size: 30px;
-    }
-
-    .carousel {
-        position: relative;
-        width: 90vw;
-        max-height: 500px;                   
-        margin: auto;
-        overflow: hidden;
-        line-height: 80px;
-        max-width: 70.29vw;
-        margin-left: 240px;
-        border-radius: 10px;
-    }
-    
-    .slides {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
-    .slides img {
-        width: 100vw;
-        flex-shrink: 0;
-    }
-    .slides .img1{
-width: 100vw;
-border-radius: #000000;
-    }
-.img{
-width: 100vw;
-height: 100vh;
-object-fit: cover;
-}
-    
-.youtube{
-
-    color: #000000;
-}    
- .facebook{
-    color: #000000;
+ul li.item-menu a .txt-link {
+    margin-left: 3rem;
 }
 
-.instagram{
-    color: #000000;
+ul li.item-menu a .icon > i {
+    font-size: 2.5rem;
 }
 
-.search{ /*lupa de buscar */
-    position: absolute; 
-    left: 200px; 
-    top: 12.5vh; 
+.carousel {
+    position: relative;
+    width: 90%;
+    max-height: 500px;
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.youtube, .facebook, .instagram {
+    color: #000;
+}
+
+.search {
+    position: absolute;
+    left: 20%;
+    top: 12vh;
     border-radius: 5px;
-    margin-left: 80px;
 }
 
-.bi bi-search{
-    color: #000000;
+.bi-search {
+    color: #000;
 }
-
-
-
-

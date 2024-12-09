@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/styles/1 carrinho.css">
+    <title>Coutre-Heritage</title>
+    <link rel="stylesheet" href="assets/styles/1 carrinho.css ">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+</head>
+<body>  
+    
+    <header>
+        <div class="divlogo">
+            <img class="logo" src="assets/images/1 carrinho.svg" alt="coutre-heritage">
+                <div class="menulateral">
+                    <div class="menuu">
+                        <i class='bx bx-menu menu-icone'></i>
+                    </div>
+                </div>
+                <div class="video">
+                    <video autoplay loop muted plays-inline class="back-video">   
+                        <source  src="assets/images/videoplayback (2).mp4" type="video/mp4">     
+                    </video>
+                </div>
+        </div>
+        <div class="icons">
+            <i class="bx bx-heart"></i>
+            <i class='bx bx-cart-alt' onclick=mostreSidebar()></i>
+            <i  class='bx bx-user menu-button' onclick=showSidebar()></i>
+        </div>
+    
+        <div class="nomeee">
+            <span class="nomee">Menu</span>
+        </div>
+    </header>
 
-<body>
     <nav>
         <div class="meucarrinho">
             <div class="carrinho">
@@ -58,11 +84,9 @@
                                 <input class="red" type="password" name="password" id="password-input" placeholder="Password">
                                 <p class="recuperar">Esqueceu sua senha?</p>
                             </div>
-                            <button type="submit">Entrar</button>    
+                            <button type="submit" >Entrar</button>    
                         </form>
-        
-                   </div>
-    
+                    </div>
                 </div>
             </div>
         
@@ -104,43 +128,10 @@
                 </ul>
             </div>
         </div>
+
     </nav>
-
     
-
-    <div class="divlogo">
-        <img class="logo" src="assets/images/1 carrinho.svg" alt="coutre-heritage">
-            <div class="menulateral">
-                <div class="menuu">
-                    <i class='bx bx-menu menu-icone'></i>
-                    <div class="legenda">
-                        <h1> Cruise 2025 Collection </h1>
-                        <a href="#"><p> Conheça a coleção</p></a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="video">
-                <video autoplay loop muted plays-inline class="back-video">   
-                    <source  src="assets/images/videoplayback (2).mp4" type="video/mp4">     
-                </video>
-            </div>
-    </div>
-        
-    <div class="nomeee">
-         <span class="nomee">Menu</span>
-    </div>
-   
-    
-    <div class="icons">
-        <i class="bx bx-heart"></i>
-        <i class='bx bx-cart-alt' onclick=mostreSidebar()></i>
-        <i  class='bx bx-user menu-button' onclick=showSidebar()></i>
-    </div>
-
-   
-    
-<script src="assets/scripts/1-carrinho.js"></script>
-
+    <script src="assets/scripts/2 - carrinho.js"></script>      
+                
 </body>
 </html>
