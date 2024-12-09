@@ -768,11 +768,15 @@ h3 {
     color: black;
     font-size: 130%; 
     position: fixed;
-    cursor: pointer;
 }
 
 .rmv{
     width: 54.2%;
     margin-left:50%;
     margin-top: 2%;
+}
+
+.remover-icon{
+    cursor: pointer;
+    z-index: 99999999;
 }
