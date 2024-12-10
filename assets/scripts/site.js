@@ -1,4 +1,4 @@
-const imagens = ["sapato.jpg", "sapato2.jpg", "sapato3.jpg"];
+const imagens = ["assets/images/sapato.jpg", "assets/images/sapato2.jpg", "assets/images/sapato3.jpg"];
 let indiceAtual = 0;
 
 function trocarImagem() {
