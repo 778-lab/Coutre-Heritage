@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
+  overflow-x: hidden; /* Desabilita o scroll horizontal */
+  box-sizing: border-box;
 }
 
 .slogan_pg2 {

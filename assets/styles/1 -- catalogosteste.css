@@ -469,18 +469,19 @@ nav .meucarrinho{
 }
 
 
-.product-card {
+.product-card { /*div do sapato blc*/
     position: fixed;
     max-width: 30%;
-    width: 100%;
+    width: 20%;
     border-radius: 25px;
-    padding: 2%;
-    height: 85%;
-    margin-top: -9%;
+    padding: 3%;
+    height: 60%;
+    margin-top: -7%;
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     z-index: 3;
     overflow: hidden;
+    margin-left: 5%;
   }
   .product-card .logo-cart{
     display: flex;
@@ -505,10 +506,10 @@ nav .meucarrinho{
     position: relative;
     height: 210px;
   }
-  .product-card .main-images img{
+  .product-card .main-images img{ /*imagem tenis balenciaga*/
     position: absolute;
-    height: 43%;
-    width: 45%;
+    height: 47%;
+    width: 80%;
     object-fit: cover;
     transform: rotate(18deg);
     left: 12px;
@@ -557,7 +558,7 @@ nav .meucarrinho{
   .color-option  .circles .circle{
     height: 18px;
     width: 18px;
-    background: #0071C7;
+    background: #060606;
     border-radius: 50%;
     margin: 0 4px;
     cursor: pointer;
@@ -565,22 +566,9 @@ nav .meucarrinho{
   }
   .color-option  .circles .circle.blue.active{
     box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #0071C7;
+                 0 0 0 4px #0c0c0c;
   }
-  .color-option  .circles .circle.pink{
-    background: #FA1795;
-  }
-  .color-option  .circles .circle.pink.active{
-    box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #FA1795;
-  }
-  .color-option  .circles .circle.yellow{
-    background: #F5DA00;
-  }
-  .color-option  .circles .circle.yellow.active{
-    box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #F5DA00;
-  }
+ 
   .color-price .price{
     display: flex;
     flex-direction: column;
@@ -634,10 +622,10 @@ nav .meucarrinho{
   .main{
     position: fixed;
     max-width: 30%;
-    width: 100%;
+    width: 20%;
     border-radius: 25px;
     padding: 2%;
-    height: 85%;
+    height: 60%;
     margin-left: 30%;
     margin-top: -3.5%;
     background: #fff;
@@ -646,19 +634,35 @@ nav .meucarrinho{
     overflow: hidden;
   }
 
-  .main img{
+  .main img{ /*imagem bolsa */
     position: absolute;
     height: 43%;
-    width: 45%;
+    width: 60%;
     object-fit: cover;
     transform: rotate(18deg);
-    left:12%;
-    top: 2%;
+    left:22%;
+    top: 17%;
     z-index: -1;
     transition: opacity 0.5s ease; 
  }
 
+<<<<<<< HEAD
  .main .gucciimg{
   width: 4%;
   height: 8%;
  }
+=======
+ .main .caract {
+  font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    position: flex;
+  margin-top: 80%;
+  width: 50%;
+  height: 50%;
+  top: 20%;
+ }
+
+ 
+ 
+>>>>>>> 857797262a2df380c0fcbdbeecc221a70a154b22

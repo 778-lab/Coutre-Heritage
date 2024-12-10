@@ -1,0 +1,668 @@
+#divtopo {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;  
+    width: 100%;
+    top: 0%;
+    height: 15%;
+}
+
+#divlogo {
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    z-index: 100;
+}
+
+#divlogo img {
+    width: 55%;
+    height: auto;
+}
+
+#divbusca {
+    background-color: rgba(232, 232, 232, 0.59);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 3%;
+    position: fixed;
+    top: 6%;
+    left: 20%;
+    padding: 0.5%;
+}
+
+#divbusca img {
+    width: 5%;
+    height: auto;
+    margin-right: 1%;
+}
+
+#txtbusca {
+    background-color: transparent;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+#divcanto {
+    position: fixed;
+    top: 6%;
+    right: 0%;
+}
+
+#divcanto2 {
+    position: fixed;
+    right: 3%;
+    top: 5%;
+}
+
+#linha {
+        width: 100%;
+        height: 0.2%;
+        background-color: rgb(151, 151, 151);
+        margin: 0 0;
+        position: fixed;
+        top: 15%;
+        left: 0%;
+        z-index: 1000;
+}
+
+#divcanto img, #divcanto2 img {
+    width: 50%;
+    height: 50%;
+    margin-right: 5px;
+}
+
+#divsapato {
+    position: absolute;
+    right: 13%;
+    top: 50%;
+}
+
+#divsapato img {
+    width: 45%;
+    height: 45%;
+    margin-right: 5px;
+}
+
+#botaotrocar{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 2%;
+    height: 2%;
+}
+
+#divfavoritos {
+    position: absolute;
+    right: 8%;
+    top: 28.5%;
+}
+
+#divfavoritos img {
+    width: 60%;
+    height: 60%;
+    margin-right: 5px;
+}
+
+#divcompra {
+    position: absolute;
+    left: 60%;
+    top: 78%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divcompra button {
+    background-color: rgb(151, 151, 151);
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#divcompra button:hover {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.05);
+}
+
+.select-menu{
+    width: 11%;
+    margin: 34.3% auto;
+    position: relative;
+    left: 15.6%;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.select-menu:hover {
+    transform: scale(1.05);
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 8%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #000000 -4.11%, #666666 95.89%);
+    padding: 5%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+    border: solid 1px black;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}
+
+#divcarro {
+    position: absolute;
+    left: 70%;
+    top: 89%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divcarro button {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #000000 -4.11%, #666666 95.89%);
+    width: 165px;
+    height: 30px;
+    font-size: 11px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#divcarro button:hover {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.05);
+}
+
+#divcarro button img {
+    width: 15px;
+    height: auto;
+}
+
+#produto {
+    font-family: Arial, sans-serif;
+    margin: 2%;
+    width: 30%;
+    left: 58%;
+    top: 25%;
+    position: absolute;
+    align-items: flex-start;
+}
+
+#nome-produto {
+    font-size: 130%;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5%;
+    transform: none;
+    text-align: left;
+}
+
+#preco-produto {
+    display: flex;
+    flex-direction: column;
+}
+
+#preco-original {
+    font-size: 130%;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2%;
+}
+
+#preco-parcelado {
+    font-size: 100%;
+    color: #111111;
+}
+
+.select-menu1{
+    width: 11%;
+    margin: 34.3% auto;
+    position: relative;
+    left: 15.6%;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.select-menu1:hover {
+    transform: scale(1.05);
+}
+.select-menu1 .select-btn1{
+    display: flex;
+    height: 8%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #000000 -4.11%, #666666 95.89%);
+    padding: 5%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn1 i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu1.active .select-btn1 i{
+    transform: rotate(-180deg);
+}
+.select-menu1 .options1{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+    border: solid 1px black;
+}
+.select-menu1.active .options1{
+    display: block;
+}
+.options1 .option1{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options1 .option1:hover{
+    background: #F2F2F2;
+}
+.option1 i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option1 .option-text1{
+    font-size: 18px;
+    color: #333;
+}
+
+#reviews{
+    font-family: Arial, sans-serif;
+    margin: 2%;
+    width: 30%;
+    left: 3%;
+    top: 100%;
+    position: absolute;
+    align-items: flex-start;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+#avaliacoes-clientes {
+    top: 105%;
+    position: absolute;
+    align-items: flex-start;
+    font-weight: bold;
+    right: 5%;
+}
+
+#avaliacoes-clientes h2 {
+    font-size: 100%;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    gap: 0.3%;
+}
+
+.star {
+    font-size: 2.5%;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #fbb034;
+}
+
+#reviews-section {
+    width: 90%;
+    margin: 2% auto;
+    font-family: Arial, sans-serif;
+    top: 110%;
+    position: absolute;
+    left: 6%;
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.reviews-header h2 {
+    font-size: 2%;
+    color: #333;
+    font-weight: bold;
+}
+
+.reviews-container {
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+}
+
+.review-card {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 1%;
+    padding: 2%;
+    width: 30%;
+    box-shadow: 0px 0.2% 0.5% rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    display: flex;
+    gap: 0.5%;
+}
+
+.star {
+    font-size: 100%;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #fbb034;
+}
+
+.star.half {
+    color: #ccc;
+}
+
+.star.half::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: #fbb034;
+}
+
+.review-card h3 {
+    font-size: 100%;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 2%;
+}
+
+.review-card p {
+    font-size: 80%;
+    color: #222;
+    margin-bottom: 2%;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.reviewer-info .reviewer-name {
+    font-size: 80%;
+    font-weight: bold;
+    color: #333;
+}
+
+.reviewer-info .review-date {
+    font-size: 70%;
+    color: #999;
+}
+
+#produtos-relacionados {
+    width: 90%;
+    margin: 2% auto;
+    font-family: Arial, sans-serif;
+    top: 150%;
+    position: absolute;
+    left: 5%;
+}
+
+#produtos-relacionados h2 {
+    font-size: 120%;
+    margin-bottom: 1%;
+    color: #333;
+    font-weight: bold;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.produto {
+    width: 30%;
+    text-align: center;
+}
+
+.produto img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 0.5%;
+}
+
+.produto p {
+    font-size: 1.5%;
+    color: #555;
+}
+
+#ver-mais {
+    top: 215%;
+    background-color:rgba(255, 255, 255, 0.5);;
+    color: black;
+    font-size: 100%;
+    padding: 1% 2%;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+    position: absolute;
+    height: 9%;
+    left: 0%;
+}
+
+#ver-mais:hover {
+    background-color: #ded9d9;
+}
+
+#rodape {
+    background-color: rgb(151, 151, 151);
+    padding: 2%;
+    width: 96%;
+    height: 30%;
+    margin: 2% auto;
+    font-family: Arial, sans-serif;
+    top: 219.6%;
+    position: absolute;
+    left: 0%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    top: 21%;
+    left: 9%;
+}
+.logo img {
+    width: 70%;
+    height: 70%;
+}
+
+.redes {
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    
+}
+
+.redes img {
+    width: 15%;
+    height: 15%;
+}
+
+.social a {
+    display: block;
+    font-size: 100%;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 0.5%;
+}
+
+.social a:hover {
+    color: #000;
+}
+
+.links h4 {
+    font-size: 100%;
+    margin-bottom: 1%;
+    color: #333;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 0.5%;
+}
+
+.links ul li a {
+    font-size: 60%;
+    color: #666;
+    text-decoration: none;
+}
+
+.links ul li a:hover {
+    color: #000;
+}
+
+.links2 h4 {
+    font-size: 100%;
+    margin-bottom: 1%;
+    color: #333;
+}
+
+.links2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links2 ul li {
+    margin-bottom: 0.5%;
+}
+
+.links2 ul li a {
+    font-size: 60%;
+    color: #666;
+    text-decoration: none;
+}
+
+.links2 ul li a:hover {
+    color: #000;
+}
+
+.links3 h4 {
+    font-size: 100%;
+    margin-bottom: 1%;
+    color: #333;
+}
+
+.links3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links3 ul li {
+    margin-bottom: 0.5%;
+}
+
+.links3 ul li a {
+    font-size: 60%;
+    color: #666;
+    text-decoration: none;
+}
+
+.links3 ul li a:hover {
+    color: #000;
+}

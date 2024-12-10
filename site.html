@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="assets/styles/site.css">
+    <script src="assets/scripts/site.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="divtopo">
+
+        <a href="1-tela inicial.html">
+             <div id="divlogo">
+                 <img src="assets/images/image.svg" alt="logo">
+             </div>
+        </a>
+
+        <div id="divbusca">
+            <img src="assets/images/lupabusca.svg" alt="lupa" id="btnBusca">
+            <input type="text" id="txtbusca" placeholder="Buscar">
+        </div>
+
+        <a href="3 carrinho.html">
+             <div id="divcanto">
+                 <img src="assets/images/carrinho.svg" alt="carrinho">
+             </div>
+        </a>
+
+        <a href="1°teladecadastro.html">
+             <div id="divcanto2">
+                 <img src="assets/images/conta.png" alt="conta">
+             </div>
+        </a>
+
+     </div>
+
+     <div id="linha"></div>
+
+     <div id="divsapato">
+         <img id="imagemProduto" src="assets/images/sapato.jpg" alt="produto">
+     </div>
+
+     <div id="divmudar">
+        <img src="assets/images/seta.svg" id="botaotrocar" onclick="trocarImagem()" alt="Botão Imagem">
+    </div>
+    
+    
+     <div id="divcompra">
+        <a href="3 carrinho.html">
+         <button type="button" id="comprar">COMPRAR</button>
+        </a>
+     </div>
+
+     <div id="divfavoritos">
+         <a href="https://www.exemplo.com" target="_blank">
+             <img src="assets/images/Icon Button.svg" alt="buttonfav"> 
+         </a>
+     </div>
+
+     <div class="select-menu">
+        <div class="select-btn">
+            <span class="sBtn-text">TAMANHO</span>
+            <i class="bx bx-chevron-down"></i>
+        </div>
+            <ul class="options">
+                <li class="option">
+                    <span class="option-text">TAM 38</span>
+                </li>
+                <li class="option">                 
+                    <span class="option-text">TAM 39</span>
+                </li>
+                <li class="option">                   
+                    <span class="option-text">TAM 40</span>
+                </li>
+                <li class="option">                   
+                   <span class="option-text">TAM 41</span>
+                </li>
+                <li class="option">                   
+                    <span class="option-text">TAM 42</span>
+                </li>
+            </ul>
+        </div>
+
+     <div id="divcarro">
+         <button type="button">
+             Adicione ao carrinho
+             <img src="assets/images/Shopping cart.svg" alt="carrinho"/>
+         </button>
+     </div>
+
+     <div id="produto">
+         <div id="nome-produto">
+             <span>Balenciaga Tênis Cano Baixo Track</span>
+         </div>
+         <div id="preco-produto">
+             <span id="preco-original">R$11.100</span>
+             <span id="preco-parcelado">12x R$925,00</span>
+         </div>
+     </div>
+
+    <div class="select-menu1">
+        <div class="select-btn1">
+            <span class="sBtn-text1">Detalhes do Produto</span>
+            <i class="bx bx-chevron-down"></i>
+        </div>
+            <ul class="options1">
+                <li class="option1">
+                    <span class="option-text1">TAM 38</span>
+                </li>
+            </ul>
+        </div>
+
+    <div id="reviews">
+        <h3>Últimas reviews</h3>
+    </div>
+
+    <div id="avaliacoes-clientes">
+        <h2>Avaliações de clientes
+            <div class="stars">
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star empty">★</span>
+            </div>
+        </h2>
+    </div>
+
+    <div id="reviews-section">
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="stars">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                </div>
+                <h3>Rápido e confiável!</h3>
+                <p>Recebi o produto cedo e chegou muito rápido, recomendo!</p>
+                <div class="reviewer-info">
+                    <div>
+                        <p class="reviewer-name">João Pessoa</p>
+                        <p class="review-date">25/11/2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                </div>
+                <h3>Amei o produto!!!</h3>
+                <p>A melhor compra desse mês!!!</p>
+                <div class="reviewer-info">
+                    <div>
+                        <p class="reviewer-name">Rosana Santos</p>
+                        <p class="review-date">22/11/2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3>Por que não tem outras opções de cor? 🤔</h3>
+                <p>Vou te falar, esse item era quase perfeito...</p>
+                <div class="reviewer-info">
+                    <div>
+                        <p class="reviewer-name">Luiz Vinícius</p>
+                        <p class="review-date">19/11/2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <section id="produtos-relacionados">
+         <h2>Produtos relacionados</h2>
+         <div class="produtos">
+             <div class="produto">
+                 <img src="assets/images/blusa 1.jpg" alt="blusa 1">
+                 <p>Camiseta Balenciaga</p>
+             </div>
+             <div class="produto">
+                 <img src="assets/images/blusa 2.webp" alt="blusa 2">
+                 <p>Tênis Balenciaga</p>
+             </div>
+             <div class="produto">
+                 <img src="assets/images/blusa 3.jpg" alt="blusa 3">
+                 <p>Moletom Balenciaga</p>
+             </div>
+         </div>
+     </section>
+     <div>
+        <button id="ver-mais">Ver mais</button>
+     </div>
+
+     <footer id="rodape">
+         <div class="footer-content">
+
+             <div class="logo">
+                 <img src="assets/images/image.svg" alt="logo">
+             </div>
+
+             <div class="redes">
+                 <a href="https://www.youtube.com/?app=desktop&hl=pt" target="_blank">
+                     <img src="assets/images/X Logo.svg" alt="logox">
+                 </a>
+                 <a href="https://www.instagram.com/coutre_heritage?igsh=ZmZuOG01a3Rsdm00&utm_source=qr" target="_blank">
+                     <img src="assets/images/Logo Instagram.svg" alt="logoinstagram">
+                 </a>
+                 <a href="https://www.youtube.com/?app=desktop&hl=pt" target="_blank">
+                     <img src="assets/images/Logo YouTube.svg" alt="logoyoutube">
+                 </a>
+                 <a href="https://www.youtube.com/?app=desktop&hl=pt" target="_blank">
+                     <img src="assets/images/Group.svg" alt="logofacebook">
+                 </a>
+             </div>
+
+             <div class="social">
+                 <img src="" alt="">
+                 <img src="" alt="">
+                 <img src="" alt="">
+             </div>
+
+             <div class="links">
+                 <h4>Casos de uso</h4>
+                 <ul>
+                     <li><a href="#">Design de interface de usuário</a></li>
+                     <li><a href="#">Design de experiência do usuário</a></li>
+                     <li><a href="#">Criação de wireframes</a></li>
+                     <li><a href="#">Diagramas</a></li>
+                     <li><a href="#">Brainstorming</a></li>
+                     <li><a href="#">Quadro branco online</a></li>
+                     <li><a href="#">Colaboração em equipe</a></li>
+                 </ul>
+             </div>
+
+             <div class="links2">
+                 <h4>Explorar</h4>
+                 <ul>
+                     <li><a href="#">Design</a></li>
+                     <li><a href="#">Prototipagem</a></li>
+                     <li><a href="#">Recursos de desenvolvimento</a></li>
+                     <li><a href="#">Sistemas de design</a></li>
+                     <li><a href="#">Recursos de colaboração</a></li>
+                     <li><a href="#">Processo de design</a></li>
+                     <li><a href="#">FigJam</a></li>
+                 </ul>
+             </div>
+
+             <div class="links3">
+                 <h4>Recursos</h4>
+                 <ul>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">Melhores práticas</a></li>
+                     <li><a href="#">Cores</a></li>
+                     <li><a href="#">Roda de cores</a></li>
+                     <li><a href="#">Suporte</a></li>
+                     <li><a href="#">Desenvolvedores</a></li>
+                     <li><a href="#">Biblioteca de recursos</a></li>
+                 </ul>
+             </div>
+         </div>
+     </footer>
+     
+</body>
+</html>
