@@ -109,6 +109,12 @@ h6{
     margin-top: 24px;
     font-size: 22px;
     margin-left: 150px;
+     background-color: rgb(255, 255, 255);
+    border-radius: 90px;
+    padding: 10px 12px;
+    border: 1px solid #50463a;
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
 /* Estilo para a classe "logofacebook" (para ícones de redes sociais) */
@@ -119,13 +125,8 @@ h6{
 }
 
 /* Estilo para links (a) */
-a {
-    background-color: rgb(255, 255, 255);
-    border-radius: 90px;
-    padding: 10px 12px;
-    border: 1px solid #50463a;
-    transition: transform 0.3s;
-    cursor: pointer;
+.logotipo{
+   
 }
 
 /* Efeito de hover nos links */

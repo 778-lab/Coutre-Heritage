@@ -657,3 +657,8 @@ nav .meucarrinho{
     z-index: -1;
     transition: opacity 0.5s ease; 
  }
+
+ .main .gucciimg{
+  width: 4%;
+  height: 8%;
+ }
