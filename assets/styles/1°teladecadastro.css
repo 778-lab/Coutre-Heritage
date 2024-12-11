@@ -189,3 +189,30 @@ i{
     cursor: pointer;
     
  }
+
+ .fundo{
+    position: flex;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 50%;
+    z-index: ;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .fundo{
+        width: 100%;
+        height: 100%;
+        margin-left: -6%;
+        position: fixed;
+        z-index: -1;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: 500.8%;
+        height: auto;
+        margin-left: -6%;
+    }
+}
