@@ -82,9 +82,9 @@
 
                 <p>Número, Expiração e CVV</p>
                 <div class="linha-horizontal">
-                    <input type="number" placeholder="Número do cartão" id="numeroCartao" oninput="validarNumero(event, 16)" required>
-                    <input type="number" placeholder="MM/AA" id="validadeCartao" oninput="validarNumero(event, 4)" required>
-                    <input type="number" placeholder="CVV" id="cvv" oninput="validarNumero(event, 3)" required>
+                    <input type="text" placeholder="Número do cartão" id="numeroCartao" oninput="validarNumero(event, 16)" required>
+                    <input type="text" placeholder="MM/AA" id="validadeCartao" oninput="validarNumero(event, 4)" required>
+                    <input type="text" placeholder="CVV" id="cvv" oninput="validarNumero(event, 3)" required>
                 </div>
                 <div class="divider"></div>
 
@@ -96,7 +96,7 @@
                     </div>
                     <div>
                         <label>CPF</label>
-                        <input type="number" placeholder="###.###.###-##" id="cpf" oninput="validarCPF(event)" required>
+                        <input type="text" placeholder="###.###.###-##" id="cpf" oninput="validarCPF(event)" required>
                     </div>
                     <div>
                         <label>Data de nascimento</label>
@@ -108,14 +108,14 @@
                     </div>
                     <div>
                         <label>Telefone</label>
-                        <input type="number" placeholder="(##) ####-####" id="telefone" oninput="validarNumero(event, 15)" required>
+                        <input type="text" placeholder="(##) ####-####" id="telefone" oninput="validarNumero(event, 15)" required>
                     </div>
                 </div>
 
                 <div class="divider"></div>
                 <p><strong>Número de parcelas desejadas</strong></p>
                 <select id="parcelas" required>
-                    <option>Escolha o número de parcelas</option>
+                    <option value="">Escolha o número de parcelas</option>
                     <option>1x de R$11.100,00 (Total de R$11.100,00)</option>
                     <option>2x de R$5.550,00 (Total de R$11.100,00)</option>
                     <option>3x de R$3.700,00 (Total de R$11.100,00)</option>
