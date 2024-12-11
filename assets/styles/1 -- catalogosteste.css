@@ -646,16 +646,187 @@ nav .meucarrinho{
     transition: opacity 0.5s ease; 
  }
 
- .main .caract {
-  font-size: 24px;
-    font-weight: 500;
-    color: #000000;
-    position: flex;
-  margin-top: 80%;
-  width: 50%;
-  height: 50%;
-  top: 20%;
+ .main .gucciimg{
+  width: 4%;
+  height: 8%;
  }
 
- 
- 
+ .Marca a.button1{ /* butão balenciaga*/
+  font-size: 18px; 
+  font-weight: bold;
+  color: #fff; 
+  background-color: #818181; 
+  padding: 5px 40px; 
+  text-decoration: none; 
+  border-radius: 5px;
+  line-height: 37.5vh;
+  margin-right: 53.27vw;
+  border-radius: 10px;
+  position: relative; 
+  top: 46.25vh;
+  cursor: pointer;
+  font-family: Cinzel;
+  }
+
+  
+  .Marca a.button2{ /* butão Louis Vitton*/
+  font-size: 18px; 
+  font-weight: bold;
+  color: #fff; 
+  background-color: #818181; 
+  padding: 5px 40px; 
+  text-decoration: none; 
+  border-radius: 5px;
+  margin-right: 29.4vw;
+  margin-left: 30.1vw;
+  border-radius: 10px;
+  position: relative; 
+  top: 25.5vh;
+  cursor: pointer;
+  font-family: Cinzel;
+  }
+
+  .Marca a.button3{ /* butão Nike*/
+  font-size: 18px; 
+  font-weight: bold;
+  color: #fff; 
+  background-color: #818181; 
+  padding: 5px 40px; 
+  text-decoration: none; 
+  border-radius: 5px;
+  margin-right: 60.29vw;
+  margin-left: 73.2vw;
+  border-radius: 10px;
+  position: relative;
+  top: 21.650vh;
+  cursor: pointer;
+  font-family: Cinzel;
+  }
+
+  .Marca a.button4{ /*butao do cinto Lw*/
+  font-size: 18px; 
+  font-weight: bold;
+  color: #fff; 
+  background-color: #818181; 
+  padding: 5px 40px; 
+  text-decoration: none; 
+  border-radius: 5px;
+  margin-right: 65.29vw;
+  margin-left: 11.98vw;
+  border-radius: 10px;
+  position: relative;
+  top: 65.25vh;
+  cursor: pointer;
+  font-family: Cinzel;
+  }
+  .Marca a.button5{ /*butão do tenis cinza*/
+      font-size: 18px; 
+      font-weight: bold;
+      color: #fff; 
+      background-color: #818181; 
+      padding: 5px 40px; 
+      text-decoration: none; 
+      border-radius: 5px;
+      margin-right: 57.29vw;
+      margin-left: 43.7vw;
+      border-radius: 10px;
+      position: relative;
+      top: 60.9vh;
+      cursor: pointer;
+      font-family: Cinzel;
+  }
+
+  .Marca a.button6{ /*butão bolsa */
+      font-size: 18px; 
+      font-weight: bold;
+      color: #fff; 
+      background-color: #818181; 
+      padding: 5px 40px; 
+      text-decoration: none; 
+      border-radius: 5px;
+      margin-right: 57.29vw;
+      margin-left: 74.02vw;
+      border-radius: 10px;
+      position: relative;
+      top: 56.75vh;
+      cursor: pointer;
+      font-family: Cinzel;
+
+  }
+
+
+
+.image{ /tenis balenciaga/
+position: absolute;
+left: 0.52vw;
+top: 6.25vh;
+margin-left: 10.33vw;
+margin-right:38.46vw;
+position: relative; 
+top: -33.5vh;
+cursor: pointer;
+  }
+
+.image2{ /tenis Louis Vitton/
+  font-size: 24px;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 30.56vw;
+  margin-right:36.46vw;
+  position: relative; 
+  top: -85vh;
+  cursor: pointer;
+}
+
+.image3{ /*tenis Nike */ 
+  font-size: 24px;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 30.56vw;
+  margin-right:10.42vw;
+  position: relative; 
+  top: -64.875vh;
+  cursor: pointer;
+  border-radius: 15px #000000;   
+} 
+
+
+}
+
+.image4{ /cinto Louis Vuitton/
+  font-size: 24px;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 2.6vw;
+  margin-right:56.88vw;
+  position: relative; 
+  top: -160vh;
+  cursor: pointer;
+}
+
+.image5{ /tenis cinza balanciaga/
+  
+  font-size: 10%;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 20.63vw;
+  margin-right:18.9vw;
+  position: relative; 
+  top: -209vh;
+  cursor: pointer;
+}
+.image6{ /bolsa balanciaga/
+  font-size: 10%;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 69.29vw;
+  margin-right: 6.25vw;
+  position: relative; 
+  top: -259.25vh;
+  cursor: pointer;
+}
