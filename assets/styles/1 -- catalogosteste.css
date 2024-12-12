@@ -830,3 +830,9 @@ cursor: pointer;
   top: -259.25vh;
   cursor: pointer;
 }
+
+.image{
+  background-color: black;
+  width: 20%;
+  height: 60%;
+}
