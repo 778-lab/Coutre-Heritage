@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-    max-width: 130px;
+    max-width: 8%;
     height: auto;
 }
 
@@ -48,8 +48,7 @@ header {
 }
 
 .icone-pedido, .icone-cartao {
-    width: 20px;
-    height: 20px;
+    width: 2.3%;
     margin-right: 10px; 
 }
 
@@ -145,3 +144,4 @@ header {
 .icone-pagamento img {
     width: 50%;
 }
+
