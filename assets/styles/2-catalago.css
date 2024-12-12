@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
     display: flex;
@@ -41,8 +41,9 @@ body {
 
 .footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #d3d3d3;
+    padding: 7rem;
+    background-color: #ffffff;
+    
 }
 
 .footer .social-icons {
@@ -95,8 +96,8 @@ body {
 .login {
     cursor: pointer;
     position: absolute;
-    right: 2rem;
-    top: 2rem;
+    right: 5rem;
+    top: 5rem;
     padding: 0.5rem;
 }
 
@@ -107,7 +108,7 @@ body {
 .buscar {
     position: absolute;
     left: 8%;
-    top: 10%;
+    top: 11%;
     background-color: #d3d3d3;
     border-radius: 5px;
     padding: 0.5rem;
@@ -120,7 +121,7 @@ body {
     font-style: italic;
     font-size: 1rem;
     border: none;
-    width: 80%;
+    width: 20rem;
     color: #000;
 }
 
@@ -207,153 +208,134 @@ ul li.item-menu a .icon > i {
 }
 
 
-.Marca a.button1{ /* butão balenciaga*/
-    font-size: 18px; 
-    font-weight: bold;
-    color: #fff; 
-    background-color: #818181; 
-    padding: 5px 40px; 
-    text-decoration: none; 
-    border-radius: 5px;
-    line-height: 37.5vh;
-    margin-right: 53.27vw;
-    border-radius: 10px;
-    position: relative; 
-    top: 46.25vh;
-    cursor: pointer;
-    font-family: Cinzel;
-    }
 
+    .image1 img  {
+        margin-right: 20px; /* Espaçamento direito */
+    }
     
-    .Marca a.button2{ /* butão Louis Vitton*/
-    font-size: 18px; 
-    font-weight: bold;
-    color: #fff; 
-    background-color: #818181; 
-    padding: 5px 40px; 
-    text-decoration: none; 
-    border-radius: 5px;
-    margin-right: 29.4vw;
-    margin-left: 30.1vw;
-    border-radius: 10px;
-    position: relative; 
-    top: 25.5vh;
-    cursor: pointer;
-    font-family: Cinzel;
+    .image20 img {
+        margin: 0 10px; /* Espaçamento horizontal */
+    }
+    
+    .image30 img {
+        margin-left: 50px; /* Espaçamento esquerdo */
+        margin-top: 50%;
     }
 
-    .Marca a.button3{ /* butão Nike*/
-    font-size: 18px; 
-    font-weight: bold;
-    color: #fff; 
-    background-color: #818181; 
-    padding: 5px 40px; 
-    text-decoration: none; 
-    border-radius: 5px;
-    margin-right: 60.29vw;
-    margin-left: 73.2vw;
-    border-radius: 10px;
-    position: relative;
-    top: 21.650vh;
-    cursor: pointer;
-    font-family: Cinzel;
-    }
-
-    .Marca a.button4{ /*butao do cinto Lw*/
-    font-size: 18px; 
-    font-weight: bold;
-    color: #fff; 
-    background-color: #818181; 
-    padding: 5px 40px; 
-    text-decoration: none; 
-    border-radius: 5px;
-    margin-right: 65.29vw;
-    margin-left: 11.98vw;
-    border-radius: 10px;
-    position: relative;
-    top: 65.25vh;
-    cursor: pointer;
-    font-family: Cinzel;
-    }
-    .Marca a.button5{ /*butão do tenis cinza*/
-        font-size: 18px; 
-        font-weight: bold;
-        color: #fff; 
-        background-color: #818181; 
-        padding: 5px 40px; 
-        text-decoration: none; 
-        border-radius: 5px;
-        margin-right: 57.29vw;
-        margin-left: 43.7vw;
-        border-radius: 10px;
+   
+    .image1 img{
+        background-color: #ffffff; /* Cor de fundo */
+        border: 2px solid #ccc; /* Borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
+        width: 22%; /* Largura uniforme */
+        height: 150px; /* Altura uniforme */
+        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
         position: relative;
-        top: 60.9vh;
-        cursor: pointer;
-        font-family: Cinzel;
+        top: -30em;
+        margin-left: -60%;
     }
+    
 
-    .Marca a.button6{ /*butão bolsa */
-        font-size: 18px; 
-        font-weight: bold;
-        color: #fff; 
-        background-color: #818181; 
-        padding: 5px 40px; 
-        text-decoration: none; 
-        border-radius: 5px;
-        margin-right: 57.29vw;
-        margin-left: 74.02vw;
-        border-radius: 10px;
+    .image20 img{
+        background-color: #ffffff; /* Cor de fundo */
+        border: 2px solid #ccc; /* Borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
+        width: 20%; /* Largura uniforme */
+        height: 150px; /* Altura uniforme */
+        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        margin-left: 70%;
         position: relative;
-        top: 56.75vh;
-        cursor: pointer;
-        font-family: Cinzel;
+        top: -48rem;
 
     }
-
-
-
-.image{ /tenis balenciaga/
-position: absolute;
-left: 0.52vw;
-top: 6.25vh;
-margin-left: 10.33vw;
-margin-right:38.46vw;
-position: relative; 
-top: -33.5vh;
-cursor: pointer;
+    
+    .image30 img {
+        background-color: #ffffff; /* Cor de fundo */
+        border: 2px solid #ccc; /* Borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
+        width: 20%; /* Largura uniforme */
+        height: 150px; /* Altura uniforme */
+        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        margin-left: 6%;
+        position: relative;
+        top: -106.4rem;
     }
+    
+    .image40 img{ /*cinto*/
+        background-color: #ffffff; /* Cor de fundo */
+        border: 2px solid #ccc; /* Borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
+        width: 22%; /* Largura uniforme */
+        height: 150px; /* Altura uniforme */
+        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        margin-left: -62%;
+        position: relative;
+        top: -98rem;
+    }
+    
+    .image50 img{ /* tenis cinza*/
 
-.image2{ /tenis Louis Vitton/
-    font-size: 24px;
-    position: absolute;
-    left: 0.52vw;
-    top: 6.25vh;
-    margin-left: 30.56vw;
-    margin-right:36.46vw;
-    position: relative; 
-    top: -85vh;
-    cursor: pointer;
-}
+        background-color: #ffffff; /* Cor de fundo */
+        border: 2px solid #ccc; /* Borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
+        width: 20%; /* Largura uniforme */
+        height: 150px; /* Altura uniforme */
+        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        position: relative;
+        top: -115.9rem;
+        margin-left: 5%;
+    }
+    
+    .image60 img{
+        background-color: #ffffff; /* Cor de fundo */
+        border: 2px solid #ccc; /* Borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
+        width: 20%; /* Largura uniforme */
+        height: 150px; /* Altura uniforme */
+        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        margin-left: 70%;
+    position: relative;
+    top: -133.8rem;
+    }
+    
+   
+    .image1 img:hover, 
+    .image20 img:hover, 
+    .image30 img:hover, 
+    .image40 img:hover, 
+    .image50 img:hover, 
+    .image60 img:hover {
+        transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+    }
+    
+    /* Container das imagens */
 
-.image3{ /*tenis Nike */ 
-    font-size: 24px;
-    position: absolute;
-    left: 0.52vw;
-    top: 6.25vh;
-    margin-left: 30.56vw;
-    margin-right:10.42vw;
-    position: relative; 
-    top: -64.875vh;
-    cursor: pointer;
-    border-radius: 15px #000000;   
-} 
+
 .icon-tenis { /*tenis icone */
     font-size: 50px;
     color: #ffffff;  
     text-shadow: 1px 1px 2px rgba(34, 0, 255, 0.2);
  }
 
- .icon-camisa { /icon camisa/
+ .icon-camisa { /*icon camisa*/
     font-size: 50px; 
     color: #ffffff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
@@ -361,46 +343,64 @@ cursor: pointer;
 
 .intuito{
     margin-right: 26.04vw;
-    margin-left: 28.65vw;
+    margin-left: 26.65vw;
     border-radius: 10px;
     position: relative; 
-    top: -43.75vh;
+    top: -13vh;
     font-family: Cinzel;
 
 }
 
-.image4{ /cinto Louis Vuitton/
-    font-size: 24px;
-    position: absolute;
-    left: 0.52vw;
-    top: 6.25vh;
-    margin-left: 2.6vw;
-    margin-right:56.88vw;
+.descricao .preco1{ /*nome balenciga*/
+    margin-right: 26.04vw;
+    margin-left: -26.65vw;
+    border-radius: 10px;
     position: relative; 
-    top: -160vh;
-    cursor: pointer;
+    top: 17.5rem;
+    font-family: PT+Serif;
+}
+.descricao .preco2{ /*nome nike*/
+    margin-right: 26.04vw;
+    margin-left: 29.65vw;
+    border-radius: 10px;
+    position: relative; 
+    top: 13.1rem;
+    font-family: PT+Serif;
 }
 
-.image5{ /tenis cinza balanciaga/
-    
-    font-size: 10%;
-    position: absolute;
-    left: 0.52vw;
-    top: 6.25vh;
-    margin-left: 20.63vw;
-    margin-right:18.9vw;
+.descricao .preco3{ /*nome Louis Vuitton*/
+    margin-right: 26.04vw;
+    margin-left: 55.65vw;
+    border-radius: 10px;
     position: relative; 
-    top: -209vh;
-    cursor: pointer;
+    top: 8rem;
+    font-family: PT+Serif;
+    width: 40%;
 }
-.image6{ /bolsa balanciaga/
-    font-size: 10%;
-    position: absolute;
-    left: 0.52vw;
-    top: 6.25vh;
-    margin-left: 69.29vw;
-    margin-right: 6.25vw;
+.descricao .preco4{ /*nome Cinto*/
+    margin-right: 26.04vw;
+    margin-left: -1.65vw;
+    border-radius: 10px;
     position: relative; 
-    top: -259.25vh;
-    cursor: pointer;
+    top: 29.5rem;
+    font-family: PT+Serif;
+    width: 40%;
+}
+.descricao .preco5{ /*nome tenis cinza*/
+    margin-right: 26.04vw;
+    margin-left:26.65vw;
+    border-radius: 10px;
+    position: relative; 
+    top: 25rem;
+    font-family: PT+Serif;
+    width: 40%;
+}
+.descricao .preco6{ /*nome Bolsa*/
+    margin-right: 26.04vw;
+    margin-left: 55.65vw;
+    border-radius: 10px;
+    position: relative; 
+    top: 20rem;
+    font-family: PT+Serif;
+    width: 40%;
 }

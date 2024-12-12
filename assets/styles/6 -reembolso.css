@@ -737,3 +737,48 @@ legend {
    width: 40%;
    border-radius: 0.3em;
 }
+<<<<<<< HEAD:assets/styles/1 -- catalogosteste.css
+
+.image4{ /cinto Louis Vuitton/
+  font-size: 24px;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 2.6vw;
+  margin-right:56.88vw;
+  position: relative; 
+  top: -160vh;
+  cursor: pointer;
+}
+
+.image5{ /tenis cinza balanciaga/
+  
+  font-size: 10%;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 20.63vw;
+  margin-right:18.9vw;
+  position: relative; 
+  top: -209vh;
+  cursor: pointer;
+}
+.image6{ /bolsa balanciaga/
+  font-size: 10%;
+  position: absolute;
+  left: 0.52vw;
+  top: 6.25vh;
+  margin-left: 69.29vw;
+  margin-right: 6.25vw;
+  position: relative; 
+  top: -259.25vh;
+  cursor: pointer;
+}
+
+.image{
+  background-color: black;
+  width: 20%;
+  height: 60%;
+}
+=======
+>>>>>>> 0ed621faa23667ac4d456206114609b83912c12f:assets/styles/6 -reembolso.css

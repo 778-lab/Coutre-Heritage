@@ -1,4 +1,4 @@
-/* Aplica margin e padding 0 a todos os elementos e define o box-sizing como border-box */
+
 * {
     margin: 0;
     padding: 0;
@@ -40,15 +40,7 @@ body {
     box-shadow: 0.0.1rem 0.5rem;
 }
 
-/* Estilo para todos os elementos h1 */
-h1 {
-    font-family: "Roboto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings: "wdth" 100, "GRAD" 0;
-    text-align: center;
-}
+
 
 /* Estilo para a classe "botao" (usado em botões) */
 .botao {
