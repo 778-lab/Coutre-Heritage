@@ -15,7 +15,7 @@
         }
 
         // Redirecionamento após validação bem-sucedida
-        window.location.href = "http://127.0.0.1:5501/1-tela%20inicial.html"; 
+        window.location.href = "2 carrinho.html"; 
 
         return true;
     }
