@@ -56,10 +56,7 @@ header{
     cursor: pointer;
 }
 
-.video h4{
-    z-index: 9999999;
-    color: red;
-}
+
 
 .icons{
     font-size: 120%;
@@ -310,37 +307,6 @@ nav.openn .menudireito{
     padding: 8%;
 }
 
-.red input{
-color: red;
-}
-
-form input{
-    box-sizing: border-box;
-    width: 200%;
-    height: 25%;
-    padding: 1rem;
-    font: inherit;
-    border-radius: 0.5rem;
-    background-color: white;
-    transition: 150ms ease;
-    position: flex;
-    align-items: center;
-    margin-left: -19%;
-    border-color: black;
-    margin-top: 10%;
-}
-
-form span{
-    margin-left: -18.55%;
-}   
-
-.senhaa{
-    margin-left: -10%;
-    color:rgb(0, 0, 0);
-    font-size: 100%;
-    margin-top: 4%;
-}
-
 .icone-abrir{
     margin-left: 90%;
     font-size: 150%;
@@ -369,22 +335,7 @@ form button:hover{
     color: black;
 }
 
-.campologin h1{
-    margin-top: -5%;
-    margin-left: -11.8%;
-}
-.campologin p{
-    margin-top: 6%;
-    margin-left: -11.8%;
-}
 
-
-.recuperar {
-    margin-top: 5%;
-    margin-left: 5%;
-    position: flex;
-    height: 10%;
-}
 
 
 .menu-button{
@@ -402,34 +353,6 @@ form button:hover{
 }
 
 
-.legenda{
-    display: inline-block;
-    color: rgb(255, 248, 248);
-    margin-top: 295%;
-    margin-bottom: 20%;
-    margin-right: 250%;
-    margin-left: 330%;
-    left: 25%;
-    white-space: nowrap
-}
-
-.legenda a{
-    color: #fffbfb;
-    margin-top: 295%;
-    margin-bottom: 20%;
-    margin-right: 250%;
-    margin-left: 390%;
-    left: 25%;
-}
-
-.legenda p{
-    margin-top: 2%;
-    margin-bottom: 20%;
-    margin-right: 25%;
-    margin-left: 26%;
-    left: 25%;
-    font-size: 110%;
-}
 
 nav .meucarrinho{
     position: fixed;
@@ -539,6 +462,7 @@ nav .meucarrinho{
         margin-left: -6%;
     }
 }
+
 .produto .imagens{
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     width: 57%;
@@ -680,3 +604,36 @@ nav .meucarrinho{
     color: #fff;
     cursor: pointer;
   }
+  #divbusca  {
+    background-color: rgba(232, 232, 232, 0.59);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 3%;
+    position: fixed;
+    top: 5.5%;
+    left: 12%;
+    padding: 0.5%;
+    z-index: 9999999;
+}
+
+#divbusca .bx-search-alt {
+    width: 5%;
+    height: auto;
+    margin-right: 1%;
+    color: black;
+   
+}
+#txtbusca {
+    background-color: transparent;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.bx-heart{
+    color: black;
+}

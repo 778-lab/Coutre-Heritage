@@ -3,24 +3,24 @@ const optionMenu = document.querySelector(".select-menu"),
     options = optionMenu.querySelectorAll(".option"),
     sBtn_text = optionMenu.querySelector(".sBtn-text");
 
-// Alternar menu de seleção
+
 selectBtn.addEventListener("click", () => optionMenu.classList.toggle("active"));
 
-// Atualizar preço unitário ao selecionar uma opção
+
 options.forEach(option => {
     option.addEventListener("click", () => {
         let selectedOption = option.querySelector(".option-text").innerText;
-        let selectedPrice = option.getAttribute("data-price"); // Obter preço
+        let selectedPrice = option.getAttribute("data-price"); 
 
         sBtn_text.innerText = selectedOption;
-        document.getElementById("currentPrice").innerText = selectedPrice; // Atualizar preço unitário
+        document.getElementById("currentPrice").innerText = selectedPrice; 
         optionMenu.classList.remove("active");
 
-        updateTotal(); // Recalcular o total
+        updateTotal(); 
     });
 });
 
-// Mostrar opções de frete
+ 
 function showFreightOptions() {
     const destinationCep = document.getElementById("destinationCep").value;
     const shippingOptionsDiv = document.getElementById("shippingOptions");
@@ -44,18 +44,18 @@ function selectOnlyOne(checkbox) {
         if (item !== checkbox) {
             item.checked = false;
         } else if (item.checked) {
-            freightPrice = parseInt(item.nextElementSibling.innerText.match(/\d+/)[0]); // Extrair valor do frete
+            freightPrice = parseInt(item.nextElementSibling.innerText.match(/\d+/)[0]); 
         }
     });
 
-    updateTotal(freightPrice); // Atualizar o total com o preço do frete
+    updateTotal(freightPrice); 
 }
 
-// Calcular o total
+
 function updateTotal(freightPrice = 0) {
     const unitPrice = parseInt(document.getElementById("currentPrice").innerText) || 0;
 
-    // Calcular e exibir o total
+    
     const totalPrice = unitPrice + freightPrice;
     document.getElementById("result").innerHTML = `<p>Total: R$ ${totalPrice},00</p>`;
 }
@@ -93,25 +93,25 @@ function mostreSidebar(){
     meucarrinho.style.display = 'none'
 }
 
-// Calcular e atualizar o valor total
+
 function updateTotal() {
-    // Obter os valores do preço unitário e do frete
+    
     const unitPrice = parseFloat(document.getElementById("currentPrice").innerText.replace("R$ ", "").replace(/\./g, "").replace(",", ".")) || 0;
     const deliveryPrice = parseFloat(document.getElementById("deliveryPrice").innerText.replace("R$ ", "").replace(/\./g, "").replace(",", ".")) || 0;
 
-    // Calcular o total
+    
     const totalPrice = unitPrice + deliveryPrice;
 
-    // Atualizar o total na tela
+    
     document.getElementById("current").innerText = formatCurrency(totalPrice);
 }
 
-// Função para formatar números como moeda brasileira
+
 function formatCurrency(amount) {
     return `R$ ${amount.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 }
 
-// Selecionar um tipo de frete
+
 function selectOnlyOne(checkbox) {
     const checkboxes = document.querySelectorAll('input[name="freightType"]');
     let freightPrice = 0;
@@ -120,15 +120,15 @@ function selectOnlyOne(checkbox) {
         if (item !== checkbox) {
             item.checked = false;
         } else if (item.checked) {
-            // Extrair preço do frete da label
+            
             freightPrice = parseFloat(item.nextElementSibling.innerText.match(/R\$ (\d+[\.,]?\d*)/)[1].replace(",", "."));
         }
     });
 
-    // Atualizar o preço de entrega
+    
     document.getElementById("deliveryPrice").innerText = formatCurrency(freightPrice);
 
-    updateTotal(); // Atualizar total
+    updateTotal(); 
 }
 
 
