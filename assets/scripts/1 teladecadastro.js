@@ -14,6 +14,6 @@ function validarFormulario() {
         return false; // Impede o redirecionamento
     }
     // Se todas as validações passarem, redireciona para a próxima página
-    window.location.href = "http://127.0.0.1:5500/1-tela%20inicial.html"; // Substitua pelo caminho correto
+    window.location.href = "http://127.0.0.1:5501/1-tela%20inicial.html"; // Substitua pelo caminho correto
     return true; // O redirecionamento ocorrerá
     }

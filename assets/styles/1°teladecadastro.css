@@ -132,7 +132,7 @@ color: black;
 /*Animação do botão cadastro*/
 .cadastroo:hover{
   transform: scale(1.1);
-  background-color: rgb(226, 233, 239);
+  background-color: rgb(149, 156, 162);
 }
 /*Alteração dos icones de redes sociais*/
 .logotipo{
