@@ -175,6 +175,4 @@ i{
     background-size: cover;
     z-index: -1;
     filter: blur(4px);
-    position: absolute;
-
    }
