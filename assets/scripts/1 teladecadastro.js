@@ -6,12 +6,12 @@ function validarFormulario() {
     var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (!emailPattern.test(email)) {
         alert("Por favor, insira um email válido.");
-        return false; // Impede o redirecionamento
+        return false;
     }
     // Validação do campo de senha
     if (password.length < 6) {
         alert("A senha deve ter pelo menos 6 caracteres.");
-        return false; // Impede o redirecionamento
+        return false;
     }
     // Se todas as validações passarem, redireciona para a próxima página
     window.location.href = "http://127.0.0.1:5501/1-tela%20inicial.html"; // Substitua pelo caminho correto
