@@ -34,7 +34,7 @@ header{
     font-size: 1rem;
     font-weight: 600;
     height: 50%;
-    width: 65%;
+    width: 60%;
     padding-top: 2;
     text-align: center;
     display: flex;
@@ -44,8 +44,7 @@ header{
 
 .divlogo{
     position: absolute;
-    width: 20%;
-    height: 19%;
+    width:20%;
     left: 16px;
     top: -10px;
     flex: none;
@@ -138,16 +137,10 @@ nav .menuu{
     font-weight: 200%;
     margin-top: -3%;
     color: #525552;
-    margin-left: 1%;
+    margin-left:2%;
 }
 
- .nomee{
-    font-size: 110%;
-    margin-top: -0.1%;
-    color: #697069;
-    margin-left: -3200%;
-    margin-top: 3.5%;
-}
+ 
 
 nav .menulateral{
     position: fixed;
