@@ -224,15 +224,15 @@ ul li.item-menu a .icon > i {
 
    
     .image1 img{
-        background-color: #ffffff; /* Cor de fundo */
-        border: 2px solid #ccc; /* Borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5%; /* Espaçamento interno */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
-        width: 22%; /* Largura uniforme */
-        height: 150px; /* Altura uniforme */
-        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        background-color: #ffffff; 
+        border: 2px solid #ccc; 
+        border-radius: 5px; 
+        padding: 5%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease; 
+        width: 22%; 
+        height: 150px;
+        object-fit: cover; 
         position: relative;
         top: -30em;
         margin-left: -60%;
@@ -240,15 +240,15 @@ ul li.item-menu a .icon > i {
     
 
     .image20 img{
-        background-color: #ffffff; /* Cor de fundo */
-        border: 2px solid #ccc; /* Borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5%; /* Espaçamento interno */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
-        width: 20%; /* Largura uniforme */
-        height: 150px; /* Altura uniforme */
-        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        background-color: #ffffff; 
+        border: 2px solid #ccc; 
+        border-radius: 5px; 
+        padding: 5%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease; 
+        width: 20%; 
+        height: 150px; 
+        object-fit: cover;
         margin-left: 70%;
         position: relative;
         top: -48rem;
@@ -256,30 +256,30 @@ ul li.item-menu a .icon > i {
     }
     
     .image30 img {
-        background-color: #ffffff; /* Cor de fundo */
-        border: 2px solid #ccc; /* Borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5%; /* Espaçamento interno */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
-        width: 20%; /* Largura uniforme */
-        height: 150px; /* Altura uniforme */
-        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        background-color: #ffffff; 
+        border: 2px solid #ccc;
+        border-radius: 5px; 
+        padding: 5%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease; 
+        width: 20%; 
+        height: 150px; 
+        object-fit: cover; 
         margin-left: 6%;
         position: relative;
         top: -106.4rem;
     }
     
     .image40 img{ /*cinto*/
-        background-color: #ffffff; /* Cor de fundo */
-        border: 2px solid #ccc; /* Borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5%; /* Espaçamento interno */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
-        width: 22%; /* Largura uniforme */
-        height: 150px; /* Altura uniforme */
-        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        background-color: #ffffff;
+        border: 2px solid #ccc; 
+        border-radius: 5px; 
+        padding: 5%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease; 
+        width: 22%; 
+        height: 150px; 
+        object-fit: cover;
         margin-left: -62%;
         position: relative;
         top: -98rem;
@@ -287,30 +287,30 @@ ul li.item-menu a .icon > i {
     
     .image50 img{ /* tenis cinza*/
 
-        background-color: #ffffff; /* Cor de fundo */
-        border: 2px solid #ccc; /* Borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5%; /* Espaçamento interno */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
-        width: 20%; /* Largura uniforme */
-        height: 150px; /* Altura uniforme */
-        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        background-color: #ffffff; 
+        border: 2px solid #ccc;
+        border-radius: 5px; 
+        padding: 5%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease; 
+        width: 20%; 
+        height: 150px; 
+        object-fit: cover;
         position: relative;
         top: -115.9rem;
         margin-left: 5%;
     }
     
     .image60 img{
-        background-color: #ffffff; /* Cor de fundo */
-        border: 2px solid #ccc; /* Borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5%; /* Espaçamento interno */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-        transition: transform 0.3s ease; /* Efeito de transição ao passar o mouse */
-        width: 20%; /* Largura uniforme */
-        height: 150px; /* Altura uniforme */
-        object-fit: cover; /* Mantém a proporção da imagem dentro do tamanho definido */
+        background-color: #ffffff;
+        border: 2px solid #ccc; 
+        border-radius: 5px;
+        padding: 5%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease; 
+        width: 20%; 
+        height: 150px; 
+        object-fit: cover; 
         margin-left: 70%;
     position: relative;
     top: -133.8rem;
@@ -326,7 +326,7 @@ ul li.item-menu a .icon > i {
         transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
     }
     
-    /* Container das imagens */
+  
 
 
 .icon-tenis { /*tenis icone */
