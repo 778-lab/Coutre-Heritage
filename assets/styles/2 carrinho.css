@@ -680,3 +680,32 @@ nav .meucarrinho{
     color: #fff;
     cursor: pointer;
   }
+  #divbusca  {
+    background-color: rgba(232, 232, 232, 0.59);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 3%;
+    position: fixed;
+    top: 5.5%;
+    left: 12%;
+    padding: 0.5%;
+    z-index: 9999999;
+}
+
+#divbusca .bx-search-alt {
+    width: 5%;
+    height: auto;
+    margin-right: 1%;
+    color: black;
+   
+}
+#txtbusca {
+    background-color: transparent;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
