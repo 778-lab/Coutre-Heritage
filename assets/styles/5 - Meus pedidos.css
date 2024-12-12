@@ -287,7 +287,7 @@ nav .menudireito{
     padding: 2%;
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
-    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #fffff5 100%);
+  background-color: white;
     z-index: 10;
     display: none;
 }
@@ -765,30 +765,17 @@ nav .meucarrinho{
   .color-option  .circles .circle{
     height: 18px;
     width: 18px;
-    background: #0071C7;
+    background: #050505;
     border-radius: 50%;
     margin: 0 4px;
     cursor: pointer;
     transition: all 0.4s ease;
   }
-  .color-option  .circles .circle.blue.active{
+  .color-option  .circles .circle.black.active{
     box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #0071C7;
+                 0 0 0 4px #000000;
   }
-  .color-option  .circles .circle.pink{
-    background: #FA1795;
-  }
-  .color-option  .circles .circle.pink.active{
-    box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #FA1795;
-  }
-  .color-option  .circles .circle.yellow{
-    background: #F5DA00;
-  }
-  .color-option  .circles .circle.yellow.active{
-    box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #F5DA00;
-  }
+ 
   .color-price .price{
     display: flex;
     flex-direction: column;
@@ -800,44 +787,8 @@ nav .meucarrinho{
     font-weight: 600;
     color: #707070;
   }
-  .color-price .price .price_letter{
-    font-size: 10px;
-    font-weight: 600;
-    margin-top: -4px;
-    color: #707070;
-  }
-  .product-card .button{
-    position: relative;
-    height: 50px;
-    width: 100%;
-    border-radius: 25px;
-    margin-top: 30px;
-    overflow: hidden;
-  }
-  .product-card .button .button-layer{
-    position: absolute;
-    height: 100%;
-    width: 300%;
-    left: -100%;
-    background-image: linear-gradient(135deg,#9708CC, #43CBFF,#9708CC, #43CBFF );
-    transition: all 0.4s ease;
-    border-radius: 25PX;
-  }
-  .product-card .button:hover .button-layer{
-    left: 0;
-  }
-  .product-card .button button{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: none;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #fff;
-  }
+ 
+
   
 .Opcoesrastreio{
   width: 68%;
@@ -859,13 +810,19 @@ nav .meucarrinho{
   justify-content: space-between;
 }
 
-.pedidorastre h1{
+.pedidorastre h3{
   text-transform: uppercase;
+  margin-top: 6%;
+  margin-left: 8%;
+  white-space: nowrap;
 }
 
-.pedidorastre span{
-    
+.data{
+  margin-top: 1%;
+  margin-right: 2%;
 }
+    
+
 
 .rastreando{
     margin: 9%;
