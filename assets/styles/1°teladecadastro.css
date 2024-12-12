@@ -120,7 +120,7 @@ display: flex;
 i{
    
     padding: 10px 12px ;
-    align-self: ;
+    
     background-color: rgb(255, 255, 255);
    border-radius: 90px;
     border: 1px solid #50463a;  
@@ -138,7 +138,7 @@ i{
  .esquecisenha{
     text-decoration: none;
    color: black;
-   font-family: ;
+   
     border-radius: 9px;
     padding: 9px;
     cursor: pointer;
@@ -151,7 +151,7 @@ i{
     z-index: -1;
     height: 100%;
     width: 50%;
-    z-index: ;
+    
 }
 
 @media(min-aspect-ratio: 16/9){
