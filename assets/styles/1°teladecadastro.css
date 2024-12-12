@@ -22,7 +22,7 @@ align-items: center;
 width: 290px;
 height:490px;
 background-color: rgb(128, 121, 116);
-position: static;
+
 border-top-left-radius: 30px;
 border-bottom-left-radius: 30px;
 box-shadow: 0.0.1rem 0.5rem;
@@ -70,9 +70,7 @@ h4{
 .logo{
 width: 230px;
 margin-top: -30px;
-margin-right: 100px;
-padding: -30px;
-margin-right: 14px;
+
     
     
    
@@ -86,7 +84,6 @@ input{
     background-color: rgb(192, 185, 179);
     border-radius: 10px;
     padding: 9px;
-    padding-left: px;
    width: 65%;
 
 }
@@ -96,12 +93,11 @@ input{
     background-color: rgb(143, 134, 121);
     border-radius: 90px;
     padding: 20px 30px ;
-    
     border: 1px solid #50463a;
     transition:transform 0.3s;
-   
 text-decoration: none;
 color: black;
+
 }
 /*Animação do botão cadastro*/
 .cadastroo:hover{
@@ -109,35 +105,20 @@ color: black;
   background-color: rgb(149, 156, 162);
 }
 /*Alteração dos icones de redes sociais*/
-.logotipo{
-    display: flex;
+.icones{
+display: flex;
     gap: 35px;
     margin-top: -6px;
     font-size: 22px;
     margin-left: 150px;
     
 }
-
-/*/*Animação dos icones de redes sociais*/*/
-a{
-    background-color: aqua;
-   
-   
-    background-color: rgb(255, 255, 255);
-    border-radius: 90px;
-    padding: 10px 12px ;
     
-    border: 1px solid #50463a;
-    transition:transform 0.3s;
-    cursor: pointer;
-    text-decoration: none;
-}
-a:hover{
-    transform: scale(1.1);
-}
+
+
 /*Alteração dos icones de redes sociais*/
 i{
-    background-color: rgb(255, 255, 255);
+   
     padding: 10px 12px ;
     align-self: ;
     background-color: rgb(255, 255, 255);
@@ -147,12 +128,12 @@ i{
     cursor: pointer;
 }
   i:hover{
-    transform: scale(1.1);
-  }z
-
-  h4{
-    text-decoration: none;
-  }
+    transform: scale(1.1);}
+ 
+  h4
+   {text-decoration: none;}
+  
+  
   /*Alteração da frase de "esqueceu a senha"*/
  .esquecisenha{
     text-decoration: none;
