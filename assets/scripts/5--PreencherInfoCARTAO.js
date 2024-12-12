@@ -1,11 +1,10 @@
-// Função para alternar a visibilidade do formulário de cartão
 function toggleCartaoForm(showForm) {
     var cartaoForm = document.getElementById("cartao-form");
 
     if (showForm) {
-        cartaoForm.classList.remove("collapsed");  // Exibe o formulário
+        cartaoForm.classList.remove("collapsed");  
     } else {
-        cartaoForm.classList.add("collapsed");  // Esconde o formulário
+        cartaoForm.classList.add("collapsed");  
     }
 }
 
@@ -33,7 +32,7 @@ function validarNumero(event, maxLength) {
     input.value = input.value.replace(/\D/g, ''); // Remove tudo que não for número
 
     if (maxLength && input.value.length > maxLength) {
-        input.value = input.value.slice(0, maxLength);  // Limita o comprimento
+        input.value = input.value.slice(0, maxLength);  
     }
 }
 
@@ -51,7 +50,6 @@ function validarFormulario(event) {
         return;
     }
 
-    // Obter valores dos campos
     const nomeCompleto = document.getElementById("nomeCompleto").value;
     const cpf = document.getElementById("cpf").value;
     const dataNascimento = document.getElementById("dataNascimento").value;
@@ -59,7 +57,6 @@ function validarFormulario(event) {
     const telefone = document.getElementById("telefone").value;
     const parcelas = document.getElementById("parcelas").value;
 
-    // Verificação de campos obrigatórios
     if (!nomeCompleto || !cpf || !dataNascimento || !email || !telefone || !parcelas) {
         alert("Por favor, preencha todos os campos obrigatórios.");
         return;
@@ -72,7 +69,6 @@ function validarFormulario(event) {
         return;
     }
 
-    // Se tudo estiver ok, redireciona para a página de pagamento concluído
     alert("Pagamento realizado com sucesso!");
     window.location.href = "4--PagamentoConcluido.html";  
 }

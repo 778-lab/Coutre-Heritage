@@ -90,7 +90,6 @@ input:not([type="radio"]), select {
 #cartao-form.collapsed {
     opacity: 0;
     height: 0;
-    overflow: hidden;
     visibility: hidden;
 }
 

@@ -9,7 +9,6 @@ function copiarCodigo() {
     
     // Seleciona o conteúdo do input
     inputTemp.select();
-    inputTemp.setSelectionRange(0, 99999); // Para dispositivos móveis
 
     // Executa o comando para copiar para a área de transferência
     document.execCommand("copy");
@@ -21,7 +20,6 @@ function copiarCodigo() {
     var msg = document.getElementById("copiado-msg");
     msg.style.display = "block";
 
-    // Esconde a mensagem após 2 segundos
     setTimeout(function() {
         msg.style.display = "none";
     }, 2000);
