@@ -15,6 +15,7 @@
         }
 
         // Redirecionamento após validação bem-sucedida
-        window.location.href = "http://127.0.0.1:5501/2%20carrinho.html"; // Use o caminho relativo correto aqui.
+        window.location.href = "http://127.0.0.1:5501/1-tela%20inicial.html"; 
+
         return true;
     }

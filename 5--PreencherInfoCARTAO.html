@@ -62,13 +62,13 @@
             </div>
             <div class="radio-options">
                 <div class="radio-option">
-                    <input type="radio" name="cartao" value="MasterCard 1" onclick="toggleCartaoForm(false)">  
+                    <input type="radio" name="cartao" value="MasterCard 1">  
                     <label>
                         MasterCard 1
                     </label>
                 </div>
                 <div class="radio-option">
-                    <input type="radio" name="cartao" value="Adicionar novo Cartao" onclick="toggleCartaoForm(true)"> 
+                    <input type="radio" name="cartao" value="Adicionar novo Cartao"> 
                     <label>
                         Adicionar novo cartão
                     </label>
@@ -78,13 +78,13 @@
             <div id="cartao-form" class="adicionar-cartao-container collapsed">
                 <p><strong>Dados do cartão de crédito:</strong></p>
                 <label>Nome impresso</label>
-                <input type="text" placeholder="Nome impresso">
+                <input type="text" placeholder="Nome impresso" id="nome" oninput="validarNome(event)" required>
 
                 <p>Número, Expiração e CVV</p>
                 <div class="linha-horizontal">
-                    <input type="text" placeholder="Número do cartão">
-                    <input type="text" placeholder="MM/AA">
-                    <input type="text" placeholder="CVV">
+                    <input placeholder="Número do cartão" id="numeroCartao" oninput="validarNumero(event, 16)" required>
+                    <input placeholder="MM/AA" id="validadeCartao" oninput="validarNumero(event, 4)" required>
+                    <input placeholder="CVV" id="cvv" oninput="validarNumero(event, 3)" required>
                 </div>
                 <div class="divider"></div>
 
@@ -92,29 +92,30 @@
                 <div class="usuario-dados">
                     <div>
                         <label>Nome completo</label>
-                        <input type="text" placeholder="Digite seu nome completo">
+                        <input type="text" placeholder="Digite seu nome completo" id="nomeCompleto" oninput="validarNome(event)" required>
                     </div>
                     <div>
                         <label>CPF</label>
-                        <input type="text" placeholder="###.###.###-##">
+                        <input placeholder="###.###.###-##" id="cpf" oninput="validarCPF(event)" required>
                     </div>
                     <div>
                         <label>Data de nascimento</label>
-                        <input type="text" placeholder="##/##/####">
-                    </div>
+                        <input type="date" id="dataNascimento" required>
+                    </div>                    
                     <div>
                         <label>E-mail</label>
-                        <input type="email" placeholder="Digite seu e-mail">
+                        <input type="email" placeholder="Digite seu e-mail" id="email" required>
                     </div>
                     <div>
                         <label>Telefone</label>
-                        <input type="text" placeholder="(##) ####-####">
+                        <input placeholder="(##) ####-####" id="telefone" oninput="validarNumero(event, 15)" required>
                     </div>
                 </div>
 
                 <div class="divider"></div>
                 <p><strong>Número de parcelas desejadas</strong></p>
-                <select>
+                <select id="parcelas" required>
+                    <option value="">Escolha o número de parcelas</option>
                     <option>1x de R$11.100,00 (Total de R$11.100,00)</option>
                     <option>2x de R$5.550,00 (Total de R$11.100,00)</option>
                     <option>3x de R$3.700,00 (Total de R$11.100,00)</option>
@@ -127,10 +128,10 @@
     </div>
 
     <div class="botao-azul-pagamento-concluido">
-        <a href="4--PagamentoConcluido.html">
-            <button class="btn-pagar"><strong>Realizar o pagamento</strong></button>
-        </a>
+        <button class="btn-pagar" onclick="validarFormulario(event)"><strong>Realizar o pagamento</strong></button>
     </div> 
 
+    <!-- Campo oculto para controlar se a validação é necessária -->
+    <input type="hidden" id="formularioValido" value="false">
 </body>
 </html>

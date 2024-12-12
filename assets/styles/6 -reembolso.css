@@ -25,7 +25,7 @@ header{
     background-color: white;
     transition: all 0.5s;
     position: fixed;
-    z-index: 1;
+    z-index: 6;
 }
 
 
@@ -102,17 +102,20 @@ nav .menuu{
 .divlogo .menu-icone{
     color: #525552;
     margin-right: 2%;
-    margin-top: 6.3%;
+    margin-top: 9.7%;
     font-size: 165%
 }
 
 
-header .nomee{
+
+.menulateral .nomee{
     font-size: 130%;
     font-weight: 200%;
-    margin-top: -6%;
+    margin-top: 1%;
     color: #525552;
-    margin-left: -2670%;
+    position:fixed;
+    margin-bottom: 100%;
+    margin-left: 1%;
 }
     
 
@@ -131,7 +134,7 @@ header .nomee{
 .menuu .nomemenu{
     font-size: 110%;
     font-weight: 200%;
-    margin-top: -5%;
+    margin-top: -3%;
     color: #525552;
     margin-left: 1%;
 }
@@ -203,6 +206,56 @@ nav.open .menulateral{
     margin-left: -2%;
 
 }
+.iconeslogin{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 2%;
+    border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 8;
+    transition: transform 0.5s;
+}
+.iconeslogin:hover{
+    transform: translateX(5px);
+}
+
+.iconeslogin .nomeslogin{
+    margin-left: 12%;
+    white-space: nowrap;
+    margin-top: 14%;
+    font-size: 105%;
+    padding: 2%;
+    color: #525552;
+    
+}
+.nomesloginn{
+    margin-left: 12%;
+    white-space: nowrap;
+    margin-top: -30%;
+    font-size: 150%;
+    padding: 12%;
+    color: #525552;
+}
+
+.login hr{
+    width: 150%;
+}
+
+.iconelogon{
+    font-size: 205%;
+    color: #525552;
+    margin-top: 16%;
+    padding: 8%;
+    margin-left: -2%;
+}
+.iconelogonn{
+    font-size: 200%;
+    color: #525552;
+    margin-top: -30%;
+    margin-left: -1%;
+}
 
 .overlay {
     position: fixed;
@@ -226,9 +279,9 @@ nav.open .menulateral{
 nav .menudireito{
     position: fixed;
     top: 0;
-    left: 63%;
+    left: 75%;
     height: 100%;
-    width: 39%;
+    width: 25%;
     padding: 2%;
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
@@ -250,90 +303,14 @@ nav.openn .menudireito{
     padding: 8%;
 }
 
-.red input{
-color: red;
-}
-
-form input{
-    box-sizing: border-box;
-    width: 200%;
-    height: 25%;
-    padding: 1rem;
-    font: inherit;
-    border-radius: 0.5rem;
-    background-color: white;
-    transition: 150ms ease;
-    position: flex;
-    align-items: center;
-    margin-left: -19%;
-    border-color: black;
-    margin-top: 10%;
-}
-
-form span{
-    margin-left: -18.55%;
-}   
-
-.senhaa{
-    margin-left: -10%;
-    color:rgb(0, 0, 0);
-    font-size: 100%;
-    margin-top: 4%;
-}
 
 .icone-abrir{
     margin-left: 90%;
     font-size: 150%;
 }
 
-form button{
-    margin-top: 15%;
-    border-radius: 4rem;
-    padding: .85em 4em;
-    background-color: black;
-    font-weight: 600;
-    color: white;
-    cursor: pointer;
-    transition: 150ms ease;
-    width: 90%;
-    margin-left: -19%;
-    text-transform: uppercase;
-    border-color: black;
-    width: 200%;
-    height: 25%;
-}
-
-form button:hover{
-    background-color: white;
-    border-color: rgb(153, 152, 152);
-    color: black;
-}
-
-.campologin h1{
-    margin-top: -5%;
-    margin-left: -11.8%;
-}
-.campologin p{
-    margin-top: 6%;
-    margin-left: -11.8%;
-}
-
-
-.recuperar {
-    margin-top: 5%;
-    margin-left: 5%;
-    position: flex;
-    height: 10%;
-}
-
-
-.menu-button{
-    display: flex;
-    cursor: pointer;
-}
-
 .menudireito .menu-button{
-    margin-left: 3000%;
+    margin-left: 2000%;
     cursor: pointer;
 }
 
@@ -380,7 +357,7 @@ nav .meucarrinho{
     padding: 2%;
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
-    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #fffff5 100%);
+    background-color: white;
     z-index: 10;
     display: none;
 }
@@ -456,157 +433,136 @@ nav .meucarrinho{
     color: #333;
 }
 
-.back-video{
-    position: flex;
-    bottom: 0;
+
+.produto .imagens{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    width: 57%;
     z-index: -1;
-    height: 100vh;
-    z-index: 199999999;
-}
-
-.main{
-
-}
-
-
-.product-card { /*div do sapato blc*/
     position: fixed;
-    max-width: 30%;
-    width: 20%;
-    border-radius: 25px;
-    padding: 3%;
-    height: 60%;
-    margin-top: -7%;
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    overflow: hidden;
-    margin-left: 5%;
-  }
-  .product-card .logo-cart{
-    display: flex;
+    border-radius: 0.2em;
+}
+
+.produto .logoproduto   {
+    width: 55%;
+    margin-top: 2%;
+}
+
+ .logoproduto .idd{
     align-items: center;
     justify-content: space-between;
-  }
-  .product-card .logo-cart img{
-    height: 10%;
-    width: 10%;
+    margin-top: -10%;
+    height: 25%;
+    z-index: 9999999999;
+}
+
+.produto .logoproduto img{
+    height: 6%;
+    width: 5%;
     object-fit: cover;
-  }
-  .product-card .logo-cart i{
-    font-size: 27px;
-    color: #707070;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  .product-card .logo-cart i:hover{
-    color: #333;
-  }
-  .product-card .main-images{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.produto .imagens{
     position: relative;
     height: 210px;
-  }
-  .product-card .main-images img{ /*imagem tenis balenciaga*/
+}
+.produto .imagens img{
     position: absolute;
-    height: 47%;
+    height: 55%;
     width: 80%;
-    object-fit: cover;
     transform: rotate(18deg);
-    left: 12px;
-    top: 32%;
+    left: 10%;
+    top: 30%;
     z-index: -1;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
-  .product-card .main-images img.active{
-    opacity: 1;
-  }
-  .product-card .shoe-details .shoe_name{
-    font-size: 24px;
+}
+
+
+
+  .produto .tenisdetalhes .tenisnome{
+    font-size: 120%;
     font-weight: 500;
     color: #161616;
   }
-  .product-card .shoe-details p{
-    font-size: 12px;
+
+  .produto .tenisdetalhes p{
+    font-size: 100%;
+    margin-top: 5%;
     font-weight: 400;
     color: #333;
     text-align: justify;
   }
-  .product-card .shoe-details .stars i{
-    margin: 0 -1px;
-    color: #333;
-  }
-  .product-card .color-price .color-option{
+
+  .produto .perso .cor{
     display: flex;
     align-items: center;
   }
-  .color-price{
+  .perso{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
   }
-  .color-price .color-option .color{
+  .perso .cor .cortxt{
     font-size: 18px;
     font-weight: 500;
     color: #333;
     margin-right: 8px;
   }
-  .color-option  .circles{
+  .cor .circulo{
     display: flex;
   }
-  .color-option  .circles .circle{
+  .cor  .circulo .circuloborda{
     height: 18px;
     width: 18px;
-    background: #060606;
+    background: #030303;
     border-radius: 50%;
     margin: 0 4px;
     cursor: pointer;
     transition: all 0.4s ease;
   }
-  .color-option  .circles .circle.blue.active{
-    box-shadow: 0 0 0 2px #fff,
-                 0 0 0 4px #0c0c0c;
+  .cor  .circulo .circuloborda{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0b0b0b;
   }
- 
-  .color-price .price{
+
+  .perso .preco{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .color-price .price .price_num{
-    font-size: 25px;
+  
+  .perso .preco .precovalor{
+    font-size: 150%;
     font-weight: 600;
+    white-space: nowrap;
+    margin-left: -160%;
     color: #707070;
   }
-  .color-price .price .price_letter{
-    font-size: 10px;
-    font-weight: 600;
-    margin-top: -4px;
-    color: #707070;
-  }
-  .product-card .button{
+  
+  .produto .button{
     position: relative;
-    height: 50px;
-    width: 100%;
-    border-radius: 25px;
-    margin-top: 30px;
-    overflow: hidden;
+    height: 9%;
+    width: 48%;
+    border-radius: 2em;
+    margin-top: 10%;
+    margin-left:-1%;
   }
-  .product-card .button .button-layer{
+  .produto  .button .buttonome{
     position: absolute;
     height: 100%;
-    width: 300%;
-    left: -100%;
-    background-image: linear-gradient(135deg,#9708CC, #43CBFF,#9708CC, #43CBFF );
+    width: 200%;
+    background-color: rgb(13, 13, 13);
+    border-color: black;
+    color: white;
     transition: all 0.4s ease;
     border-radius: 25PX;
+    
   }
-  .product-card .button:hover .button-layer{
+  .produto  .button:hover .buttonome{
     left: 0;
   }
-  .product-card .button button{
+  .produto  .button button{
     position: relative;
     height: 100%;
     width: 100%;
@@ -617,183 +573,171 @@ nav .meucarrinho{
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
+    cursor: pointer;
   }
 
-  .main{
-    position: fixed;
-    max-width: 30%;
-    width: 20%;
-    border-radius: 25px;
+  .forms{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
     padding: 2%;
-    height: 60%;
-    margin-left: 30%;
-    margin-top: -3.5%;
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
+    margin-top: -7%;
+    z-index: 8;
+    background-color: rgb(255, 255, 255);
+  }
+.forms h1{
+    font-size: 150%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forms .form{
+    margin-top: 4%;
+}
+
+.form .conteudo{
+    width: 100%;
+    margin-top: 2%;
+}
+.conteudo label{
+    color: black;
+}
+
+.form :where(.conteudo input,  .estadosel){
+    position: relative;
+    display: flex;
+    height: 6vh;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 0.3%;
+    border-radius: 0.5em;   
+    z-index: 9; 
+}
+ 
+.form .coluna{
+    display: flex;
+    column-gap: 2%;
+}
+
+.form :where(.opcoesgenero, .tipos){
+    display: flex;
+    align-items: center;
+    column-gap: 3%;
+    z-index: 9;
+    flex-wrap: wrap;
+}
+.form .tipos{
+    column-gap: 2%;
+}
+.form :where(.tipos input, .tipos label){
+    cursor: pointer;
+}
+
+.form .genero{
+    margin-top: 3%;
+}
+
+.genero h2{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.estadosel select{
+    height: 120%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #525552;
+    font-size: 1rem;
+}
+
+.coluna-end{
+  display: flex;
+  column-gap: 2%;  
+}
+
+.form button{
+    height: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 1em;
+    font-size: 100%;
+}
+
+.form button:hover{
+    transition: 0.1s;
+    background-color: white;
+    color: black;
+}
+
+legend {
+    padding: 0 10px;
+}
+
+#mensagem{
+    width: 100%;
+    height: 100%;
+}
+.forms p{
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 115%;
+    border-radius: 0.5em;
+    color: #525552;
+    box-shadow: 0 0.1rem 0.5rem rgb(156, 153, 153);
+}
+
+
+/* Wrapper para alinhar o botão e o nome do arquivo */
+.upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3.6%;
+}
+
+/* Botão de upload personalizado */
+.file-button {
+    padding: 3%;
+    background-color: #0d0d0d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.file-button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: solid 1px black;
+}
+
+/* Nome do arquivo selecionado */
+.file-name {
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
     overflow: hidden;
-  }
-
-  .main img{ /*imagem bolsa */
-    position: absolute;
-    height: 43%;
-    width: 60%;
-    object-fit: cover;
-    transform: rotate(18deg);
-    left:22%;
-    top: 17%;
-    z-index: -1;
-    transition: opacity 0.5s ease; 
- }
-
- .main .gucciimg{
-  width: 4%;
-  height: 8%;
- }
-
- .Marca a.button1{ /* butão balenciaga*/
-  font-size: 18px; 
-  font-weight: bold;
-  color: #fff; 
-  background-color: #818181; 
-  padding: 5px 40px; 
-  text-decoration: none; 
-  border-radius: 5px;
-  line-height: 37.5vh;
-  margin-right: 53.27vw;
-  border-radius: 10px;
-  position: relative; 
-  top: 46.25vh;
-  cursor: pointer;
-  font-family: Cinzel;
-  }
-
-  
-  .Marca a.button2{ /* butão Louis Vitton*/
-  font-size: 18px; 
-  font-weight: bold;
-  color: #fff; 
-  background-color: #818181; 
-  padding: 5px 40px; 
-  text-decoration: none; 
-  border-radius: 5px;
-  margin-right: 29.4vw;
-  margin-left: 30.1vw;
-  border-radius: 10px;
-  position: relative; 
-  top: 25.5vh;
-  cursor: pointer;
-  font-family: Cinzel;
-  }
-
-  .Marca a.button3{ /* butão Nike*/
-  font-size: 18px; 
-  font-weight: bold;
-  color: #fff; 
-  background-color: #818181; 
-  padding: 5px 40px; 
-  text-decoration: none; 
-  border-radius: 5px;
-  margin-right: 60.29vw;
-  margin-left: 73.2vw;
-  border-radius: 10px;
-  position: relative;
-  top: 21.650vh;
-  cursor: pointer;
-  font-family: Cinzel;
-  }
-
-  .Marca a.button4{ /*butao do cinto Lw*/
-  font-size: 18px; 
-  font-weight: bold;
-  color: #fff; 
-  background-color: #818181; 
-  padding: 5px 40px; 
-  text-decoration: none; 
-  border-radius: 5px;
-  margin-right: 65.29vw;
-  margin-left: 11.98vw;
-  border-radius: 10px;
-  position: relative;
-  top: 65.25vh;
-  cursor: pointer;
-  font-family: Cinzel;
-  }
-  .Marca a.button5{ /*butão do tenis cinza*/
-      font-size: 18px; 
-      font-weight: bold;
-      color: #fff; 
-      background-color: #818181; 
-      padding: 5px 40px; 
-      text-decoration: none; 
-      border-radius: 5px;
-      margin-right: 57.29vw;
-      margin-left: 43.7vw;
-      border-radius: 10px;
-      position: relative;
-      top: 60.9vh;
-      cursor: pointer;
-      font-family: Cinzel;
-  }
-
-  .Marca a.button6{ /*butão bolsa */
-      font-size: 18px; 
-      font-weight: bold;
-      color: #fff; 
-      background-color: #818181; 
-      padding: 5px 40px; 
-      text-decoration: none; 
-      border-radius: 5px;
-      margin-right: 57.29vw;
-      margin-left: 74.02vw;
-      border-radius: 10px;
-      position: relative;
-      top: 56.75vh;
-      cursor: pointer;
-      font-family: Cinzel;
-
-  }
-
-
-
-.image{ /tenis balenciaga/
-position: absolute;
-left: 0.52vw;
-top: 6.25vh;
-margin-left: 10.33vw;
-margin-right:38.46vw;
-position: relative; 
-top: -33.5vh;
-cursor: pointer;
-  }
-
-.image2{ /tenis Louis Vitton/
-  font-size: 24px;
-  position: absolute;
-  left: 0.52vw;
-  top: 6.25vh;
-  margin-left: 30.56vw;
-  margin-right:36.46vw;
-  position: relative; 
-  top: -85vh;
-  cursor: pointer;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Ajuste conforme necessário */
 }
 
-.image3{ /*tenis Nike */ 
-  font-size: 24px;
-  position: absolute;
-  left: 0.52vw;
-  top: 6.25vh;
-  margin-left: 30.56vw;
-  margin-right:10.42vw;
-  position: relative; 
-  top: -64.875vh;
-  cursor: pointer;
-  border-radius: 15px #000000;   
-} 
 
-
+.coluna .upload{
+   border: 1px solid black;
+   width: 40%;
+   border-radius: 0.3em;
 }
+<<<<<<< HEAD:assets/styles/1 -- catalogosteste.css
 
 .image4{ /cinto Louis Vuitton/
   font-size: 24px;
@@ -836,3 +780,5 @@ cursor: pointer;
   width: 20%;
   height: 60%;
 }
+=======
+>>>>>>> 0ed621faa23667ac4d456206114609b83912c12f:assets/styles/6 -reembolso.css
