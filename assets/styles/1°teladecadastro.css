@@ -146,12 +146,11 @@ i{
  }
 
  .fundo{
-    position: flex;
+    position: fixed;
     bottom: 0;
     z-index: -1;
-    height: 100%;
+    height:  90%;
     width: 50%;
-    
 }
 
 @media(min-aspect-ratio: 16/9){
@@ -159,7 +158,6 @@ i{
         width: 100%;
         height: 100%;
         margin-left: -6%;
-        position: fixed;
         z-index: -1;
     }
 }
@@ -168,7 +166,7 @@ i{
     .back-video{
         width: 500.8%;
         height: auto;
-        margin-left: -6%;
+        margin-left:9%;
     }
 }
 .fundo{
@@ -178,6 +176,5 @@ i{
     z-index: -1;
     filter: blur(4px);
     position: absolute;
-
 
    }
