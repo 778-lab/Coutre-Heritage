@@ -106,7 +106,7 @@ header .nomee{
     font-weight: 200%;
     margin-top: -6%;
     color: #525552;
-    margin-left: -2670%;
+    margin-left: -2650%;
 }
 
 .divlogo .menu-icone{
@@ -149,7 +149,7 @@ header .nomee{
     font-size: 110%;
     margin-top: -0.1%;
     color: #697069;
-    margin-left: -3200%;
+    margin-left: -3000%;
     margin-top: 10%;
 }
 
@@ -836,27 +836,3 @@ h3 {
     margin-left: 82%;
 }
 
-.remover .remover-icon{
-    margin-left: 60%;
-    margin-top: 7%;
-    font-size: 130%;
-    color: red;
-}
-
-
-
-.rem p{
-   
-    z-index: 255555555555555;
-}
-
-.rmv{
-    width: 54.2%;
-    margin-left:50%;
-    margin-top: 2%;
-}
-
-.remover-icon{
-    cursor: pointer;
-    z-index: 99999999;
-}
